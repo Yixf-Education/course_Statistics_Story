@@ -1,0 +1,53 @@
+\begin{document}
+
+%\includeonlyframes{current}
+
+\logo{\includegraphics[height=0.08\textwidth]{qr.png}}
+
+% 在每个Section前都会加入的Frame
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    %\frametitle{Outline}
+    \frametitle{教学提纲}
+    \setcounter{tocdepth}{3}
+    \begin{multicols}{2}
+      \tableofcontents[currentsection,currentsubsection]
+      %\tableofcontents[currentsection]
+    \end{multicols}
+  \end{frame}
+}
+% 在每个Subsection前都会加入的Frame
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>
+%%\begin{frame}<handout:0>
+%% handout:0 表示只在手稿中出现
+    \frametitle{教学提纲}
+    \setcounter{tocdepth}{3}
+    \begin{multicols}{2}
+    \tableofcontents[currentsection,currentsubsection]
+    \end{multicols}
+%% 显示在目录中加亮的当前章节
+  \end{frame}
+}
+
+% 为当前幻灯片设置背景
+%{
+%\usebackgroundtemplate{
+%\vbox to \paperheight{\vfil\hbox to
+%\paperwidth{\hfil\includegraphics[width=2in]{tijmu_charcoal.png}\hfil}\vfil}
+%}
+\begin{frame}[plain]
+  \begin{center}
+    {\Huge 故事中的统计学\\}
+    \vspace{1cm}
+    {\LARGE 天津医科大学\\}
+    %\vspace{0.2cm}
+    {\LARGE 生物医学工程与技术学院\\}
+    \vspace{1cm}
+    {\large 2016-2017学年下学期（春）\\ 公共选修课}
+  \end{center}
+\end{frame}
+%}
+
