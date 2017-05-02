@@ -14,20 +14,20 @@
 \begin{frame}
   \frametitle{平均数 | 简介}
   \begin{block}{平均数}
-把大量的数据压缩成一个单独的数字，这种做法在时间过程中轻而易举就可以实现。可惜这对于许多事情来说太过分了，模糊了事实上存在的巨大差异，掩盖了一些事情的真相。
+把大量的数据压缩成一个单独的数字，这种做法在实践过程中轻而易举就可以实现。可惜这对于许多事情来说太过分了，模糊了事实上存在的巨大差异，掩盖了一些事情的真相。
   \end{block}
   \pause
   \begin{block}{笑话}
 两个男人坐在一间酒馆里，其中一个人吃了一条牛腿，另一个人喝了两大桶啤酒。从统计学角度来看，每个人都喝了一桶啤酒，吃了半条牛腿，但实际的结果是，一个人吃得太多了，而另一个人却喝得烂醉。
   \end{block}
-  \pause
-  \begin{block}{实例}
-如果在一个村庄上有10个农民，其中1个农民拥有40头牛，其他9个农民一头牛也没有。如果计算他们的平均数，则每个农民拥有4头牛。对于9个一无所有的农民来说，这种平均的结果只是一个苍白无力的安慰，水中捞月的梦想。
-  \end{block}
 \end{frame}
 
 \begin{frame}
   \frametitle{平均数 | 简介}
+  \begin{block}{实例}
+如果在一个村庄上有10个农民，其中1个农民拥有40头牛，其他9个农民一头牛也没有。如果计算他们的平均数，则每个农民拥有4头牛。对于9个一无所有的农民来说，这种平均的结果只是一个苍白无力的安慰、水中捞月的梦想。
+  \end{block}
+  \pause
   \begin{block}{实例}
     英国的普利茅斯市和美国的明尼阿波利斯市拥有同样的年平均气温——13$^{\circ}$C。而真实的气候：
     \begin{itemize}
@@ -46,7 +46,7 @@
   \begin{block}{原因}
     \begin{itemize}
       \item “平均数”这个词具有宽泛的涵义，不同情境下使用不同的平均数。
-      \item 某种条件下，各种类型平均数的数值十分接近，如果出于一般的目的，更不没有必要区分它们。
+      \item 某种条件下，各种类型平均数的数值十分接近，如果出于一般的目的，便没有必要区分它们。
     \end{itemize}
   \end{block}
   \pause
@@ -79,7 +79,7 @@
   \end{figure}
 \end{frame}
 
-\section{案例}
+\section{案例分析}
 \begin{frame}
   \frametitle{案例 | 小区居民年收入}
   \begin{block}{谁在说谎？}
@@ -89,7 +89,7 @@
       \item[吃瓜群众] 小区居民平均年收入3000英镑
     \end{description}
   \end{block}
-  \pause
+  \pause \pause \pause \pause
   \begin{block}{统计在撒谎！}
     \begin{itemize}
       \item 三个数字都是基于相同的数据（相同的居民、相同的收入），都是正规的平均数，计算方法也完全正确
@@ -97,6 +97,14 @@
       \item 关于收入的数据，不合适的“平均数”实际上是毫无意义的
     \end{itemize}
   \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 小区居民年收入}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{c2.income.01.png}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -108,6 +116,11 @@
   \begin{block}{非正态分布}
 收入的分布不再像钟形一样对称，而是有偏的，它的形状类似于孩子玩的滑梯，梯子一侧是陡斜地升到顶部，而滑道一侧则缓慢向下倾斜。此时，均值与中位数、众数相差甚远。
   \end{block}
+  \vspace{-0.5em}
+  \begin{figure}
+    \centering
+    \visible<2->{\includegraphics[width=0.4\textwidth]{c2.income.02.png}}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -142,7 +155,7 @@
   \begin{block}{背景介绍}
 谭武是某个小型制造企业的3个合伙人之一。到了年底，谭武给企业的90个职工共发了99000英镑；谭武和其他合伙人每人各获得5500英镑的工资；最后还余下21000英镑，作为利润可供3个合伙人平分。谭武将如何说明这种情况呢？
   \end{block}
-  \pause
+  \pause \pause \pause \pause
   \begin{block}{初级方案}
     为了便于理解，谭武打算采用平均数的形式：
     \begin{description}
@@ -167,7 +180,7 @@
   \pause
   \begin{block}{改进方案}
     \begin{description}
-      \item[所有人员的平均工资或薪金] 1403英镑（$(99000 + 5500 x 3 + 15000) / 3 = 1403.226$）
+      \item[所有人员的平均工资或薪金] 1403英镑（$(99000 + 5500 x 3 + 15000) / 93 = 1403.226$）
       \item[所有者平均利润] 2000英镑（$(21000 - 15000) / 3 = 2000$）
     \end{description}
   \end{block}
@@ -182,7 +195,7 @@
   \begin{block}{总结}
     \begin{itemize}
       \item 本质不变：总的钱数没变，每个职工拿到的钱数没变，每个合伙人拿到的钱数没变！
-      \item 表象反转：最终的声明竟有天壤之别！
+      \item 表象反转：最终的结论/声明/公告竟有天壤之别！
     \end{itemize}
   \end{block}
   \pause
@@ -195,7 +208,7 @@
   \pause
   \begin{block}{改进方案}
     \begin{description}
-      \item[所有人员的平均工资或薪金] 1403英镑（$(99000 + 5500 x 3 + 15000) / 3 = 1403.226$）
+      \item[所有人员的平均工资或薪金] 1403英镑（$(99000 + 5500 x 3 + 15000) / 93 = 1403.226$）
       \item[所有者平均利润] 2000英镑（$(21000 - 15000) / 3 = 2000$）
     \end{description}
   \end{block}
@@ -204,7 +217,13 @@
 \begin{frame}
   \frametitle{案例 | 收入}
   \begin{block}{收入}
-    收入的问题如同怀孕期一样：平均值不在正中央，多数人都偏向一侧。多数人的收入都低于平均值，而少数收入高于平均值的人，将平均值远远拉离中间数。因为平均收入被拉高了，以致多数人的收入都低于平均值。领平均薪资的人已经算是相当富有了，因为平均值已经被少数高收入者远远拉离中间数。从经济的角度而言，很多有关“英国中产阶级”的政治媒体言论根本不晓得“中产阶级”的定义是什么。
+    \begin{itemize}
+      \item 收入的问题如同怀孕期一样：平均值不在正中央，多数人都偏向一侧。
+      \item 多数人的收入都低于平均值，而少数收入高于平均值的人，将平均值远远拉离中间数。
+      \item 因为平均收入被拉高了，以致多数人的收入都低于平均值。
+      \item 领平均薪资的人已经算是相当富有了，因为平均值已经被少数高收入者远远拉离中间数。
+      \item 从经济的角度而言，很多有关“英国中产阶级”的政治媒体言论根本不晓得“中产阶级”的定义是什么。
+    \end{itemize}
   \end{block}
 \end{frame}
 
@@ -261,7 +280,7 @@
   \end{block}
   \pause
   \begin{block}{答案}
-    一个合理的答案——肯定不会有“正确”的答案——就是，计算一代美国人（大约为30年）的人均收入，观察起变化趋势。
+    一个合理的答案——肯定不会有“正确”的答案——就是，计算一代美国人（大约为30年）的人均收入，观察其变化趋势。
   \end{block}
   \pause
   \begin{block}{存在的问题}
@@ -273,14 +292,31 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{案例 | 中产阶级 | 通货膨胀}
+  \begin{figure}
+    \centering
+    \visible<1->{\includegraphics[width=0.78\textwidth]{c2.movie.01.png}}\\
+    \visible<2->{\includegraphics[width=0.78\textwidth]{c2.movie.02.png}}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
   \frametitle{案例 | 中产阶级}
   \begin{block}{专家的答案}
     要评价美国“中产阶级”的经济状况，我们需要了解（通货膨胀调整后的）工资中位数在过去几十年中的变化，还建议留意一下处于第25百分位数和第75百分位数人群的工资变化，因为这两拨人通常被认为是中产阶级中的高收入和低收入人群。
   \end{block}
   \pause
   \begin{block}{注意}
-    在评价经济状况的过程中，不能将收入的工资等同起来。这两者是不同的，工资是我们付出的固定份额的劳动所得，如时薪或周薪；收入是全部所得的总和，来源有多种。相比于收入来说，工资是评价美国人劳动收益的一个更加直观的指标，工资越高，工人们每工作1小时能领到的钱也就越多。
+    在评价经济状况的过程中，不能将收入和工资等同起来。这两者是不同的，工资是我们付出的固定份额的劳动所得，如时薪或周薪；收入是全部所得的总和，来源有多种。相比于收入来说，工资是评价美国人劳动收益的一个更加直观的指标，工资越高，工人们每工作1小时能领到的钱也就越多。
   \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 中产阶级}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c2.usa.01.png}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -288,7 +324,7 @@
   \begin{block}{减税政策}
     美国前总统小布什政府的说法，减税政策将惠及绝大多数的美国家庭。在这项政策推行后，将会有9200万美国人享受减税待遇，人均减税额超过1000美元（具体数字应该是1083美元）。这个关于减税政策的概括准确吗？
   \end{block}
-  \pause
+  \pause \pause \pause \pause
   \begin{block}{解析}
     《纽约时报》评价说：“数据本身并没有撒谎，只不过有些数据没有发出声音罢了。”是不是会有9200万美国人将享受减税待遇？答案是肯定的。那么，这些人中的大部分人都可以少缴纳约1000美元的税款吗？不是的。因为减税额的中位数还不足100美元。只有数量相对少的巨富们才有资格享受大额减税，而正是这些人拉高了平均值，让人均减税额看起来比绝大多数美国人真正享受到的要高。
   \end{block}
@@ -298,7 +334,7 @@
   \frametitle{案例 | 《时代》杂志的订户}
   \begin{block}{“编者的话”}
     \begin{description}
-      \item[早期关于旧订户] 年龄的中位数是41岁，家庭平均年收入为9535美元。
+      \item[旧订户] 年龄的中位数是41岁，家庭平均年收入为9535美元。
       \item[新订户] 年龄的中位数是34岁，家庭平均年收入为7270美元。
     \end{description}
   \end{block}
@@ -329,18 +365,55 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{案例 | 统计 vs. 战术 vs. 谎言}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c2.height.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
   \frametitle{案例 | 癌症存活率的真相}
   \begin{block}{引言}
     事物实际上通常呈现两极化，但平均值把这两极拉在一起。
   \end{block}
   \pause
   \begin{block}{癌症存活率}
-    古尔德，腹部间皮癌（存活时间的中位数只有8个月：有一半的患者活不过8个月，另一半的人可以活得更久；存活时间的排行，在中位数右方的曲线，有一条延伸数年的尾巴），存活了20年（因为另一种不相关的癌症而过世）。
+    \begin{itemize}
+      \item 古尔德，腹部间皮癌
+      \item 存活时间的中位数只有8个月：有一半的患者活不过8个月，另一半的人可以活得更久
+      \item 存活时间的排行，在中位数右方的曲线，有一条延伸数年的尾巴
+      \item 存活了20年（因为另一种不相关的癌症而过世）
+    \end{itemize}
   \end{block}
-  \pause
-  \begin{block}{平均寿命}
-    斯威士兰人的平均寿命低得吓人，男性为32岁，女性为33岁（32岁并不是一个常见的死亡年龄，大多数活过32岁的人都可以活得更久）：为了要计算平均值，他们与因为缺乏医疗资源而夭折的婴儿并在一起计算，而这些早逝天使的数量又很多，于是斯威士兰人的平均寿命就被婴儿的高死亡率拉低。
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 平均寿命}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.495\textwidth]{c2.swsl.man.01.png}
+    \includegraphics[width=0.5\textwidth]{c2.swsl.woman.01.png}
+  \end{figure}
+  \vspace{-1em}
+  \begin{block}{可怜的斯威士兰人？}
+    斯威士兰人的平均寿命低得吓人，男性为32岁，女性为33岁（32岁并不是一个常见的死亡年龄，大多数活过32岁的人都可以活得更久）
   \end{block}
+  \pause \pause \pause \pause
+  \begin{block}{夭折的婴儿！}
+    为了要计算平均值，他们与因为缺乏医疗资源而夭折的婴儿并在一起计算，而这些早逝天使的数量又很多，于是斯威士兰人的平均寿命就被婴儿的高死亡率拉低。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 平均寿命}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.495\textwidth]{c2.swsl.man.01.png}
+    \includegraphics[width=0.5\textwidth]{c2.swsl.woman.01.png}\\
+    \includegraphics[width=0.495\textwidth]{c2.swsl.baby.birth.01.png}
+    \includegraphics[width=0.5\textwidth]{c2.swsl.baby.death.01.png}\\
+  \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -348,7 +421,7 @@
   \begin{block}{其他}
     \begin{itemize}
       \item 我们每个人的脚，几乎都比平均脚数多。
-      \item 
+      \item ……
     \end{itemize}
   \end{block}
 \end{frame}
@@ -395,7 +468,7 @@
   \end{block}
   \pause
   \begin{block}{新闻报道}
-    新闻媒体的报道好像乘坐飞机是一间十分可怕的事情。其实，飞行安全与否与我们是否经常翻阅报纸和杂志并没有直接的联系。
+    新闻媒体的报道好像乘坐飞机是一件十分可怕的事情。其实，飞行安全与否与我们是否经常翻阅报纸和杂志并没有直接的联系。
   \end{block}
 \end{frame}
 
@@ -448,47 +521,78 @@
   \end{figure}
 \end{frame}
 
-\section{}
+\section{知识拓展}
+\begin{frame}
+  \frametitle{本福特定律}
+  \begin{block}{本福特定律}
+本福特定律，也称为本福特法则，说明一堆从实际生活得出的数据中，以1为首位数字的数的出现概率约为总数的三成，接近直觉得出之期望值1/9的3倍。推广来说，越大的数，以它为首几位的数出现的概率就越低。它可用于检查各种数据是否有造假。
+  \end{block}
+  \pause
+  \begin{block}{应用}
+    \begin{itemize}
+      \item 1972年，Hal Varian提出这个定律来用作检查支持某些公共计划的经济数据有否欺瞒之处。
+      \item 1992年，Mark J. Nigrini提出以它检查是否有伪帐。
+      \item 推而广之，它能用于在会计、金融甚至选举中出现的数据，应用于欺骗检测和股票市场分析等领域。
+    \end{itemize}
+  \end{block}
+\end{frame}
 
-\section{总结}
+\begin{frame}
+  \frametitle{本福特定律}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{c2.benford.01.jpg}\\
+    \includegraphics[width=0.6\textwidth]{c2.benford.02.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{本福特定律}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.48\textwidth]{c2.benford.03.png}
+    \includegraphics[width=0.48\textwidth]{c2.benford.04.png}
+  \end{figure}
+\end{frame}
+
+\section{图说天下}
+\begin{frame}
+  \frametitle{图说天下}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c2.gapminder.2016.png}
+  \end{figure}
+  % \begin{itemize}
+  %   \item \href{http://www.gapminder.org/downloads/updated-gapminder-world-poster-2015/}{http://www.gapminder.org/downloads/updated-gapminder-world-poster-2015/}
+  %   \item \href{https://www.gapminder.org/tools}{https://www.gapminder.org/tools}
+  % \end{itemize}
+\end{frame}
+
+\section{统计知识}
 \begin{frame}
   \frametitle{总结}
   \begin{itemize}
     \item 当你被告知某个数是平均数时，除非能说出它的具体种类——均值，中位数，还是众数，否则你对它的具体涵义仍知之甚少。
     \item 在处理诸如人类特征的数据时，各种平均数的数值十分接近。这些数据具有正态分布的形态特点。
     \item 当你看到某个平均收入时，首先问问：是什么样的平均？包括了哪些人？
-    \item 类似的概率和误差范围构成了一个很好的估计。
+    % \item 类似的概率和误差范围构成了一个很好的估计。
+    \item 平均值的优点在于，它缩小了庞大的信息量，让人得以管理惊人的数字，但也因为这个原因，使得它容易产生误导作用，让人忘记数字的差异性。平均值将所有的失误融为一体，这是它有用的地方，也是它骗人的地方。
+    \item 遇到平均值时，要记得问：我们真正感兴趣的，是哪一个群体？在问平均薪资时，也许我们不会想知道金字塔顶端的人收入有多少，只想了解普通人的状况。
+    \item 平均值是一个概略，有用，但所有的概略都是一个样。如果你不知道它只是个摘要，就会被它误导。平均值——是什么东西的平均值？请记得现实世界的多样性，别忘了彩虹原本是白色的。
   \end{itemize}
 \end{frame}
 
 \begin{frame}
   \frametitle{总结}
-  \begin{block}{平均值}
-    平均值只能够说个大概，这是它们天生的说话方式。用这么简单的方式来描述一个群体，重要的细节无可避免就会被含糊带过。平均值就像晚间新闻的一句结语，简单地说出记着所归纳的重点，但是没看过报道的观众，还是不知道的新闻内容是什么。它向来有个问题，宣称自己为这个万花筒般的世界发声，却扼杀了我们所有的想象。想要看穿平均值的真面目，首先你得记得世界的多样化。
-
-    平均薪资、平均房价、平均寿命、平均犯罪率，这些以平均为首的名词，以及其他同等性质的平均数，如通货膨胀率等，全都把数字单一化，将一堆数据总结成一个代表总体的数字或是图上的一点。平均值既有优点，也有缺点，它铲平山丘、填满坑谷，让我们误以为地球真的是平的。事实上，地球是起伏不平的。
-
-    彩虹原本是白色的，经过折射和反射之后，白色的太阳光线变成了神奇的七彩颜色。每当你看见平均值时，请想起“彩虹是白色的”这句话，并想象经过折射、反射出现的器材霓虹。
-
-    平均值的优点在于，它缩小了庞大的信息量，让人得以管理惊人的数字，但也因为这个原因，使得它容易产生误导作用，让人忘记数字的差异性。平均值将所有的失误融为一体，这是它有用的地方，也是它骗人的地方。
-
-    遇到平均值时，要记得问：我们真正感兴趣的，是哪一个群体？在问平均薪资时，也许我们不会想知道金字塔顶端的人收入有多少，只想了解普通人的状况。
-
-    平均值是一个概略，有用，但所有的概略都是一个样。如果你不知道它只是个摘要，就会被它误导。平均值——是什么东西的平均值？请记得现实世界的多样性，别忘了彩虹原本是白色的。
+  \begin{block}{平均值 vs. 世界的多样化}
+    \begin{itemize}
+      \item 平均值只能够说个大概，这是它们天生的说话方式。用这么简单的方式来描述一个群体，重要的细节无可避免就会被含糊带过。平均值就像晚间新闻的一句结语，简单地说出记者所归纳的重点，但是没看过报道的观众，还是不知道具体的新闻内容是什么。它向来有个问题，宣称自己为这个万花筒般的世界发声，却扼杀了我们所有的想象。想要看穿平均值的真面目，首先你得记得世界的多样化。
+      \item 平均薪资、平均房价、平均寿命、平均犯罪率，这些以平均为首的名词，以及其他同等性质的平均数，如通货膨胀率等，全都把数字单一化，将一堆数据总结成一个代表总体的数字或是图上的一点。平均值既有优点，也有缺点，它铲平山丘、填满坑谷，让我们误以为地球真的是平的。事实上，地球是起伏不平的。
+      \item 彩虹原本是白色的，经过折射和反射之后，白色的太阳光线变成了神奇的七彩颜色。每当你看见平均值时，请想起“彩虹是白色的”这句话，并想象经过折射、反射出现的七彩霓虹。
+    \end{itemize}
   \end{block}
 \end{frame}
 
-\section{扩展}
-\begin{frame}
-  \frametitle{本福特定律}
-\end{frame}
-
-\section{图说天下}
-\begin{frame}
-  \frametitle{图说天下}
-  \href{http://www.gapminder.org/downloads/updated-gapminder-world-poster-2015/}{http://www.gapminder.org/downloads/updated-gapminder-world-poster-2015/}
-  \href{https://www.gapminder.org/tools}{https://www.gapminder.org/tools}
-\end{frame}
 
 
 \input{snippet/class_tail}
