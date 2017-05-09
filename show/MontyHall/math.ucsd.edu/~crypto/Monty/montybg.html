@@ -1,0 +1,158 @@
+<HTML>
+<TITLE>The Monty Hall page</TITLE>
+<BODY background="http://www.math.ucsd.edu/~crypto/images/grau.jpg" vlink=blue>
+
+<CENTER>
+<IMG SRC="images/marquee.jpg" height=160 width=404 ALT="NOW PLAYING: Let's Make a Deal">
+<P>
+<TABLE border=0 width=600>
+<TR>
+<TD>In order to explain why the numbers are suggesting that it is better 
+to switch, it's necessary to describe how the game is played.  If you 
+have never seen Monty Hall's Let's Make A Deal game show, then let me 
+catch you up to speed.<P>
+
+<H1>Let's Make A Deal</font></H1>
+
+<TABLE border=0 align=right cellspacing=10><TR>
+<TD><IMG SRC="images/MontyHall.jpg" ALIGN=RIGHT width=128 height=204>
+<CAPTION align=bottom>Monty Hall</CAPTION>
+</TD></TR></TABLE>
+
+<P>I can only assume Monty Hall's game show <I>Let's Make A Deal</I> took place sometime during the sixties and/or seventies.  Information on this particular game show has somehow eluded the internet and my less than vivid memory sometimes fails me, but the basic setup for the game is as follows.  Pretty much the entire audience dresses up like a complete loon (Raggedy Ann and Andy were fairly popular costumes) hoping that Monty Hall would select them out of the crowd and offer them a chance to win a fabulous prize.  For instance, he might offer you $100 for every paper clip that you have in your posession or he might give you $500, but then ask you if you would like to keep the money or trade it for what's in a particular box.  Of course there could be $1000 in the box or a single can of dog food.  Anyway, I'm digressing and hopefully you get the basic gist of the game.</P>
+
+<P>The particular game that we are concerned with here is where Monty Hall offers you the opportunity to win what is behind one of three doors.  Typically there was a really nice prize (i.e., a car) behind one of the doors and a not-so-nice prize (i.e., a goat) behind the other two.  After selecting a door, Monty would then proceed to open one of the doors you didn't select.  It is important to note here that Monty would NOT open the door that concealed the car.  At this point, he would then ask you if you wanted to switch to the other door before revealing what you had won.</P>
+
+
+
+<H1>The Controversy</H1>
+
+<TABLE border=0 align=left cellspacing=10><TR>
+<TD><IMG SRC="images/Savant.gif" align=left>
+<CAPTION align=bottom>Marilyn vos Savant</CAPTION>
+</TD></TR></TABLE>
+
+<P>In September of 1991 a reader of Marilyn Vos Savant's
+Sunday Parade column wrote in and asked the following question:</P>
+
+<P><BLOCKQUOTE> <FONT SIZE=+1>&quot;Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the other doors, opens another door, say No. 3, which has a goat. He then says to you, 'Do you want to pick door No. 2?' Is it to your advantage to take the switch?&quot;</FONT></BLOCKQUOTE></P>
+
+<P>This problem was given the name The Monty Hall Paradox in honor of the long time host of the television game show &quot;Let's Make a Deal.&quot; <A HREF="http://web.archive.org/web/20030614011541/http://parentdirectededucation.org/Thinking%20Parent/Vos%20Savant.htm">Articles</A> about the controversy appeared in the New York Times (see <A HREF="http://www.nytimes.com/1991/07/21/us/behind-monty-hall-s-doors-puzzle-debate-and-answer.html?pagewanted=print&src=pm">original 1991 article</A>, and <A HREF="http://www.nytimes.com/2008/04/08/science/08monty.html?_r=0">2008 interactive feature</A>) about the controversy appeared in the New York Times and other papers around the country. Marilyn's answer was that the contestant should switch doors and she received nearly 10,000 responses from readers, most of them disagreeing with her. Several were from mathematicians and scientists whose responses ranged from hostility to disappointment at the nation's lack of mathematical skills.</P>
+
+<P>This question seems to have a non-intuitive answer. Why were so many convinced that Marilyn Vos Savant was wrong? They had all decided that <B>it did not matter </B>if the contestant switched or did not switch. There may be a reason so many disagreed with her. Omitting one phrase in the statement of this problem changes the answer completely and this might explain why many people have the wrong intuition about the solution. If the host (Monty Hall) <B>does not know</B> where the car is behind the other two doors, then the answer to the question is &quot;IT DOESN'T MATTER IF THE CONTESTANT SWITCHES.&quot; The change in the statement of the problem is so slight that this might be the reason this problem is such a &quot;paradox.&quot;</P>
+
+   
+  
+<H1>To Switch or Not To Switch</font></H1>
+
+<P>Well, looking at the numbers from out online experiment, it would appear that those who switched doors won about 2/3 of the time and those who didn't switch won about 1/3 of the time.  Why is there such a large difference?  I mean, once Monty shows you what's behind one of the doors, there are only two doors left. Right? Right. And the car is behind one of those two doors with equal probability. Right? <B>WRONG!</B></P>
+
+<TABLE border=0 align=left cellspacing=10><TR>
+<TD><IMG SRC="images/wheel.jpg" HEIGHT=200 WIDTH=200></TD>
+</TR></TABLE>
+
+<P>To analyze this problem we represent this senario as a random variable on a roulette wheel. The roulette wheel on the left simulates the Let's Make a Deal game. The inner wheel represents the number of the door that the car is behind, the middle wheel represents the door that is selected by the contestant, and the outer wheel represents the door Monty Hall can show. Spinning this roulette wheel once is equivalent to playing the game once. The outer wheel also tells you what your strategy should be to win.  The red means that in order to win the contestant needs to switch doors, and the blue means that the contestant should not switch. Notice that there are twice as many red sections as blue. In other words, you are twice as likely to win if you switch than if you don't switch! What this wheel makes evident is that with probability 1/3 the contestant selects the correct door in which case it would be better not to switch. In the other 2/3 of the cases, Monty Hall is telling the contestant where the car is!</P>
+
+<P>How does this problem change if Monty Hall does not know where the car is located? We must decide what it means if Monty should happen to open the door with the car behind by accident.  The problem says only that Monty opened a door with a goat behind it so we interpret this to mean that if the car is revealed then the game is over and the next
+contestant plays the game.</P>
+
+<TABLE border=0 align=right cellspacing=10><TR>
+<TD><IMG SRC="images/wheel2alt.jpg" HEIGHT=200 WIDTH=200></TD>
+</TR></TABLE>
+
+<P>If this is the senario then the wheel looks almost the same, the inner wheel represents
+the door that the car is behind, the middle wheel represents the number of the door that is selected by the contestant, and the outer wheel represents the door number Monty Hall will show the contestant. This time however, Monty Hall has the option of opening a door with a car behind it, but by chance he didn't. Playing the game under these assumptions is equivalent to spinning the roulette wheel to the right except that if the blackened area of the wheel comes up then it is spun again. Once again the red area means that in order to win the contestant will need to switch doors, and the blue means that the contestant should not switch. Notice that there is the same amount of red area as blue. In other words, it doesn't matter if the contestant switches in this case.</P>
+
+
+
+
+<H1>Why aren't the numbers coming out exactly 2/3 and 1/3?</H1> 
+
+<P>Okay, so this wouldn't be covered in this class, but since you might be  wondering and since it doesn't take much to explain....  Let's start by  looking at a different example: flipping a coin.  If you were to flip a  coin 100 times, you would expect to get 50 heads.  Would you think twice though if afterwards you counted 53 heads? How about 47 heads?  Probably not.  Well, this is the basic idea behind a confidence interval, to come up with a range of acceptable values for your outcome, instead of a single <I>expected value</I>.</P> 
+
+<P>In the table below are listed confidence intervals for several different number of players.  In this case, they are 95% confidence intervals, which means that 95% of the time, the outcome should fall within the interval.  In other words,  only 1 time out of 20 trials should the outcome NOT fall within the specified interval. For instance, say that you played Let's Make a Deal nine times and switched every single time.  Then you would expect to win 6 times, but would not be surprised if you won anywhere from 3 to 9 times.  Say you repeated this twenty times and kept track of the number of times you won out of 9 trials.   On average, you would win about 6 times,  with most of your values being in the confidence interval and maybe 1 value outside the interval.</P>
+
+<CENTER>
+<TABLE border=5 cellpadding=3 cellspacing=3 width=525 bgcolor=white>
+<TR align=center>
+  <TH></TH>
+  <TH colspan=2>If All Players Switched</TH>
+  <TH colspan=2>If No Player Switched</TH>
+<TR align=center>
+  <TH># of Players</TH>
+  <TH>95% Confidence Interval</TH>
+  <TH>Expected Value</TH>
+  <TH>95% Confidence Interval</TH>
+  <TH>Expected Value</TH>
+<TR align=center>
+  <TD>9</TD>    <TD>3-9</TD>      <TD>6</TD>    <TD>0-5</TD>      <TD>3</TD>
+<TR align=center>
+  <TD>51</TD>   <TD>27-40</TD>    <TD>34</TD>   <TD>10-23</TD>    <TD>17</TD>
+<TR align=center>
+  <TD>99</TD>   <TD>57-75</TD>    <TD>66</TD>   <TD>24-42</TD>    <TD>33</TD>
+<TR align=center>
+  <TD>150</TD>  <TD>88-111</TD>   <TD>100</TD>  <TD>38-61</TD>    <TD>50</TD>
+<TR align=center>
+  <TD>201</TD>  <TD>120-146</TD>  <TD>134</TD>  <TD>54-80</TD>    <TD>67</TD>
+<TR align=center>
+  <TD>249</TD>  <TD>151-180</TD>  <TD>166</TD>  <TD>68-97</TD>    <TD>83</TD>
+<TR align=center>
+  <TD>300</TD>  <TD>183-215</TD>  <TD>200</TD>  <TD>83-115</TD>   <TD>100</TD>
+<TR align=center>
+  <TD>399</TD>  <TD>246-283</TD>  <TD>266</TD>  <TD>115-152</TD>  <TD>133</TD>
+<TR align=center>
+  <TD>501</TD>  <TD>313-354</TD>  <TD>334</TD>  <TD>146-187</TD>  <TD>167</TD>
+<TR align=center>
+  <TD>999</TD>  <TD>636-694</TD>  <TD>666</TD>  <TD>304-362</TD>  <TD>333</TD>
+<TR align=center>
+  <TD>2001</TD>  <TD>1293-1375</TD>  <TD>1334</TD>  <TD>626-708</TD>  <TD>667</TD>
+<TR align=center>
+  <TD>3000</TD>  <TD>1949-2051</TD>  <TD>2000</TD>  <TD>949-1051</TD>  <TD>1000</TD>
+<TR align=center>
+  <TD>3999</TD>  <TD>2608-2724</TD>  <TD>2666</TD>  <TD>1275-1391</TD>  <TD>1333</TD>
+<TR align=center>
+  <TD>5001</TD>  <TD>3269-3399</TD>  <TD>3334</TD>  <TD>1602-1732</TD>  <TD>1667</TD>
+<TR align=center>
+  <TD>6000</TD>  <TD>3928-4072</TD>  <TD>4000</TD>  <TD>1928-2072</TD>  <TD>2000</TD>
+</TABLE>
+</CENTER>
+
+<P>
+The following table gives 95% confidence intervals for the <I>current</I> values 
+from our Let's Make a Deal game.
+
+<P>
+<CENTER>
+<TABLE border=5 cellpadding=0 cellspacing=0 width=525>
+<TR><TD><APPLET code="currentValue.class" width=515 height=50></APPLET>
+</TABLE>
+
+
+<P><IMG USEMAP="#menu" SRC="http://www.math.ucsd.edu/~crypto/images/menubar.jpg" BORDER=0 HEIGHT=22 WIDTH=504>
+<MAP name="menu">
+<AREA SHAPE=RECT COORDS="0,0,64,21" HREF="http://math.ucsd.edu/~crypto/Monty/Montytitle.html">
+<AREA SHAPE=RECT COORDS="65,0,125,21" HREF="http://www.math.ucsd.edu/~crypto">
+<AREA SHAPE=RECT COORDS="126,0,215,21" HREF="http://www.math.ucsd.edu/~crypto/programs.html">
+<AREA SHAPE=RECT COORDS="216,0,346,21" HREF="http://www.math.ucsd.edu/~crypto/help.html">
+<AREA SHAPE=RECT COORDS="347,0,423,21" HREF="http://www.math.ucsd.edu/~crypto/internet.html">
+<AREA SHAPE=RECT COORDS="424,0,504,21" HREF="http://www.math.ucsd.edu/~crypto/people.html">
+</MAP><BR>
+<FONT SIZE=-1>[<A HREF="http://math.ucsd.edu/~crypto/Monty/Montytitle.html">Back</A>|
+<A HREF="http://www.math.ucsd.edu/~crypto">Home</A>|
+<A HREF="http://www.math.ucsd.edu/~crypto/programs.html">Programs</A>|
+<A HREF="http://www.math.ucsd.edu/~crypto/help.html">Documentation</A>|
+<A HREF="http://www.math.ucsd.edu/~crypto/internet.html">Internet</A>|
+<A HREF="http://www.math.ucsd.edu/~crypto/people.html">People</A>]
+</CENTER>
+</TABLE>
+</CENTER>
+</BODY>
+
+  
+
+
+
+
+
+
+

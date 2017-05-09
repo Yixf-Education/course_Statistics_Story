@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="UTF-8" />
+<link rel="shortcut icon" type="image/x-icon" href="http://www.stayorswitch.com/blog/wp-content/themes/mytheme//Images/favicon.ico">
+<title>
+Blog &#8211; Monty Hall Problem Simulation Game &#8211; Stay or Switch?</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.stayorswitch.com/blog/wp-content/themes/mytheme/style.css" />
+<link rel="pingback" href="http://www.stayorswitch.com/blog/xmlrpc.php" />
+<link rel='dns-prefetch' href='http://w.sharethis.com/' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.stayorswitch.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ssbaFont-css'  href='http://fonts.googleapis.com/css?family=Indie+Flower&amp;ver=4.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.stayorswitch.com/blog/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.stayorswitch.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.stayorswitch.com/blog/wp-content/plugins/easy-spoiler/js/easy-spoiler.js?ver=1.2'></script>
+<link rel='https://api.w.org/' href='http://www.stayorswitch.com/blog/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.stayorswitch.com/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.stayorswitch.com/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.1" />
+<link type="text/css" rel="stylesheet" href="http://www.stayorswitch.com/blog/wp-content/plugins/easy-spoiler/easy-spoiler.css" /><script>(function(d, s, id){
+                 var js, fjs = d.getElementsByTagName(s)[0];
+                 if (d.getElementById(id)) {return;}
+                 js = d.createElement(s); js.id = id;
+                 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+                 fjs.parentNode.insertBefore(js, fjs);
+               }(document, 'script', 'facebook-jssdk'));</script><style type="text/css">	.ssba {
+									
+									
+									
+									-moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;  border-radius: 10px; -o-border-radius: 10px;
+								}
+								.ssba img
+								{
+									width: 25px !important;
+									padding: 15px;
+									border:  0;
+									box-shadow: none !important;
+									display: inline !important;
+									vertical-align: middle;
+								}
+								.ssba, .ssba a
+								{
+									text-decoration:none;
+									border:0;
+									background: none;
+									font-family: Indie Flower;
+									font-size: 	20px;
+									color: 		#283aff!important;
+									font-weight: normal;
+								}
+								</style>
+<style type="text/css">
+#container {
+	width: 1094px;
+	margin: 0 auto;
+	overflow: auto;
+}
+#headerbg {
+	background-image: url(http://www.stayorswitch.com/blog/wp-content/themes/mytheme/Images/background_header.png);
+	background-repeat: no-repeat;
+	background-position: top top;	
+}
+#content {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	width: 780px;
+	float: left;
+	color:#f4f4f4;
+	padding-top: 15px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+heading1 {
+	font-size: 32px;
+	margin-top:2cm;
+	margin-bottom:0cm;
+	font-weight: 600;
+}
+heading4 {
+	font-size: 14px;
+	margin-top:0cm;
+	margin-bottom:2cm;
+}
+#sidebarposts {
+	float: left;
+	width: 200px;
+	margin-left:30px;
+	margin-top:15px;
+	//background:#c4c4c4;
+	padding: 12px;
+	color: #f4f4f4;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+ul { 
+	list-style: none; 
+	padding:0;  
+	margin:0;  
+}
+li { 
+	padding-left: 1em; 
+	text-indent: -1em;
+	font-size:12pt;
+	font-weight: lighter;    
+}
+li:before { 
+	content: "-"; 
+	padding-right:7px; 
+}
+a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#f4f4f4; 
+     text-decoration:none;   
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#7c7c7c;
+}
+#footernav {
+	margin-left: 250px;
+	clear: both;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	color: #f4f4f4;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 551px;
+	top: 233px;
+}
+.no_tile {
+	background-image: url(http://www.stayorswitch.com/blog/wp-content/themes/mytheme/Images/background_3.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.histbg {
+	background-image: url(http://www.stayorswitch.com/blog/wp-content/themes/mytheme/Images/background_3_hist.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.stats {
+	font-size: 24px;
+	color: #f4f4f4;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: auto;
+	letter-spacing: -1.5pt;
+	text-align: justify;
+	line-height: 18pt;
+}
+.nonitalic {
+	font-style: normal;
+}
+.stats_nums {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: 18pt;
+}
+.stats_small {
+	font-size: 18px;
+	font-weight: bolder;
+	line-height: 20pt;
+}
+#clicker
+{
+	width: 430px;
+	height: 90px;
+	display: block;
+	position: relative;
+	margin-bottom: -90px;
+}
+</style> 
+<style type="text/css">
+/* animated spoiler CSS by Bloggersentral.com */
+.spoilerbutton {display:block;margin:5px 0;}
+.spoiler {overflow:hidden;background: #f5f5f5;}
+.spoiler > div {-webkit-transition: all 0.2s ease;-moz-transition: margin 0.2s ease;-o-transition: all 0.2s ease;transition: margin 0.2s ease;}
+.spoilerbutton[value="Show Solution"] + .spoiler > div {margin-top:-100%;}
+.spoilerbutton[value="Hide Solution"] + .spoiler {padding:5px;} 
+</style> 
+<style type="text/css">
+<!-- Begin MailChimp Form Style-->
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #00CC33; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}     
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:block; font-size:18px; padding-bottom:6px; color: #f4f4f4; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:95%; min-width:130px;}
+#mc_embed_signup input.button {display:block; width:100%; margin:0 0 0 0; min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+<!-- End MailChimp Form Style-->
+</style>
+<script src="http://www.stayorswitch.com/blog/Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24711987-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body onload="MM_preloadImages('/blog/wp-content/themes/mytheme/Images/navbar_playgame_roll.png','/blog/wp-content/themes/mytheme/Images/navbar_explanation_roll.png','/blog/wp-content/themes/mytheme/Images/navbar_blog_roll.png')">
+
+<div id="container">
+<div id="headerbg"><a id="clicker" href="index.html"></a>
+<div style="float:left; padding-top:70px; padding-left:43px; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; color:#f4f4f4; font-size:13px; line-height:27px">
+            <h1><a href="index.html">The Monty <br />
+              Hall Problem</a></h1>
+</div>
+<div style="padding-top:68px; padding-bottom:10px;">
+          <a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('playGame','','/blog/wp-content/themes/mytheme/Images/navbar_playgame_roll.png',1)"><img src="http://www.stayorswitch.com/blog/wp-content/themes/mytheme/Images/navbar_playgame.png" alt="PLAY GAME" name="playGame" width="206" height="76" border="0" id="playGame" /></a><a href="explanation.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('explanation','','/blog/wp-content/themes/mytheme/Images/navbar_explanation_roll.png',1)"><img src="http://www.stayorswitch.com/blog/wp-content/themes/mytheme/Images/navbar_explanation.png" alt="EXPLANATION" name="explanation" width="206" height="76" border="0" id="explanation" /></a><a href="blog" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('blog','','/blog/wp-content/themes/mytheme/Images/navbar_blog_bold.png',1)"><img src="http://www.stayorswitch.com/blog/wp-content/themes/mytheme/Images/navbar_blog_bold.png" alt="BLOG" name="blog" width="206" height="76" border="0" id="blog" /></a></div></div><div style="clear: both;"></div><!-- SPECIFIC PAGE CONTENT BEGINS HERE -->
+<div><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Links above Player -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:15px"
+     data-ad-client="ca-pub-1582010447511354"
+     data-ad-slot="4786850668"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div id="content">
+<heading1><a href="http://www.stayorswitch.com/blog/how-to-calculate-permutations-and-combinations/" rel="bookmark" title="Permanent Link to How to calculate permutations and combinations">How to calculate permutations and combinations</a></heading1></br>
+<heading4>November 10th, 2016</heading4>
+<p><p>&nbsp;</p>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/j_863d3QWvs?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>Just finished creating a new animated video explaining how to calculate permutation and combination problems, helpful for calculating probabilities in many areas. Let me know if you have suggestions for future topics!</p>
+<p>Here&#8217;s the video transcript:</p>
+<p><span style="font-weight: 400;">How much more secure is a 6-digit passcode than a 4-digit passcode?</span></p>
+<p><span style="font-weight: 400;">How many different two-card hands could you get in Texas Hold ‘em?</span></p>
+<p><span style="font-weight: 400;">How many different outcomes are there for the 100m final?</span></p>
+<p><span style="font-weight: 400;">All of these questions can be answered using permutations and combinations, which are part of the field of mathematics awesomely called combinatorics and less awesome called counting.</span></p>
+<p><span style="font-weight: 400;">When working with permutations and combinations, we need to ask two questions to begin solving the problem: “Does order matter?” and “Is repetition possible?”</span></p>
+<p><span style="font-weight: 400;">Whether or not an arrangement of items is called a permutation or combination depends on whether or not the order matters. So the first question to ask is “Does order matter?” If you rearrange the last four digits of your friend’s cell number would that matter? Yes. So we’re dealing with a permutation because order matters. Is a hand with the 2 of clubs and 7 of diamonds different from a hand with a 7 of diamonds and 2 of clubs? No. So we’re dealing with a combination because the order doesn’t matter&#8230;and you should fold.</span></p>
+<p><span style="font-weight: 400;">The second question is whether or not repetition is possible. Is it possible to use the same number twice in a passcode? If so, repetition is allowed. Is it possible to have a poker hand with two fives of spades? If not, repetition is not allowed.</span></p>
+<p><span style="font-weight: 400;">So there are four possible scenarios based on whether or not order matters and whether or not repetition is possible. And each one has its own method for counting the number of possibilities. In this video we’ll explain these three and show how to solve sample problems.</span></p>
+<p><span style="font-weight: 400;">We’ll start with permutations with repetition.</span></p>
+<p><span style="font-weight: 400;">Examples of permutations with repetition include passcodes, phone numbers, and even three-scoop ice cream cones if you care about the scoop order and can get multiple scoops of the same flavor. </span></p>
+<p><span style="font-weight: 400;">Consider a 4-digit passcode. Each number in the code can be chosen from the digits 0 through 9. So there are four positions and each position has ten options because it’s possible to repeat numbers. That gives us ten times ten times ten times ten, or ten thousand different passcodes to choose from. The formula for permutations with repetition is n</span><span style="font-weight: 400;">r</span><span style="font-weight: 400;"> in which we have n items we could select and r positions for items. In the passcode example, r equals 4 because we have 4 digits, and n equals 10 because we have 10 numbers to choose from for each digit. </span></p>
+<p><span style="font-weight: 400;">Practice problem: A hexadecimal color code is six characters long and each character can be a letter from A to F or a number from 0 to 9. How many hexadecimal color codes are possible? Pause the video and figure it out!</span></p>
+<p><span style="font-weight: 400;">Answer: First we need to determine if we’re dealing with permutations or combinations. Does the order of the characters matter? Is the color BBB333 different from 333BBB? Yes. So order matters. How about repetition? Well we just showed that you can repeat a character. So repetition is possible. We’re solving a problem involving a permutation with repetition. There are 16 possible characters (six letters and 10 numbers) and we’re choosing 6 so there are 16</span><span style="font-weight: 400;">6</span><span style="font-weight: 400;"> = 16777216 possible hexadecimal colors!</span></p>
+<p><span style="font-weight: 400;">So that’s permutations with repetition. How about permutations without repetition?</span></p>
+<p><span style="font-weight: 400;">Examples of permutations without repetition include rankings and arranging books on a bookshelf.  </span></p>
+<p><span style="font-weight: 400;">Consider the ways that 8 runners could finish the 100m final. We have eight places and we’ll fill them one by one. There are eight people who could place first. After Usain Bolt places first, there are seven runners who could claim second. For the bronze medal, there are six runners who could take that spot. This pattern continues down to the one person who’s guaranteed last place after the other seven spots are chosen. We can multiply 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1 to find the number of possible arrangements or permutations of eight runners.</span></p>
+<p><span style="font-weight: 400;">So our answer would be 8!. The factorial operation multiplies a number by every number less than it all the way down to 1. 4! = 24, and 8! = 40,320. That means there are over 40 thousand possible outcomes for an 8-person sprint. </span></p>
+<p><span style="font-weight: 400;">Now let’s ask a different question: how many possible podium arrangements are there? Now we only care about the first three runners. We follow the same pattern of 8 x 7 x 6 which yields 336 possible podium crews. </span></p>
+<p><span style="font-weight: 400;">This hints at the formula for permutations without repetition. Written as follows and read as “Permutation, n choose r”, it calculates the number of permutations when selecting and arranging r objects from a set of n. If we apply the formula for our podium question, we’d get P(8,3), which equals 8 factorial divided by 8 minus 3, or 5, factorial. If we write out the factorial expressions, we can see that they begin to cancel each other out starting at 5. This means that we’re left with just the first three terms of 8 factorial, which makes sense because we’re choosing three runners from a set of 8. </span></p>
+<p><span style="font-weight: 400;">Sample problem: You have 18 books to your name. Unfortunately, you only have room to display 4 of them on the shelf. How many ways can you do this? Pause the video and figure it out!</span></p>
+<p><span style="font-weight: 400;">Answer: Does order matter? Yes, we’ve decided that different orderings of the books will look different on the shelf. Is repetition possible? No. There’s only one copy of each book. So we’re dealing with a permutation without repetition. We have 18 options for the first position on the shelf, then 17, 16, and 15. Using the formula, we need to calculate Permutation 18 choose 4. That gives us 18 factorial divided by 18 minus 4 factorial, or 14, factorial. It simplifies to what we thought it would 18 x 17 x 16 x 15, which equals 73,440 possible arrangements, an overwhelming amount! </span></p>
+<p><span style="font-weight: 400;">Next we’re going to look at combinations without repetition.</span></p>
+<p><span style="font-weight: 400;">Examples of combinations without repetition include groups of people and poker hands.</span></p>
+<p><span style="font-weight: 400;">Consider all possible two-card Texas Hold ‘em hands. For your first card dealt, there are 52 possible cards, for the second card dealt, there are 51 possible cards. So we could multiply 52 by 51 to find the number of possible two-card hands, however, this would count getting an Ace of clubs then an Ace of diamonds as a different hand than getting an Ace of diamonds then an Ace of clubs, but they’re the same pair of cards. So we need to divide our answer by the two ways that our two objects could be ordered, so we don’t double count the same hand. The answer would be 52 x 51 / 2, or 1326 different two-card hands. The formula for Combinations n choose r is the same as the permutation formula with an additional division by r!, the number of ways that r items could be arranged. This division by r! adjusts the formula to only count different groupings of objects, not the way the objects are arranged within each grouping. </span></p>
+<p><span style="font-weight: 400;">Sample problem: How many 4 person teams could be formed from a group of 23 people? Pause the video and figure it out!</span></p>
+<p><span style="font-weight: 400;">Answer: Is a team with Bob, Sally, Greg, and Stacy the same as a team with Greg, Sally, Stacy and Bob? Yes, we’ve confirmed that order doesn’t matter. Is repetition possible? No, we can’t choose the same person twice for the same team. So we have a Combination 23 choose 4, which is 23 factorial divided by 23 minus 4 factorial times 4 factorial. This gives us 8855 possible teams that could be formed from a group of 23 people. </span></p>
+<p><span style="font-weight: 400;">In conclusion, there are two questions to ask when solving permutation and combination problems: “Does order matter?” and “Is repetition possible?” And now that you know how to calculate permutations with and without repetition and combinations without repetition, consider yourself an expert when it comes to counting.</span></p>
+<p><span style="font-weight: 400;">Have topics you’d like to see in future videos? Please post them in the comments below. Thanks for watching!</span></p>
+<p>&nbsp;</p>
+</p>
+<hr> <heading1><a href="http://www.stayorswitch.com/blog/addition-and-multiplication-probability-formulas/" rel="bookmark" title="Permanent Link to Addition and Multiplication Probability Formulas">Addition and Multiplication Probability Formulas</a></heading1></br>
+<heading4>October 28th, 2016</heading4>
+<p><p><a href="http://www.stayorswitch.com/blog/wp-content/uploads/2016/10/dice-293996_960_720.png"><img class="alignnone size-medium wp-image-200" src="http://www.stayorswitch.com/blog/wp-content/uploads/2016/10/dice-293996_960_720-288x300.png" alt="Rolling dice" width="288" height="300" srcset="http://www.stayorswitch.com/blog/wp-content/uploads/2016/10/dice-293996_960_720-288x300.png 288w, http://www.stayorswitch.com/blog/wp-content/uploads/2016/10/dice-293996_960_720.png 690w" sizes="(max-width: 288px) 100vw, 288px" /></a></p>
+<p>Two important probability equations are the multiplication and addition formulas.</p>
+<p>The first probability equation is the multiplication formula. This is used to calculate the probability of two events occurring together. The equation is usually written as P(A and B). The formula: P(A and B) = P(A) x P(B). Simple. So the probability of flipping heads and rolling a 4 is 1/2 x 1/6 = 1/12.</p>
+<p>The addition formula is used when the question asks about the probability of event A or event B occurring. It&#8217;s usually denoted as P(A or B). The probability formula looks like this: P(A or B) = P(A) + P(B) &#8211; P(A and B). The probability of flipping heads or rolling a 4 is 1/2 + 1/6 &#8211; (1/2 x 1/6) = 7/12.</p>
+<p>Basically you add the probability of the two events and then subtract the chance of them both occurring. Picture a venn diagram in which you want to find the total area. To do so, you can find the area of both circles and add them together. But this would double-count the overlapping section of the venn diagram so you need to subtract the area of the overlapping section (in this case, P(A and B)).</p>
+<p>There you have it! The two most common probability formulas and equations, the multiplication and addition rules.</p>
+</p>
+<hr> <heading1><a href="http://www.stayorswitch.com/blog/new-animated-video-showing-how-to-calculate-standard-deviation/" rel="bookmark" title="Permanent Link to New animated video showing how to calculate standard deviation">New animated video showing how to calculate standard deviation</a></heading1></br>
+<heading4>September 23rd, 2016</heading4>
+<p><p><iframe width="500" height="281" src="https://www.youtube.com/embed/WVx3MYd-Q9w?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>I recently finished another animated video, this time explaining how to calculate standard deviation. I hope it&#8217;s a useful resource for students and teachers alike. What are your favorite math education videos?</p>
+</p>
+<hr> <heading1><a href="http://www.stayorswitch.com/blog/can-you-open-the-secret-passageway-in-time/" rel="bookmark" title="Permanent Link to Can you open the secret passageway in time?">Can you open the secret passageway in time?</a></heading1></br>
+<heading4>September 15th, 2016</heading4>
+<p><p><a href="http://stayorswitch.com/blog/wp-content/uploads/2016/09/Rome_passetto_night_inside.jpg"><img class="alignnone size-medium wp-image-186" src="http://stayorswitch.com/blog/wp-content/uploads/2016/09/Rome_passetto_night_inside-300x218.jpg" alt="rome_passetto_night_inside" width="300" height="218" srcset="http://www.stayorswitch.com/blog/wp-content/uploads/2016/09/Rome_passetto_night_inside-300x218.jpg 300w, http://www.stayorswitch.com/blog/wp-content/uploads/2016/09/Rome_passetto_night_inside-768x558.jpg 768w, http://www.stayorswitch.com/blog/wp-content/uploads/2016/09/Rome_passetto_night_inside-1024x744.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>You&#8217;re in an upstairs hallway of Trump mansion looking at what must be 101 books. You&#8217;re not supposed to be here. The party&#8217;s downstairs, why did you even come up here in the first place? Oh yeah, you overheard someone mention a secret passageway triggered by pulling two books at the same time on the mahogany bookshelf. You estimate that you can test two book pairs each second. On average, how long will it take you to get through the passageway and achieve unknowable glory?</p>
+
+<div class='easySpoilerWrapper' style='border-color:#7c7c7c;'>
+<table class='easySpoilerTable' border='0' style='text-align:center;' align='center' bgcolor='FFFFFF' >
+
+<tr style='white-space:normal;'>
+<th class='easySpoilerTitleA' style='white-space:normal;font-weight:bold;text-align:left;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;color:#f4f4f4;'><a href='blog' onclick='wpSpoilerToggle("spoilerDiv4c728001",true,"Show Solution","Hide Solution","fast",false); return false;' onselectstart='return false;' style='text-decoration: none;color:#f4f4f4;'>Show/Hide Solution</a></th>
+<th class='easySpoilerTitleB'style='padding:0px;text-align:right;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c; white-space:nowrap;'><a href='blog'  class='easySpoilerButton' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px; padding: 4px; ' align='right'>Select</a><a href='blog'  id='spoilerDiv4c728001_action' class='easySpoilerButtonBare' value="Show Solution" align='right' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px 5px; padding: 4px;'>Show Solution</></th>
+</tr>
+<tr><td class='easySpoilerRow' colspan='2' style='border-color:#7c7c7c;'><div id='spoilerDiv4c728001' class='easySpoilerSpoils'  style='display:none; white-space:wrap; overflow:auto; vertical-align:middle;background-color:#7c7c7c;background-image:none;color:#f4f4f4;border-color:#7c7c7c;'>
+ About 21 minutes. You&#8217;re gonna be up there a while. Why?</p>
+<p>With 101 books, there are 5,050 combinations of two books possible: To make a pair, there are 101 books for the first choice and then 100 books available for the second choice. 101 x 100 = 10,100. However, we double-counted because Book A and Book B is the same pair as Book B and Book A (aka order doesn&#8217;t matter) so we need to divide our result by the number of ways that two items can be arranged&#8211;two. So 10,100 / 2 = 5,050. The alternate method is using the combinations formula for C(101, 2), or &#8220;Combinations, 101 choose 2.&#8221; C(101, 2) = 101! / ((101 &#8211; 2)! 2!) = 5,050.</p>
+<p>So we now have to calculate the expected number of the 5,050 pairs we will need to try in order to open the passageway. When looking for something in a group of <em>n</em> choices, it will take on average (<em>n</em> + 1) / 2 tries, which is also the average of the integers from 1 to <em>n</em>. In this case, that&#8217;s 5051/2, or 2525.5 tries.</p>
+<p>At two attempts per second, that&#8217;ll take on average 2525.5/2 = 1262.75 seconds, or about 21 minutes. But it could take you less than a second or more than 42 minutes!</p>
+<p>
+</div></td></tr>
+</table>
+<div class='easySpoilerConclude' style='border-color:#7c7c7c;'><table class='easySpoilerTable' border='0' style='text-align:center;' frame='box' align='center' bgcolor='FFFFFF'><tr><th class='easySpoilerEnd' style='width:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></th><td class='easySpoilerEnd' style='white-space:nowrap;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;' colspan='2'></td></tr><tr><td class='easySpoilerGroupWrapperLastRow' colspan='2' style='background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></td></tr></table></div>
+</div>
+
+<!-- Simple Share Buttons Adder (6.2.4) simplesharebuttons.com --><div class="ssba ssba-wrap"><div style="text-align:left"><a data-site="" class="ssba_facebook_share" href="http://www.facebook.com/sharer.php?u=http://www.stayorswitch.com/blog/"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/facebook.png" title="Facebook" class="ssba ssba-img" alt="Share on Facebook" /></a><a data-site="" class="ssba_twitter_share" href="http://twitter.com/share?url=http://www.stayorswitch.com/blog/&amp;text=Can+you+open+the+secret+passageway+in+time%3F+"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/twitter.png" title="Twitter" class="ssba ssba-img" alt="Tweet about this on Twitter" /></a><a data-site="" class="ssba_google_share" href="https://plus.google.com/share?url=http://www.stayorswitch.com/blog/"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/google.png" title="Google+" class="ssba ssba-img" alt="Share on Google+" /></a><a data-site="email" class="ssba_email_share" href="mailto:?subject=Can you open the secret passageway in time?&amp;body=%20http://www.stayorswitch.com/blog/"><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/email.png" title="Email" class="ssba ssba-img" alt="Email this to someone" /></a><a data-site='pinterest' class='ssba_pinterest_share' href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;//assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/pinterest.png" title="Pinterest" class="ssba ssba-img" alt="Pin on Pinterest" /></a><a data-site="stumbleupon" class="ssba_stumbleupon_share ssba_share_link" href="http://www.stumbleupon.com/submit?url=http://www.stayorswitch.com/blog/&amp;title=Can you open the secret passageway in time?"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/stumbleupon.png" title="StumbleUpon" class="ssba ssba-img" alt="Share on StumbleUpon" /></a><a data-site="reddit" class="ssba_reddit_share" href="http://reddit.com/submit?url=http://www.stayorswitch.com/blog/&amp;title=Can you open the secret passageway in time?"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/reddit.png" title="Reddit" class="ssba ssba-img" alt="Share on Reddit" /></a></div></div>
+</p>
+<hr> <heading1><a href="http://www.stayorswitch.com/blog/pairs-of-socks-in-the-dark/" rel="bookmark" title="Permanent Link to Pairs of Socks in the Dark">Pairs of Socks in the Dark</a></heading1></br>
+<heading4>March 19th, 2016</heading4>
+<p><p><a href="http://stayorswitch.com/blog/wp-content/uploads/2016/03/feet-932346_960_720.jpg"><img class="alignnone size-medium wp-image-178" src="http://stayorswitch.com/blog/wp-content/uploads/2016/03/feet-932346_960_720-300x224.jpg" alt="socks!" width="300" height="224" srcset="http://www.stayorswitch.com/blog/wp-content/uploads/2016/03/feet-932346_960_720-300x224.jpg 300w, http://www.stayorswitch.com/blog/wp-content/uploads/2016/03/feet-932346_960_720.jpg 960w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Remember Jenny? In a rush in the middle of the night, Jenny must grab some pairs of socks out of her drawer for an impromptu vacation, but it&#8217;s dark and she can&#8217;t see the colors. She knows she has 10 pairs of socks in her drawer: 5 pairs of white socks, 3 pairs of black socks, and 2 pairs of red socks. In an attempt to grab one of each pair, Jenny figures she&#8217;ll just grab 5 pairs and hope for the best. What&#8217;s the chance that Jenny will end up with at least one pair of each color?</p>
+
+<div class='easySpoilerWrapper' style='border-color:#7c7c7c;'>
+<table class='easySpoilerTable' border='0' style='text-align:center;' align='center' bgcolor='FFFFFF' >
+
+<tr style='white-space:normal;'>
+<th class='easySpoilerTitleA' style='white-space:normal;font-weight:bold;text-align:left;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;color:#f4f4f4;'><a href='blog' onclick='wpSpoilerToggle("spoilerDiv7d468002",true,"Show Solution","Hide Solution","fast",false); return false;' onselectstart='return false;' style='text-decoration: none;color:#f4f4f4;'>Show/Hide Solution</a></th>
+<th class='easySpoilerTitleB'style='padding:0px;text-align:right;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c; white-space:nowrap;'><a href='blog'  class='easySpoilerButton' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px; padding: 4px; ' align='right'>Select</a><a href='blog'  id='spoilerDiv7d468002_action' class='easySpoilerButtonBare' value="Show Solution" align='right' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px 5px; padding: 4px;'>Show Solution</></th>
+</tr>
+<tr><td class='easySpoilerRow' colspan='2' style='border-color:#7c7c7c;'><div id='spoilerDiv7d468002' class='easySpoilerSpoils'  style='display:none; white-space:wrap; overflow:auto; vertical-align:middle;background-color:#7c7c7c;background-image:none;color:#f4f4f4;border-color:#7c7c7c;'>
+ The answer is 69.4%. This is basically a counting problem in which we have to answer two questions: &#8220;How many possible combinations of 5 pairs of socks are there?&#8221; and &#8220;How many combinations include one of each color?&#8221;</p>
+<p>We&#8217;ll start with the first question. She has 10 pairs and she&#8217;s choosing 5. Because the order in which she pulls the socks out of the drawer doesn&#8217;t matter, this is a combination written as C(10,5) and read &#8220;combination: ten choose five&#8221;:</p>
+<p>C(10,5) = 10!/(10-5)!5! = 252. You could also think of it as 10x9x8x7x6/5! because you have 10 options for your first choice, times 9 options for your second choice, etc. and then you must divide by 5!, the number of ways that 5 items can be arranged if order matters, so as to count combinations, not permutations.</p>
+<p>So out of 252 possible combos of 5 pairs of socks, how many include at least one pair of each color? Let&#8217;s list the 5 possible ways to get at least one pair of each color: 3White-1Black-1Red, 2White-2Black-1Red, 2White-1Black-2Red, 1White-3Black-1Red, 1White-2Black-2Red.</p>
+<p>Now we need to count the number of ways we can get each of those outcomes. For our first outcome, there are multiple ways to choose 3 white pairs of socks from 5 possible white pairs, 1 black from 3 black pairs, and 1 red from 2 red pairs.</p>
+<p>3White-1Black-1Red = C(5,3) x C(3,1) x C(2,1) = 10 x 3 x 2 = 60</p>
+<p>2White-2Black-1Red = C(5,2) x C(3,2) x C(2,1) = 10 x 3 x 2 = 60</p>
+<p>2White-1Black-2Red = C(5,2) x C(3,1) x C(2,2) = 10 x 3 x 1 = 30</p>
+<p>1White-3Black-1Red = C(5,1) x C(3,3) x C(2,1) = 5 x 1 x 2 = 10</p>
+<p>1White-2Black-2Red = C(5,1) x C(3,2) x C(2,2) = 5 x 3 x 1 = 15</p>
+<p>Add those all up and we get 175 possible ways to get at least one pair of each color.</p>
+<p>175/252 = 0.694 or 69.4%</p>
+<p>&nbsp;</p>
+<p>
+</div></td></tr>
+</table>
+<div class='easySpoilerConclude' style='border-color:#7c7c7c;'><table class='easySpoilerTable' border='0' style='text-align:center;' frame='box' align='center' bgcolor='FFFFFF'><tr><th class='easySpoilerEnd' style='width:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></th><td class='easySpoilerEnd' style='white-space:nowrap;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;' colspan='2'></td></tr><tr><td class='easySpoilerGroupWrapperLastRow' colspan='2' style='background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></td></tr></table></div>
+</div>
+
+<!-- Simple Share Buttons Adder (6.2.4) simplesharebuttons.com --><div class="ssba ssba-wrap"><div style="text-align:left"><a data-site="" class="ssba_facebook_share" href="http://www.facebook.com/sharer.php?u=http://www.stayorswitch.com/blog/"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/facebook.png" title="Facebook" class="ssba ssba-img" alt="Share on Facebook" /></a><a data-site="" class="ssba_twitter_share" href="http://twitter.com/share?url=http://www.stayorswitch.com/blog/&amp;text=Pairs+of+Socks+in+the+Dark+"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/twitter.png" title="Twitter" class="ssba ssba-img" alt="Tweet about this on Twitter" /></a><a data-site="" class="ssba_google_share" href="https://plus.google.com/share?url=http://www.stayorswitch.com/blog/"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/google.png" title="Google+" class="ssba ssba-img" alt="Share on Google+" /></a><a data-site="email" class="ssba_email_share" href="mailto:?subject=Pairs of Socks in the Dark&amp;body=%20http://www.stayorswitch.com/blog/"><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/email.png" title="Email" class="ssba ssba-img" alt="Email this to someone" /></a><a data-site='pinterest' class='ssba_pinterest_share' href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;//assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/pinterest.png" title="Pinterest" class="ssba ssba-img" alt="Pin on Pinterest" /></a><a data-site="stumbleupon" class="ssba_stumbleupon_share ssba_share_link" href="http://www.stumbleupon.com/submit?url=http://www.stayorswitch.com/blog/&amp;title=Pairs of Socks in the Dark"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/stumbleupon.png" title="StumbleUpon" class="ssba ssba-img" alt="Share on StumbleUpon" /></a><a data-site="reddit" class="ssba_reddit_share" href="http://reddit.com/submit?url=http://www.stayorswitch.com/blog/&amp;title=Pairs of Socks in the Dark"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/reddit.png" title="Reddit" class="ssba ssba-img" alt="Share on Reddit" /></a></div></div>
+</p>
+<hr> <heading1><a href="http://www.stayorswitch.com/blog/just-released-iphone-game-called-flippycoin-3d/" rel="bookmark" title="Permanent Link to Just released iPhone game called Flippin&#8217; Heads">Just released iPhone game called Flippin&#8217; Heads</a></heading1></br>
+<heading4>February 11th, 2016</heading4>
+<p><p><a href="https://itunes.apple.com/us/app/id1078114608"><img class="alignnone wp-image-171 size-full" src="http://stayorswitch.com/blog/wp-content/uploads/2016/02/flippy-coin-app-icon-180.png" alt="flippy-coin-app-icon-180" width="180" height="180" srcset="http://www.stayorswitch.com/blog/wp-content/uploads/2016/02/flippy-coin-app-icon-180.png 180w, http://www.stayorswitch.com/blog/wp-content/uploads/2016/02/flippy-coin-app-icon-180-150x150.png 150w" sizes="(max-width: 180px) 100vw, 180px" /></a></p>
+<p>I&#8217;ve been working on the game for a few months. <span style="text-decoration: underline;"><a href="https://itunes.apple.com/us/app/id1078114608">Check it out here.</a></span> Hope you like it!</p>
+</p>
+<hr> <heading1><a href="http://www.stayorswitch.com/blog/law-of-large-numbers-explained-and-visualized/" rel="bookmark" title="Permanent Link to Law of Large Numbers &#8211; Explained and Visualized">Law of Large Numbers &#8211; Explained and Visualized</a></heading1></br>
+<heading4>December 23rd, 2015</heading4>
+<p><p>Just finished an animated video explaining the law of large numbers from the field of probability. Check it out:</p>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/MntX3zWNWec?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+</p>
+<hr> <heading1><a href="http://www.stayorswitch.com/blog/blowin-in-the-wind/" rel="bookmark" title="Permanent Link to Blowin&#8217; in the wind">Blowin&#8217; in the wind</a></heading1></br>
+<heading4>November 14th, 2015</heading4>
+<p><p><a href="http://stayorswitch.com/blog/wp-content/uploads/2015/11/Screen-Shot-2015-11-12-at-10.23.01-PM.png"><img class="alignnone size-medium wp-image-152" src="http://stayorswitch.com/blog/wp-content/uploads/2015/11/Screen-Shot-2015-11-12-at-10.23.01-PM-300x198.png" alt="Field of Corn" width="300" height="198" srcset="http://www.stayorswitch.com/blog/wp-content/uploads/2015/11/Screen-Shot-2015-11-12-at-10.23.01-PM-300x198.png 300w, http://www.stayorswitch.com/blog/wp-content/uploads/2015/11/Screen-Shot-2015-11-12-at-10.23.01-PM.png 640w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>My brother recently wrote a <span style="text-decoration: underline;"><a href="http://lifeandwildlife.com/2015/11/11/are-gmos-a-bfd/">blog post about GMOs</a></span> on his science blog and it got me thinking about patented seeds blowing from one field to another.</p>
+<p>Imagine you farm a 100&#215;100 yard square field with another 100&#215;100 yard square field directly to your east. The field to your east has patented seeds and you&#8217;re worried about the seeds getting blown into your field. The wind is blowing from the northeast and carries a seed about 50 yards. If 9 seeds are released randomly from plants in your neighbor&#8217;s field today, what&#8217;s the probability that at least one of the seeds blows into your field?</p>
+
+<div class='easySpoilerWrapper' style='border-color:#7c7c7c;'>
+<table class='easySpoilerTable' border='0' style='text-align:center;' align='center' bgcolor='FFFFFF' >
+
+<tr style='white-space:normal;'>
+<th class='easySpoilerTitleA' style='white-space:normal;font-weight:bold;text-align:left;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;color:#f4f4f4;'><a href='blog' onclick='wpSpoilerToggle("spoilerDiv3ce08003",true,"Show Solution","Hide Solution","fast",false); return false;' onselectstart='return false;' style='text-decoration: none;color:#f4f4f4;'>Show/Hide Solution</a></th>
+<th class='easySpoilerTitleB'style='padding:0px;text-align:right;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c; white-space:nowrap;'><a href='blog'  class='easySpoilerButton' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px; padding: 4px; ' align='right'>Select</a><a href='blog'  id='spoilerDiv3ce08003_action' class='easySpoilerButtonBare' value="Show Solution" align='right' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px 5px; padding: 4px;'>Show Solution</></th>
+</tr>
+<tr><td class='easySpoilerRow' colspan='2' style='border-color:#7c7c7c;'><div id='spoilerDiv3ce08003' class='easySpoilerSpoils'  style='display:none; white-space:wrap; overflow:auto; vertical-align:middle;background-color:#7c7c7c;background-image:none;color:#f4f4f4;border-color:#7c7c7c;'>
+ The short answer is that there&#8217;s a 90.3% chance that at least one of the seeds blows into your field. The diagram below shows region A. If a seed originates from this region, it will end up in your field.</p>
+<p>&nbsp;</p>
+<p><a href="http://stayorswitch.com/blog/wp-content/uploads/2015/11/Probability-Problem-Diagram-Patented-Seeds-3.png"><img class="alignleft wp-image-164 " src="http://stayorswitch.com/blog/wp-content/uploads/2015/11/Probability-Problem-Diagram-Patented-Seeds-3.png" alt="Probability Problem Diagram - Patented Seeds (3)" width="710" height="532" srcset="http://www.stayorswitch.com/blog/wp-content/uploads/2015/11/Probability-Problem-Diagram-Patented-Seeds-3.png 960w, http://www.stayorswitch.com/blog/wp-content/uploads/2015/11/Probability-Problem-Diagram-Patented-Seeds-3-300x225.png 300w" sizes="(max-width: 710px) 100vw, 710px" /></a></p>
+<p>
+</div></td></tr>
+</table>
+<div class='easySpoilerConclude' style='border-color:#7c7c7c;'><table class='easySpoilerTable' border='0' style='text-align:center;' frame='box' align='center' bgcolor='FFFFFF'><tr><th class='easySpoilerEnd' style='width:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></th><td class='easySpoilerEnd' style='white-space:nowrap;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;' colspan='2'></td></tr><tr><td class='easySpoilerGroupWrapperLastRow' colspan='2' style='background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></td></tr></table></div>
+</div>
+
+<p>&nbsp;</p>
+</p>
+<hr> <heading1><a href="http://www.stayorswitch.com/blog/travel-coincidence/" rel="bookmark" title="Permanent Link to True Story: Travel Coincidence!">True Story: Travel Coincidence!</a></heading1></br>
+<heading4>October 26th, 2015</heading4>
+<p><p><a href="http://stayorswitch.com/blog/wp-content/uploads/2015/10/airplane-698539_1920.jpg"><img class="alignnone size-medium wp-image-144" src="http://stayorswitch.com/blog/wp-content/uploads/2015/10/airplane-698539_1920-300x199.jpg" alt="Airplane Seats" width="300" height="199" srcset="http://www.stayorswitch.com/blog/wp-content/uploads/2015/10/airplane-698539_1920-300x199.jpg 300w, http://www.stayorswitch.com/blog/wp-content/uploads/2015/10/airplane-698539_1920-1024x680.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>It&#8217;s been a while since the last post. Here&#8217;s a situation that actually happened last weekend. My wife and I were flying home from a wedding and the first leg of our itinerary was by chance the same as the first leg of the itinerary of my wife&#8217;s sister, who lives in a different state. So, we were going to be on the same plane.</p>
+<p>When we got on the plane, which had 12 rows with two seats on either side of the aisle, my wife&#8217;s sister was across the aisle from us in the same row! This whole circumstance occurred completely by chance. Since a lot of information needs to be collected to calculate the probability that we were on the same flight, we&#8217;ll take that as a given. Given that we were on the same flight, what is the probability that we were sitting next to each other on the flight? Assume that my wife and I will book two seats on the same side of the aisle and my wife&#8217;s sister will book an aisle seat.</p>
+
+<div class='easySpoilerWrapper' style='border-color:#7c7c7c;'>
+<table class='easySpoilerTable' border='0' style='text-align:center;' align='center' bgcolor='FFFFFF' >
+
+<tr style='white-space:normal;'>
+<th class='easySpoilerTitleA' style='white-space:normal;font-weight:bold;text-align:left;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;color:#f4f4f4;'><a href='blog' onclick='wpSpoilerToggle("spoilerDiv33e98004",true,"Show Solution","Hide Solution","fast",false); return false;' onselectstart='return false;' style='text-decoration: none;color:#f4f4f4;'>Show/Hide Solution</a></th>
+<th class='easySpoilerTitleB'style='padding:0px;text-align:right;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c; white-space:nowrap;'><a href='blog'  class='easySpoilerButton' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px; padding: 4px; ' align='right'>Select</a><a href='blog'  id='spoilerDiv33e98004_action' class='easySpoilerButtonBare' value="Show Solution" align='right' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px 5px; padding: 4px;'>Show Solution</></th>
+</tr>
+<tr><td class='easySpoilerRow' colspan='2' style='border-color:#7c7c7c;'><div id='spoilerDiv33e98004' class='easySpoilerSpoils'  style='display:none; white-space:wrap; overflow:auto; vertical-align:middle;background-color:#7c7c7c;background-image:none;color:#f4f4f4;border-color:#7c7c7c;'>
+ As is true with many probability problems, it&#8217;s helpful to break it into two distinct events: (1) we select our seats and (2) my wife&#8217;s sister selects her seat. We can choose our two seats anywhere, lets say 10A and 10B. At this point, there are 23 remaining aisle seats (12 rows * 2 aisle seats per row &#8211; 1 aisle seat that we have). One of those 23 aisle seats is across the aisle from us. So the probability that she&#8217;s sitting next to us is 1/23.</p>
+<p>Another variation would allow for my wife&#8217;s sister to choose from window seats as well. In this case there are 46 remaining seats after we choose our 2 seats and only one of those is the aisle seat across from us. So that would yield a probability of 1/46. I&#8217;ll have to ask my wife&#8217;s sister if she chose an aisle seat intentionally or if it was assigned to her!<br />
+
+</div></td></tr>
+</table>
+<div class='easySpoilerConclude' style='border-color:#7c7c7c;'><table class='easySpoilerTable' border='0' style='text-align:center;' frame='box' align='center' bgcolor='FFFFFF'><tr><th class='easySpoilerEnd' style='width:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></th><td class='easySpoilerEnd' style='white-space:nowrap;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;' colspan='2'></td></tr><tr><td class='easySpoilerGroupWrapperLastRow' colspan='2' style='background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></td></tr></table></div>
+</div>
+
+<!-- Simple Share Buttons Adder (6.2.4) simplesharebuttons.com --><div class="ssba ssba-wrap"><div style="text-align:left"><a data-site="" class="ssba_facebook_share" href="http://www.facebook.com/sharer.php?u=http://www.stayorswitch.com/blog/"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/facebook.png" title="Facebook" class="ssba ssba-img" alt="Share on Facebook" /></a><a data-site="" class="ssba_twitter_share" href="http://twitter.com/share?url=http://www.stayorswitch.com/blog/&amp;text=True+Story%3A+Travel+Coincidence%21+"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/twitter.png" title="Twitter" class="ssba ssba-img" alt="Tweet about this on Twitter" /></a><a data-site="" class="ssba_google_share" href="https://plus.google.com/share?url=http://www.stayorswitch.com/blog/"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/google.png" title="Google+" class="ssba ssba-img" alt="Share on Google+" /></a><a data-site="email" class="ssba_email_share" href="mailto:?subject=True Story: Travel Coincidence!&amp;body=%20http://www.stayorswitch.com/blog/"><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/email.png" title="Email" class="ssba ssba-img" alt="Email this to someone" /></a><a data-site='pinterest' class='ssba_pinterest_share' href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;//assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/pinterest.png" title="Pinterest" class="ssba ssba-img" alt="Pin on Pinterest" /></a><a data-site="stumbleupon" class="ssba_stumbleupon_share ssba_share_link" href="http://www.stumbleupon.com/submit?url=http://www.stayorswitch.com/blog/&amp;title=True Story: Travel Coincidence!"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/stumbleupon.png" title="StumbleUpon" class="ssba ssba-img" alt="Share on StumbleUpon" /></a><a data-site="reddit" class="ssba_reddit_share" href="http://reddit.com/submit?url=http://www.stayorswitch.com/blog/&amp;title=True Story: Travel Coincidence!"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/reddit.png" title="Reddit" class="ssba ssba-img" alt="Share on Reddit" /></a></div></div>
+</p>
+<hr> <heading1><a href="http://www.stayorswitch.com/blog/flippin-and-standin/" rel="bookmark" title="Permanent Link to Flippin&#8217; and Standin&#8217;">Flippin&#8217; and Standin&#8217;</a></heading1></br>
+<heading4>April 4th, 2015</heading4>
+<p><p><a href="http://stayorswitch.com/blog/wp-content/uploads/2015/04/festive_dinner_table-v3.png"><img class="alignnone wp-image-137 size-medium" src="http://stayorswitch.com/blog/wp-content/uploads/2015/04/festive_dinner_table-v3-300x200.png" alt="festive_dinner_table v3" width="300" height="200" srcset="http://www.stayorswitch.com/blog/wp-content/uploads/2015/04/festive_dinner_table-v3-300x200.png 300w, http://www.stayorswitch.com/blog/wp-content/uploads/2015/04/festive_dinner_table-v3.png 720w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Six people are sitting around a circular table, each holding a fair coin. All six people flip their coins and those who flip heads stand, while those who flip tails remain seated. What is the probability that no two adjacent people will stand?</p>
+
+<div class='easySpoilerWrapper' style='border-color:#7c7c7c;'>
+<table class='easySpoilerTable' border='0' style='text-align:center;' align='center' bgcolor='FFFFFF' >
+
+<tr style='white-space:normal;'>
+<th class='easySpoilerTitleA' style='white-space:normal;font-weight:bold;text-align:left;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;color:#f4f4f4;'><a href='blog' onclick='wpSpoilerToggle("spoilerDiv4d668005",true,"Show Solution","Hide Solution","fast",false); return false;' onselectstart='return false;' style='text-decoration: none;color:#f4f4f4;'>Show/Hide Solution</a></th>
+<th class='easySpoilerTitleB'style='padding:0px;text-align:right;vertical-align:middle;font-size:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c; white-space:nowrap;'><a href='blog'  class='easySpoilerButton' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px; padding: 4px; ' align='right'>Select</a><a href='blog'  id='spoilerDiv4d668005_action' class='easySpoilerButtonBare' value="Show Solution" align='right' style='font-size:100%;color:#f4f4f4;background-color:#7c7c7c;background-image:none;border: 1px inset;border-style:solid;border-color:#7c7c7c;display:none; margin: 3px 0px 3px 5px; padding: 4px;'>Show Solution</></th>
+</tr>
+<tr><td class='easySpoilerRow' colspan='2' style='border-color:#7c7c7c;'><div id='spoilerDiv4d668005' class='easySpoilerSpoils'  style='display:none; white-space:wrap; overflow:auto; vertical-align:middle;background-color:#7c7c7c;background-image:none;color:#f4f4f4;border-color:#7c7c7c;'>
+If six coins are flipped, there are a total of 64 (or 2^6) possible outcomes. Let&#8217;s count the number of &#8220;successes&#8221; &#8212; outcomes in which no two adjacent people will stand. We&#8217;ll have successes when 0, 1, 2, or 3 people flip heads. If 4, 5, or 6 flip heads it&#8217;s guaranteed that two adjacent people will stand.</p>
+<p>Let&#8217;s count the successes for each number of heads:</p>
+<p>0 heads flipped &#8211; There is <strong>1</strong> way for this to happen (TTTTTT) and it is a success.</p>
+<p>1 heads flipped &#8211; There are <strong>6 </strong>ways for this to happen (HTTTTT, THTTTT, TTHTTT, TTTHTT, TTTTHT, TTTTTH) and all of them are successes.</p>
+<p>2 heads flipped &#8211; If there are 6 people and 2 flip heads, then there are 6 people who could flip the first head and 5 people who could flip the second head, giving 6*5 or 30 possible pairings. This must be divided by 2 because the order doesn&#8217;t matter (Bob and Mary is the same as Mary and Bob). So, there are 15 ways for 2 heads to be flipped. It&#8217;ll be a success unless the people are adjacent. There are 6 ways that they could be adjacent (HHTTTT, THHTTT, TTHHTT, TTTHHT, TTTTHH, HTTTTH), leaving us with <strong>9</strong> successes.</p>
+<p>3 heads flipped &#8211; For this to be a success, every other person must flip heads. There are only <strong>2</strong> ways for this to happen (HTHTHT, THTHTH).</p>
+<p>Let&#8217;s add them up! 1 + 6 + 9 + 2 = 18. So the probability is 18/64, about 28%, that no two adjacent people will stand. Woo!</p>
+<p>
+</div></td></tr>
+</table>
+<div class='easySpoilerConclude' style='border-color:#7c7c7c;'><table class='easySpoilerTable' border='0' style='text-align:center;' frame='box' align='center' bgcolor='FFFFFF'><tr><th class='easySpoilerEnd' style='width:100%;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></th><td class='easySpoilerEnd' style='white-space:nowrap;background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;' colspan='2'></td></tr><tr><td class='easySpoilerGroupWrapperLastRow' colspan='2' style='background-color:#7c7c7c;background-image:none;border-color:#7c7c7c;'></td></tr></table></div>
+</div>
+
+<!-- Simple Share Buttons Adder (6.2.4) simplesharebuttons.com --><div class="ssba ssba-wrap"><div style="text-align:left"><a data-site="" class="ssba_facebook_share" href="http://www.facebook.com/sharer.php?u=http://www.stayorswitch.com/blog/"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/facebook.png" title="Facebook" class="ssba ssba-img" alt="Share on Facebook" /></a><a data-site="" class="ssba_twitter_share" href="http://twitter.com/share?url=http://www.stayorswitch.com/blog/&amp;text=Flippin%E2%80%99+and+Standin%E2%80%99+"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/twitter.png" title="Twitter" class="ssba ssba-img" alt="Tweet about this on Twitter" /></a><a data-site="" class="ssba_google_share" href="https://plus.google.com/share?url=http://www.stayorswitch.com/blog/"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/google.png" title="Google+" class="ssba ssba-img" alt="Share on Google+" /></a><a data-site="email" class="ssba_email_share" href="mailto:?subject=Flippin%26#8217; and Standin%26#8217;&amp;body=%20http://www.stayorswitch.com/blog/"><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/email.png" title="Email" class="ssba ssba-img" alt="Email this to someone" /></a><a data-site='pinterest' class='ssba_pinterest_share' href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;//assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/pinterest.png" title="Pinterest" class="ssba ssba-img" alt="Pin on Pinterest" /></a><a data-site="stumbleupon" class="ssba_stumbleupon_share ssba_share_link" href="http://www.stumbleupon.com/submit?url=http://www.stayorswitch.com/blog/&amp;title=Flippin&#8217; and Standin&#8217;"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/stumbleupon.png" title="StumbleUpon" class="ssba ssba-img" alt="Share on StumbleUpon" /></a><a data-site="reddit" class="ssba_reddit_share" href="http://reddit.com/submit?url=http://www.stayorswitch.com/blog/&amp;title=Flippin&#8217; and Standin&#8217;"  target="_blank" ><img src="http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/reddit.png" title="Reddit" class="ssba ssba-img" alt="Share on Reddit" /></a></div></div>
+<p>&nbsp;</p>
+</p>
+<hr> 
+<a href="http://www.stayorswitch.com/blog/archive">
+<div id="sidebarposts" style="background-color: #999999; width: 521px; margin-left: 84px; font-size: 22pt; margin-top: 20px;" onmouseover="this.style.background='#7c7c7c';" onmouseout="this.style.background='#999999';">
+Click here to view archived puzzles...
+</div>
+</a>
+
+</div> 
+
+<!--Begin MailChimp Form -->
+<div id="mc_embed_signup"  style="margin-top:10px; margin-left:30px; width:190px; background:#386be5; padding:10px; float:left;">
+	<form action="http://stayorswitch.us7.list-manage.com/subscribe/post?u=1e86cc96cf53914baeed88866&amp;id=bdd65fa1e6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<label for="mce-EMAIL">My Top 13 Simple Math Puzzles Most People Can't Solve<br><font size=2pt>(Hint: They All Have Elegant Answers)</font></label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+	<div class="clear"><input type="submit" value="Download the Free PDF" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	</form></div>
+<!--End MailChimp Form -->
+
+
+<a href="http://www.stayorswitch.com/blog/archive">
+<div id="sidebarposts" style="background-color: #999999; width: 186px" onmouseover="this.style.background='#7c7c7c';" onmouseout="this.style.background='#999999';">
+Click here to view archived puzzles...
+</div>
+</a>
+
+
+<!-- OLD CODE
+<div id="sidebarposts">
+Past Posted Puzzles...<ul>
+	<li><a href='http://www.stayorswitch.com/blog/how-to-calculate-permutations-and-combinations/'>How to calculate permutations and combinations</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/addition-and-multiplication-probability-formulas/'>Addition and Multiplication Probability Formulas</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/new-animated-video-showing-how-to-calculate-standard-deviation/'>New animated video showing how to calculate standard deviation</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/can-you-open-the-secret-passageway-in-time/'>Can you open the secret passageway in time?</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/pairs-of-socks-in-the-dark/'>Pairs of Socks in the Dark</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/just-released-iphone-game-called-flippycoin-3d/'>Just released iPhone game called Flippin&#8217; Heads</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/law-of-large-numbers-explained-and-visualized/'>Law of Large Numbers &#8211; Explained and Visualized</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/blowin-in-the-wind/'>Blowin&#8217; in the wind</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/travel-coincidence/'>True Story: Travel Coincidence!</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/flippin-and-standin/'>Flippin&#8217; and Standin&#8217;</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/what-is-the-probability-of-finding-your-birthday-in-the-first-100-million-digits-of-pi/'>What is the probability of finding your birthday in the first 100 million digits of pi?</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/will-you-be-matched-with-your-date-on-valentines-day/'>Will you be matched with your date on Valentine&#8217;s day?</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/swimming-in-the-spotlight/'>Swimming in the Spotlight</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/will_there_be_a_peanut_butter_cup_in_your_daughters_candy_stash/'>Will there be a peanut butter cup in your daughter&#8217;s candy stash?</a></li>
+	<li><a href='http://www.stayorswitch.com/blog/fork_in_the_road/'>Logic Puzzle: So you come to a fork in the road&#8230;</a></li>
+</div>
+-->
+<!-- SPECIFIC PAGE CONTENT ENDS HERE -->
+<!-- #mainContent --> 
+<br class="clearfloat" />
+
+<!-- Footer Navigation -->
+<div id="footernav">
+<a href="index.html">Play&nbsp;</a>
+|
+<a href="explanation.php">&nbsp;Explanation&nbsp;</a>
+|
+<a href="blog">&nbsp;Blog&nbsp;</a>
+|
+<a href="http://www.stayorswitch.com/history.html">&nbsp;History&nbsp;</a>
+|
+<a href="http://www.stayorswitch.com/about.html">&nbsp;About</a>
+<!-- End Footer Navigation -->
+<p><span style="color:#f4f4f4; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; font-size:12px; margin-left:55px;">&copy; 2016 <a href="http://www.stayorswitch.com/about.html" rel="author">Jeremy Jones</a>. All rights reserved.</span></p>
+</div>
+
+<script type='text/javascript' src='http://w.sharethis.com/button/st_insights.js'></script>
+<script type='text/javascript' src='http://www.stayorswitch.com/blog/wp-content/plugins/simple-share-buttons-adder/js/ssba.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://www.stayorswitch.com/blog/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+
+</body>
+</html>

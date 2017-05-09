@@ -1,0 +1,10 @@
+#
+# See http://www.robotstxt.org/
+#
+User-agent: *
+Disallow: /announcements/seminars-and-colloquia/weekly/
+Disallow: /announcements/seminars-and-colloquia/future/
+Disallow: /announcements/seminars-and-colloquia/past/
+Disallow: /resources/planned-course-offerings/
+Disallow: /resources/course-websites/
+Disallow: /announcements/seminar-room-schedules/
