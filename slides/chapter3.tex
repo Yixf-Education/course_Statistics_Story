@@ -36,12 +36,27 @@
 \begin{frame}
   \frametitle{大数定律 | 引言}
   \begin{block}{中心极限定理}
-  中心极限定理说明，大量相互独立的随机变量，其均值的分布以正态分布为极限。这组定理是数理统计学和误差分析的理论基础，指出了大量随机变量之和近似服从正态分布的条件。
+中心极限定理说明，大量相互独立的随机变量，其均值的分布以正态分布为极限。这组定理是数理统计学和误差分析的理论基础，指出了大量随机变量之和近似服从正态分布的条件。
   \vspace{-1em}
   \begin{figure}
     \centering
     \includegraphics[width=0.45\textwidth]{c3.zhongxin.01.png}
   \end{figure}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数定律 | 引言}
+  \begin{block}{抽奖}
+    \begin{itemize}
+      \item 每100人中有一人中奖
+      \item 中奖概率为1\%
+    \end{itemize}
+    \vspace{-1em}
+    \begin{figure}
+      \centering
+      \includegraphics[width=0.8\textwidth]{c3.chance.01.jpg}
+    \end{figure}
   \end{block}
 \end{frame}
 
@@ -842,19 +857,114 @@
 \end{frame}
 
 \section{知识拓展}
+\subsection{辛普森悖论}
 \begin{frame}
   \frametitle{辛普森悖论}
+  \begin{block}{辛普森悖论}
+当人们尝试探究两种变量（比如新生录取率与性别）是否具有相关性的时候，会分别对之进行分组研究。然而，在分组比较中都占优势的一方，在总评中有时反而是失势的一方。
+  \end{block}
+  \pause
+  \begin{block}{警示}
+    \begin{itemize}
+      \item 简单的将分组数据相加汇总，是不能反映真实情况的。
+      \item 必需清楚了解情况，以综合考虑是否存在造成此悖论的潜在因素。
+      \item 为了避免辛普森悖论的出现，就需要斟酌各分组的权重，并乘以一定的系数去消除以分组数据基数差异而造成的影响。
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{辛普森悖论}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{c3.simpson.01.png}\\
+    \includegraphics[width=0.5\textwidth]{c3.simpson.03.png}
+  \end{figure}
+\end{frame}
+
+\subsection{区群谬误}
+\begin{frame}
+  \frametitle{区群谬误}
+  \begin{block}{区群谬误}
+    区群谬误（Ecological fallacy），又称生态谬误，层次谬误，是一种在分析统计资料时常犯的错误。和以偏概全相反，区群谬误是一种以全概偏，如果仅基于群体的统计数据就对其下属的个体性质作出推论，就是犯上区群谬误。这谬误假设了群体中的所有个体都有群体的性质（因此塑型（Sterotypes）也可能犯上区群谬误）。区群谬误的相反情况为化约主义（Reductionism)。
+  \end{block}
+  \pause
+  \begin{block}{举例}
+一项研究发现甲城市民的智商平均比乙城市民高，若因此认为在两个城市各自随机抽取一个市民，甲城那位市民的智商都会比乙城的那位高，便犯上了区群谬误。因为统计结果只是对两城的平均智商作比较，乙城个别市民智商可能比甲城的个别市民高；在极端情况下，两城之中智商最高的一位市民可能生活在乙城。
+  \end{block}
 \end{frame}
 
 \begin{frame}
   \frametitle{区群谬误}
+  \begin{block}{区群谬误}
+假设甲城和乙城都各有相同人数的富人和穷人，富人都住在山上，而穷人都住在排放致癌物的工厂附近，故此在两个城市的穷人癌症发病率都比富人高很多倍。在甲城的都是高增值高污染工业，故此在甲城无论是富人和穷人的平均工资都比乙城高，但同时甲城穷人的癌症发病率也因此比乙城高。\\
+\vspace{1em}
+一位教授希望找出癌症的风险因素，他在国家统计刊物找到甲城和乙城的癌症发病率和工资中位数，发现工资中位数较高的甲城有更高的癌症发病率，得出高收入是癌症风险因素的结论。然而事实上，贫穷才是癌症的风险因素，区群谬误带来相反的结论。
+  \end{block}
+\end{frame}
+
+\subsection{生日问题}
+\begin{frame}
+  \frametitle{生日问题}
+  \begin{block}{生日问题}
+生日问题是指，如果一个房间里有23个或23个以上的人，那么至少有两个人的生日相同的概率要大于50\%。这就意味着在一个典型的标准小学班级（30人）中，存在两人生日相同的可能性更高。对于60或者更多的人，这种概率要大于99\%。\\
+\vspace{0.3em}
+从引起逻辑矛盾的角度来说生日悖论并不是一种悖论，从这个数学事实与一般直觉相抵触的意义上，它才称得上是一个悖论。大多数人会认为，23人中有2人生日相同的概率应该远远小于50\%。
+  \end{block}
 \end{frame}
 
 \begin{frame}
   \frametitle{生日问题}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c3.birthday.01.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{生日问题}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{c3.birthday.03.png}\\
+    \includegraphics[width=0.5\textwidth]{c3.birthday.04.png}
+  \end{figure}
+\end{frame}
+
+\subsection{鸽巢原理}
+\begin{frame}
+  \frametitle{鸽巢原理}
+  \begin{block}{鸽巢原理（狄利克雷抽屉原理、鸽笼原理）}
+    \begin{itemize}
+      \item 若有n个笼子和n+1只鸽子，所有的鸽子都被关在鸽笼里，那么至少有一个笼子有至少2只鸽子。
+      \item 若有n个笼子和kn+1只鸽子，所有的鸽子都被关在鸽笼里，那么至少有一个笼子有至少k+1只鸽子。
+    \end{itemize}
+  \end{block}
+  \vspace{-0.5em}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{c3.box.01.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{鸽巢原理}
+  \begin{block}{举例}
+    \begin{itemize}
+      \item 北京至少有两个人头发数一样多。
+      \item 盒子里有10只黑袜子、12只蓝袜子，你需要拿一对同色的出来。假设你总共只能拿一次，需要拿几只？
+    \end{itemize}
+  \end{block}
+  \pause
+  \begin{block}{解析}
+    \begin{itemize}
+      \item 常人的头发数在15万左右，可以假定没有人有超过100万根头发，但北京人口大于100万。如果我们让每一个鸽巢对应一个头发数字，鸽子对应于人，那就变成了有大于100万只鸽子要进到至多100万个巢中。所以，可以得到“北京至少有两个人头发数一样多”的结论。
+      \item 只要3只就无法回避会拿到至少两只相同颜色的袜子，因为颜色只有两种（鸽巢只有两个），而有三只袜子（三只鸽子），从而得到“拿3只袜子出来，就能保证有一双同色”的结论。
+    \end{itemize}
+  \end{block}
 \end{frame}
 
 \section{图说天下}
+\subsection{蒙提霍尔问题}
 \begin{frame}
   \frametitle{蒙提霍尔问题}
   \begin{figure}
