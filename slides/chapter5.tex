@@ -1,0 +1,617 @@
+\input{snippet/beamer_head}
+\input{snippet/class_head}
+
+%\includeonlyframes{current}
+
+\title[相关 vs. 因果]{第五章\quad 相关不等于因果}
+\author[Yixf]{伊现富（Yi Xianfu）}
+\institute[TIJMU]{天津医科大学（TIJMU）\\ 生物医学工程与技术学院}
+\date{2017年6月}
+
+\input{snippet/beamer_toc.tex}
+
+\section{引言}
+\subsection{相关}
+\begin{frame}
+  \frametitle{引言 | 相关}
+  \begin{block}{相关}
+在概率论和统计学中，相关（correlation，或称相关系数或关联系数），显示两个随机变量之间线性关系的强度和方向。\\
+\vspace{0.5em}
+两个变量的关系可以直观地用散点图表示，当其紧密地群聚于一条直线的周围时，变量间存在强相关。\\
+\vspace{0.5em}
+相关系数的计算过程可表示为：将每个变量都转化为标准单位，乘积的平均数即为相关系数。\\
+\vspace{0.5em}
+在统计学中，相关的意义是用来衡量两个变量相对于其相互独立的距离。在该定义下，有许多根据数据特点而定义的用来衡量数据相关的系数：
+\begin{itemize}
+  \item Pearson相关系数（Pearson's r）：衡量两个等距尺度或等比尺度变数之相关性。
+  \item Spearman等级相关系数：衡量两个次序尺度变数之相关性。
+  \item Gamma相关系数、Kendall等级相关系数、Phi相关系数、点二系列相关系数……
+\end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{引言 | 相关}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c5.cor.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{引言 | 相关 | 程度}
+  \begin{table}
+    \centering
+    \rowcolors[]{1}{blue!20}{blue!10}
+    \begin{tabular}{ccc}
+      \hline
+      \rowcolor{blue!50} 相关系数绝对值 & 相关程度 & 相关程度\\
+      \hline
+      约=1 & 完全相关 & Perfect correlated\\
+      0.7～0.99 & 高度相关 & Highly correlated\\
+      0.4～0.69 & 中度相关 & Moderately correlated\\
+      0.1～0.39 & 低度相关 & Modestly correlated\\
+      0.01~0.09 & 接近无相关 & Weakly correlated\\
+      约=0 & 无相关 & ---\\
+      \hline
+    \end{tabular}
+  \end{table}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{c5.cor.02.jpg}
+  \end{figure}
+\end{frame}
+
+\subsection{因果}
+\begin{frame}
+  \frametitle{引言 | 因果}
+  \begin{block}{因果关系}
+    因果关系是一个事件（即“因”）和第二个事件（即“果”）之间的关系，其中后一事件被认为是前一事件的结果。\\
+    \vspace{0.5em}
+一般来说，因果还可以指一系列因素（因）和一个现象（果）之间的关系。对某个结果产生影响的任何事件都是该结果的一个因素。直接因素是直接影响结果的因素，也即无需任何介入因素（介入因素有时又称中介因素）。从这个角度来讲，因果之间的关系也可以称为因果关联（causal nexus）。\\
+    \vspace{0.5em}
+原因和结果通常和变化或事件有关，还包括客体、过程、性质、变量、事实、状况；概括因果关系争议很多。对因果关系的哲学研究历史悠久，佛教和西方哲学家如亚里士多德在2000多年前就已经提出了因果，该问题仍是现代哲学的重要课题。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{引言 | 因果}
+  \begin{block}{因果关系}
+    所谓事出必有因，按下遥控会转台，播种之后会发芽，阳光照耀天气暖，性行为导致生宝宝。人类能够看出两事之间的关联（动物有时也能），这种能力是很神奇的，因为这是生存的必要条件。但这种能力有时却错得离谱，让大家不分对错都能导出因果关系，即使是毫无关联的两件事也能够把它们兜在一起。我们只要看到一件事后面跟着另一件事发生，很容易就会以为前者是后者的原因，每当有相关数据或测量结果可以佐证时，更是如此。\\
+    \vspace{0.5em}
+    用相关性来证明因果关系，是现存最古老、也是最顽固的谬误。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{引言 | 因果}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{c5.baoying.01.png}
+  \end{figure}
+\end{frame}
+
+\subsection{相关 vs. 因果}
+\begin{frame}
+  \frametitle{引言 | 相关 vs. 因果}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{c5.vs.01.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{引言 | 相关 vs. 因果}
+  \begin{block}{你是如何混淆因果关系的？}
+    \begin{itemize}
+      \item “A越多，B越多”这样的相关性实际上有4种可能
+        \begin{itemize}
+          \item A导致B
+          \item B导致A
+          \item A和B同时被C导致
+          \item A和B没有任何关系
+        \end{itemize}
+      \item 为什么我们总是错把“相关”当“因果”？因为我们本能——觉得相互靠近的东西一定是有关系的，同时出现的事件也一定是有关系的。
+      \item 无数的错觉思维和错误归因不断发生
+        \begin{itemize}
+          \item 大众对新闻的错误归因。媒体为了提高点击率，经常使用这样的技巧：让新闻当事人的某个差异性特征出现在新闻上，从而让大众把“相关当因果”，觉得是这个差异性特征导致了他的行为。
+          \item 盲目学习和模仿。我们经常盲目模仿成功者的特点，觉得模仿了他的特点，我们也能成功。（典型例子：成功人士与大学无用论。）
+          \item 刻意规避和迷信。很多让你难以理解的祖传禁忌，实际上可能是当年某个相关事件的发生导致的。
+        \end{itemize}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{引言 | 相关 vs. 因果}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{c5.vs.05.jpg}
+    \includegraphics[width=0.5\textwidth]{c5.vs.06.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{引言 | 相关 vs. 因果}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{c5.vs.07.jpg}
+    \includegraphics[width=0.5\textwidth]{c5.vs.08.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{引言 | 相关 vs. 因果}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{c5.vs.02.jpg}\\
+    \includegraphics[width=0.8\textwidth]{c5.vs.03.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{引言 | 相关 vs. 因果}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c5.vs.04.jpg}
+  \end{figure}
+\end{frame}
+
+\subsection{总结}
+\begin{frame}
+  \frametitle{引言 | 总结}
+  \begin{block}{总结}
+    \begin{itemize}
+      \item 两个事物之间的关联关系并不能用于说明其中一个将引起另一个的变化。
+      \item 所谓的“相关”往往是通过相关系数这个令人心服的精确数值来证明事物之间存在关联关系，它可以有多种不同的类型。
+      \item 联合变动的一种普遍形式是存在着真实的关系，但却无法确定何为因何为果。有时因果可以不时地交换位置，或者实际上互为因果。
+      \item 各种相关关系中，最富戏剧性的是虽然所有变量相互间没有任何影响，但是的确存在这显著地相关。
+      \item 相关显示了一种趋势，而这种趋势通常并不是哪种一对一的理想关系。
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\section{案例解析}
+\subsection{引言}
+\begin{frame}
+  \frametitle{案例 | 引言}
+  \begin{block}{引言}
+两个事物之间的关联关系并不能用于说明其中一个将引起另一个的变化。但是我们却并不总是能够轻易地识别出，我们是不是错误地将关联关系判断为因果关系。特别是，当这种关系乍一看真像那么回事时，又或者它迎合了人们的惯常思维，这时你就更缺乏考究正误的动力了。\\
+\vspace{0.5em}
+由于存在偶然性，对于一些根本不可能发生的事情，你或许仍然能够收集数据证明其存在。但是如果你重新收集数据，或许第二组数据就无法证明这个结论了。任意两个事物或两组特性之间，再利用小样本后，都能建立显著地相关关系。\\
+\vspace{0.5em}
+另一个需要留意的是，超过了推断相关关系的数据范围而得出的结论。正相关到了一定的程度后便急剧地转为负相关。\\
+\vspace{0.5em}
+某种相关关系也许是真实的，它依据的也是真实的因果关系，但同样也可能毫无意义，无法凭此做出行为决策。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 引言}
+  \begin{block}{物理学关系}
+离灯越远，你就月看不清手中的书，也就是说，当距离增大时，光线的密度将减少。这些物理学的关系一般具有确定的相关。然而，来自商业、社会学或是医学的数据却很难如此清晰。
+  \end{block}
+  \vspace{-0.5em}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{c5.case.night.01.png}
+  \end{figure}
+\end{frame}
+
+\subsection{精品案例}
+\begin{frame}
+  \frametitle{案例 | 抽烟 vs. 成绩}
+  \begin{block}{现象}
+    抽烟者的大学成绩比不抽烟者的差。
+  \end{block}
+  \pause
+  \begin{block}{结论与推论}
+    \begin{itemize}
+      \item 在通往好成绩的道路上，需要忍受放弃抽烟带来的痛苦。
+      \item 抽烟使人的头脑变笨。
+    \end{itemize}
+  \end{block}
+  \pause
+  \begin{block}{实验}
+    整个研究过程是正确进行的：样本的容量足够大，而且经过了认真、仔细的挑选，相关关系的确十分显著，等等。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 抽烟 vs. 成绩}
+  \begin{block}{解析}
+    更大的可能性：是两个因素并不互为因果，而同为第三个因素的产物。可能是那些不把读书当回事、爱社交的学生更偏爱抽烟？又或者是否可以从别的相关关系上找到线索？例如，性格与成绩之间的相关关系，它们之间的相关性比成绩与智力之间的还要高些。也许，性格外向的学生比性格内向的更爱抽烟。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 牛奶 vs. 癌症}
+  \begin{block}{警告}
+    一篇医学文章曾严厉警告：喝牛奶的人群，他们癌症的发病率在上升。在英格兰、明尼苏达州、威斯康辛州、瑞士，这些牛奶产量和消费量极大的地区，癌症有上升趋势，而牛奶十分稀缺的锡兰却极少发生癌症病例。更进一步的证据是，在牛奶消费量少的美国南部地区癌症病例也相对较少。文章还指出，牛奶消费量极大的英国妇女患癌症的概率是很少和牛奶的日本妇女的18倍。
+  \end{block}
+  \pause
+  \begin{block}{解析}
+更深入地挖掘下去，会发现还有很多因素都可用于解释癌症发病率的提高，其中有一个因素就十分具有说服力，癌症主要发生在中年或者老年人身上。而发病率高的瑞士和前面提到的那些州，其居民寿命相对较长。研究期间英国妇女的平均寿命比日本妇女长12岁。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 妇女年龄 vs. 脚尖角度}
+  \begin{block}{研究}
+    在研究年龄与妇女某些生理特征的关系时，测量了妇女走路时两脚分开的角度，你将发现年龄较长的妇女两脚分开的角度总是比较大。
+  \end{block}
+  \pause
+  \begin{block}{结论}
+    \begin{itemize}
+      \item 脚尖朝外走路促使人变老。
+      \item 年龄的增长造成脚尖角度的增大，而且大部分妇女随着年龄增长，脚尖的角度在不断增大。
+    \end{itemize}
+  \end{block}
+  \pause
+  \begin{block}{解析}
+任何此类的结论都可能是错误，而且无法得到证实。只有当对同样一些妇女或者基本上同等的群体进行一段时间的研究后，你才能得出合理的结论。因为这可以排除一些因素的影响，比如说，年纪大的女人在其年轻时期可能被告知应该脚尖向外走路，而年轻女人却在一个不鼓励脚尖朝外的年代学习走路。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 跳蚤 vs. 健康}
+  \begin{block}{信条}
+    英国新赫布里底群岛土著居民的信条：身上的跳蚤会带来健康。
+  \end{block}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{c5.case.health.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 跳蚤 vs. 健康}
+  \begin{block}{现象}
+    通过几个世纪的观察，土著居民发现健康人的身上总有一些跳蚤，而身体羸弱的人身上通常没有跳蚤。
+  \end{block}
+  \pause
+  \begin{block}{结论}
+    跳蚤使人身体健康，每个人身上都应该有跳蚤。
+  \end{block}
+  \pause
+  \begin{block}{解析}
+    \begin{itemize}
+      \item 观察本身是正确的，因为它经历了多年来人们随意的检验，但这并不意味着这些土著居民的结论也是正确的。
+      \item 更细心的观察者最终发现了新赫布里底群岛的真想：在大多数情况下，几乎每个居民身上都有跳蚤，这是正常情况。然而，当人们发烧（说不定还是跳蚤引起的）时，随着体温上升，跳蚤不能承受高温而引起的不适，因此就会离开。这里人们完全将因果关系扭曲、颠倒甚至混合了。
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\subsection{其他案例}
+\begin{frame}
+  \frametitle{案例 | 其他 | 海参 vs. 聪明}
+  \begin{block}{实验}
+在一定的人群中统计一下他们是否平时常吃海参，挑选出常吃海参的一组和不常吃海参的一组。然后进行智商测试，对总体结果进行统计，看看哪一组智商平均值更高，或者直接统计吃海参频率和智商之间的相关系数。
+  \end{block}
+  \pause
+  \begin{block}{结论与推论}
+    \begin{itemize}
+      \item 如果常吃海参的一组平均智商得分更高，那么研究人员就会得出结论：常吃海参和智商高之间是呈正相关的关系的。
+      \item 海参吃得越多智商就越高哦！为了提高智商赶紧吃海参吧！
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 其他 | 海参 vs. 聪明}
+  \begin{block}{解析}
+海参和聪明之间的正相关性，有可能是因为经常吃到海参的家庭一般比较富裕，而富裕的家庭通常可以给孩子提供更好的教育资源，以使得孩子更聪明；也可能是有一个或者多个基因，同时起到了使人喜欢吃海参和提升智商两种作用。如果不排除这些其他可能性，说吃海参可以导致更聪明的说法就是不可信的。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 其他 | 牧师 vs. 朗姆酒}
+  \begin{block}{现象}
+ 在1860年到1940年间，美国东北部新英格兰地区卫理公会牧师数量呈现上升趋势，而其中最大的城市波士顿进口的古巴朗姆酒数量也随之增加，二者增加的趋势极其相似。
+    \end{block}
+  \pause
+  \begin{block}{结论}
+卫理公会牧师肯定在那段时间抢购了大量的朗姆酒。
+  \end{block}
+  \pause
+  \begin{block}{解析}
+真正驱动二者数量上升的因素另有乾坤——人口增长。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 其他 | 环球影城 vs. 汽车销量}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{c5.case.other.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 其他 | 失足淹死 vs. 失踪电影}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c5.case.other.02.jpg}
+    \caption{失足跌入游泳池淹死的人数与尼古拉斯凯奇出演的失踪电影数量呈正相关。}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 其他 | 蜜蜂 vs. 大麻}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c5.case.other.03.jpg}
+    \caption{美国蜜蜂蜂群数量与因持有大麻被逮捕的美国青少年数量呈负相关。}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 其他 | 逻辑小测验}
+  \begin{block}{逻辑小测验}
+    \begin{itemize}
+      \item 气温正在升高，东非高原的疟疾病例愈来愈多，所以全球变暖正使得东非高原的疟疾病例数增多。
+      \item 气温正在升高，有种青蛙正逐渐灭绝，所以全球变暖正在让这种青蛙灭绝。
+      \item 气温正在升高，诺福克郡的海岸线正受到侵蚀，所以全球变暖正在侵蚀诺福克的海岸线。
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 其他 | 逻辑小测验}
+  \begin{block}{逻辑小测验}
+    \begin{itemize}
+      \item 气温正在升高，东非高原的疟疾病例愈来愈多，所以全球变暖正使得东非高原的疟疾病例数增多。
+      \item 气温正在升高，有种青蛙正逐渐灭绝，所以全球变暖正在让这种青蛙灭绝。
+      \item 气温正在升高，诺福克郡的海岸线正受到侵蚀，所以全球变暖正在侵蚀诺福克的海岸线。
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{案例 | 其他}
+  \begin{itemize}
+    \item 游泳死亡人数越高，冰糕卖得越多，也就是游泳死亡人数和冰糕售出量之间呈正相关性，我们可以由此得出结论说吃冰糕就会增加游泳死亡风险吗？
+    \item 学校B学生毕业后拿到的平均工资更高，接受学校B的教育是导致工作较好的原因吗？
+    \item 吸烟的人精神压力水平较大，那么吸烟会产生压力吗？
+    \item 有孩子的人更加成熟，有孩子是成熟的原因吗？
+    \item 海拔越高的地方我们感觉越冷。这是不是意味着海拔是导致温度低的原因？
+    \item 震耳的音乐会引发青春痘？
+    \item 体重过重的人活得比瘦子久，所以断定过胖可以延年益寿。
+    \item 在马萨诸塞州，长老教会会长的收入与哈瓦那朗姆酒的价格之间密切相关。
+    \item 某人未婚婶婶的数字和其骨骼中钙含量（负的相关关系）
+    \item 枯草热、花粉过敏等和小麦的价格（负的相关关系）
+    \item 鞋的大小和笔迹的可识别性（正的相关关系）
+    \item 学校教育和收入（正的相关关系）
+    \item 外国人比例和刑事犯罪（正的相关关系）
+    \item 冰激凌销售量与犯罪率（正的相关系数）
+    \item 股票行情和裙子长短流行的方式具有惊人的相似性
+    \item 已婚男子活的时间更长
+    \item 学生的SAT成绩和其家里的电视机数量呈正相关关系
+    \item SAT考试分数与家庭的汽车数量之间存在高度的相关性
+    \item 张三和李四的手表的时间具有很强的相关性
+    \item 在过去20年里激增的中国人均收入和上升的美国儿童自闭症确诊率之间有一个正相关且具有显著统计学意义的关系
+  \end{itemize}
+\end{frame}
+
+\section{回顾及拓展}
+\subsection{回顾}
+\begin{frame}
+  \frametitle{回顾 | 太极拳}
+  \begin{block}{太极拳健身}
+    大太极拳可以强壮身体，延长寿命，也就是说，打太极拳对身体健康有因果作用。但是打太极拳的人的寿命可能会与不打太极拳的人的寿命没有什么差异（或者反而打太极拳的人的寿命更短一些）。
+  \end{block}
+  \pause
+  \begin{block}{解析}
+    可能是因为打太极拳的人都是体弱多病的人。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{回顾 | 铀矿工人}
+  \begin{block}{矿工寿命}
+    在铀矿工作的工人与其他人的寿命一样长（或更长），这并不能说明暴露于铀矿不会影响寿命。
+  \end{block}
+  \pause
+  \begin{block}{解析}
+    可能是因为铀矿工人是经过挑选出来的身体健壮的人，假若当年他们不暴露与铀矿的话，寿命可能会更长一些。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{回顾 | 健康员工效应}
+  \begin{block}{健康员工效应}
+    有时在同一环境下，两组样本并不能直接进行比较。
+  \end{block}
+  \pause
+  \begin{block}{实验}
+假设将一组上班族与一组宇航员的健康状态进行比较研究。如果研究显示，两组没有显著差异，健康状况与工作环境之间没有相关性，我们是否就可以得出一个结论：在太空居住和工作不会给宇航员带来长期的健康风险？
+  \end{block}
+  \pause
+  \begin{block}{解析}
+答案是不能。因为两组研究对象并没有站在同一起跑线上：宇航员团队会在申请者中间挑选健康状况良好的候选人，然后按照一套综合的健康养生法进行保养，以便提前帮助宇航员克服微重力对生活带来的影响。
+  \end{block}
+\end{frame}
+
+\subsection{拓展}
+\begin{frame}
+  \frametitle{四口之家的财富绝不会正好是两口之家的两倍}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c6.income.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{不可忽视的权重}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{c6.alone.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{数字越精确结论越不可靠}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{c6.sleep.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{数字越精确结论越不可靠}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{c6.war.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{变换基数操纵百分比}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{c6.sale.01.png}\quad
+    \includegraphics[width=0.4\textwidth]{c6.sale.02.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{不同的基数不同的结论}
+  \begin{block}{问题}
+让我们假设去年一夸脱牛奶值10美分，一条面包10美分。今年牛奶的价格将至5美分，而面包的价格升至20美分。现在你想证明什么呢？物价指数上升？物价指数下降？还是根本没有变化？
+  \end{block}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c6.price.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{不同的基数不同的结论}
+  \begin{block}{价格上涨}
+ 选择去年作为基期，也就是说，以去年的价格为100\%。既然牛奶的价格降低一半（即50\%），而且面包的价格是去年的2倍（即200\%），将50\%与200\%进行平均得125\%，与去年相比，今年的价格上涨了25\%。
+  \end{block}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{c6.price.02.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{不同的基数不同的结论}
+  \begin{block}{价格下降}
+ 以今年的价格为基期。去年牛奶的价格是今年的200\%，而面包的价格是今年的50\%，平均数又是125\%，也就是说，去年的价格比今年的高25\%，今年的价格下降了。
+  \end{block}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{c6.price.03.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{不同的基数不同的结论}
+  \begin{block}{价格不变}
+    如果你想证明价格没有发生变化，试试使用几何平均数，这时你可以随意选择基期。集合平均数不同于算术平均数或者均值，但它也是合理的计算方法，而且在某些情况下它是一种最有效的方法。计算3个数的几何平均数，只需将3个数相乘，开3次方根；4个数的几何平均数，开4次方根，以此类推。\\
+    \vspace{0.5em}
+  以去年为基期为例，也就是说，去年每种商品的价格都看成100\%，将两个100\%相乘再开平方根，得到100\%，这时去年价格指数的几何平均数。今年牛奶是去年的50\%，面包是去年的200\%,50\%乘以200\%得10000\%，再开平方根得100\%。价格没升也没降。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{将一些看似能直接相加却不能这样操作的事情加在一起}
+  \begin{block}{不需要上学}
+一年365天，减去三分之一即122天作为休息时间，再减去约45天作为一日三个小时的进餐时间，余下的198天中再扣除90天度暑假，21天过圣诞节和万圣节。这时余下的时间连过星期六和星期天都不够。
+  \end{block}
+  \pause
+  \begin{block}{一年只工作一天}
+    我向老板请一天假，老板推心置腹地说：“你想请一天假？看看你在向公司要求什么——一年里有365天你可以工作。一年52个星期，你已经每星期休息2天，共104天，剩下261天工作。你每天有16小时不在工作，去掉174天，剩下87天。每天你至少花30分钟时间上网，加起来每年23天，剩下64天。每天午饭时间你花掉1小时，又用掉46天，还有18天。通常你每年请2天病假，这样你的工作时间只有16天。每年有5个节假日公司休息不上班，你只干11天。每年公司还慷慨地给你10天假期，算下来你就工作1天，而你TMD还要请这一天假？”
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{将一些看似能直接相加却不能这样操作的事情加在一起}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{c6.year.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{好“小”的1000万英镑}
+  \begin{block}{振兴教育}
+    2007年1月，英国政府大肆宣布将加拨1000万英镑的预算，“振兴小学的歌唱与音乐教育”。1000万英镑，看起来好像很大，但这个数字应该附加下列说明：全英有大约1000万名学童，几乎有一半都在念小学，将1000万英镑平均分配给500万个小学生之后，这笔预算到底可以振兴出什么结果？
+  \end{block}
+  \pause
+  \begin{block}{托儿所}
+    \begin{itemize}
+      \item 5年内花费3亿英镑新增100万间托儿所，这笔钱够不够？
+      \item 你找得到一周费用只有1.15英镑的托儿所吗？
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\subsection{如何反驳统计资料}
+\begin{frame}
+  \frametitle{反驳}
+  \begin{block}{反驳统计资料}
+    怎样凭双眼就能识破虚假的统计资料，并揭开它的老底；同样重要的是，如何在这一大片充满了欺骗性的数据海洋中找出可靠有用的资料。\\
+    \vspace{0.5em}
+    你所接触到的统计资料，它们并非都要经受化学分析或者实验室的鉴定才能辨别真伪。但至少你可以提5个简单的问题，在寻找这些问题答案的同时，你将避免接受一些不真实的资料。
+    \begin{enumerate}
+      \item 谁说的？——寻找偏差（有意识的偏差和无意识的偏差）
+      \item 他是如何知道的？——样本是否有偏，数值是否足够大，观察值是否足够多
+      \item 遗漏了什么？——包含多少观测值，没有比较，仅给出百分数，巧妙选择基期，遗漏引起变化的原因
+      \item 是否有人偷换了概念？——定义方式的改变，偷梁换柱的比较
+      \item 这个资料有意义吗？——让人印象深刻的精确数据，不加控制的外推法
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{反驳 | 数目有多大？}
+  \begin{block}{把它个人化}
+  太过专注于数字的“大”，往往只会造成混淆视听的效果，除非这刚好是使用这些数字的人想要达到的目标，但又往往不是，反而变成大家一再落入的陷阱。所以，在看到数字时，最重要、简单，却也最少人问起的问题，就是“这个数字大不大？”\\
+  \vspace{0.5em}
+  每当数字的大小，超过日常应用的熟悉范围，我们就经常会忘记以人类尺度来看待这些天文数字。然而，人类尺度是让数字变得有意义的最佳工具，也是我们每个人生下来都具备的尺度，运用起来一点也不困难。\\
+  \vspace{0.5em}
+  让数字变得有意义的最佳工具，就是以人类尺度来看。
+  \end{block}
+\end{frame}
+
+\section{图说天下}
+\begin{frame}
+  \frametitle{穷人的大脑更小}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c5.ses.01.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{穷人的大脑更小}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c5.ses.02.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{穷人的大脑更小}
+  \begin{block}{随机对照试验}
+为了研究因果关系，我们需要运用科学实验的黄金法则：随机对照试验。其中，随机分配的”治疗“组会接受某种干预，而同样随机分配的另一组则接受”对照“措施，这让我们能够判断这种干预对大脑发育的影响。
+  \end{block}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{c5.control.01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{运动悖论：锻炼无关减肥？}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{c5.sport.01.jpg}
+  \end{figure}
+\end{frame}
+
+
+\input{snippet/class_tail}
