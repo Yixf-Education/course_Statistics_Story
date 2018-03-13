@@ -1,7 +1,0 @@
-\beamer@sectionintoc {1}{平均数}{4}{0}{1}
-\beamer@sectionintoc {2}{花言巧语的收入}{17}{0}{2}
-\beamer@sectionintoc {3}{其他案例分析}{61}{0}{3}
-\beamer@sectionintoc {4}{安全的旅行方式}{83}{0}{4}
-\beamer@sectionintoc {5}{知识拓展}{93}{0}{5}
-\beamer@sectionintoc {6}{图说天下}{98}{0}{6}
-\beamer@sectionintoc {7}{统计知识}{100}{0}{7}
