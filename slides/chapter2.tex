@@ -85,7 +85,7 @@
   \begin{figure}
     \centering
     \includegraphics[width=0.65\textwidth]{c2.percentile.01.jpg}
-    \includegraphics[width=0.65\textwidth]{c2.percentile.02.png}
+    \visible<2->{\includegraphics[width=0.65\textwidth]{c2.percentile.02.png}}
   \end{figure}
 \end{frame}
 
@@ -94,7 +94,7 @@
   \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{c2.percentile.03.jpg}
-    \includegraphics[width=0.6\textwidth]{c2.percentile.04.png}
+    \visible<2->{\includegraphics[width=0.6\textwidth]{c2.percentile.04.png}}
   \end{figure}
 \end{frame}
 
@@ -377,6 +377,24 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{案例 | 2017年金球奖}
+  \begin{block}{金球奖候选人具体得分：C罗分数接近梅西和内马尔总和}
+    C罗获得了2017年金球奖，B/R透露了候选人具体的得分，最终C罗的得分接近于梅西和内马尔的总和。
+  \end{block}
+  \vspace{-0.8em}
+  \pause
+  \begin{figure}
+    \centering
+    \visible<2->{\includegraphics[width=0.35\textwidth]{c2.football.01.jpg}}
+  \end{figure}
+  \pause
+  \vspace{-1em}
+  \begin{block}{规则}
+    共有173名记者参与投票，每张选票填写5个名字，其中该选票中的第一名得6分，第二名得4分，第三名得3分，第四名2分，第五名1分。
+  \end{block}
+\end{frame}
+
+\begin{frame}
   \frametitle{案例 | 其他}
   \begin{block}{其他}
     \begin{itemize}
@@ -414,12 +432,12 @@
 
 \begin{frame}
   \frametitle{案例 | 平均寿命}
-  \begin{figure}
-    \centering
-    \includegraphics[width=0.48\textwidth]{c2.swsl.man.01.png}
-    \includegraphics[width=0.48\textwidth]{c2.swsl.woman.01.png}
-  \end{figure}
-  \vspace{-1em}
+  % \begin{figure}
+  %   \centering
+  %   \includegraphics[width=0.48\textwidth]{c2.swsl.man.01.png}
+  %   \includegraphics[width=0.48\textwidth]{c2.swsl.woman.01.png}
+  % \end{figure}
+  % \vspace{-1em}
   \begin{block}{可怜的斯威士兰人？}
     斯威士兰人的平均寿命低得吓人，男性为32岁，女性为33岁（32岁并不是一个常见的死亡年龄，大多数活过32岁的人都可以活得更久）
   \end{block}
@@ -431,12 +449,14 @@
 
 \begin{frame}
   \frametitle{案例 | 平均寿命}
+  \vspace{-1em}
   \begin{figure}
     \centering
-    \includegraphics[width=0.48\textwidth]{c2.swsl.man.01.png}
-    \includegraphics[width=0.48\textwidth]{c2.swsl.woman.01.png}\\
-    \includegraphics[width=0.48\textwidth]{c2.swsl.baby.birth.01.png}
-    \includegraphics[width=0.48\textwidth]{c2.swsl.baby.death.01.png}\\
+    \visible<1->{\includegraphics[width=0.45\textwidth]{c2.swsl.man.01.png}}\quad
+    \visible<1->{\includegraphics[width=0.45\textwidth]{c2.swsl.woman.01.png}}\\
+    \visible<2->{\includegraphics[width=0.45\textwidth]{c2.swsl.baby.birth.01.png}}\quad
+    \visible<3->{\includegraphics[width=0.45\textwidth]{c2.swsl.baby.death.01.png}}\\
+    \visible<4->{\includegraphics[width=0.9\textwidth,height=0.36\textheight]{c2.swaziland.correlation.png}}
   \end{figure}
 \end{frame}
 
