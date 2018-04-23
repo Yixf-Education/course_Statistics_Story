@@ -226,6 +226,118 @@
   \end{block}
 \end{frame}
 
+\section{大数据时代的谎言}
+\begin{frame}
+  \frametitle{大数据 | 骗人？}
+  \begin{block}{疑问}
+    大数据通过综合数据精密计算得出的结果，怎么会涉及骗人的问题呢？
+  \end{block}
+  \pause
+  \begin{block}{答案}
+    看似无稽之谈，但真正的答案是：\alert{会}。
+  \end{block}
+  \pause
+  \begin{block}{定义}
+    骗人：给人提供错误的结果或给人带来误导。
+  \end{block}
+  \pause
+  \begin{block}{原因}
+    数据来源、分析过程、人的因素都可能带来骗人的效果。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数据 | 数据可视化}
+  \begin{block}{引言}
+    俗话说一图值千言，数据可视化在数据分析中占有举足轻重的地位，而数据可视化也是“骗人”的重灾区。
+  \end{block}
+  \vspace{-0.5em}
+  \pause
+  \begin{block}{骗术}
+    \begin{itemize}
+      \item 更改坐标轴：有时候是有意的（比如说需要强调自己的某一个看法），有时候是无意的（比如说 Excel 会自动调整）。
+      \item 累积分布图：看历年数据趋势的时候，很多时候是既可以看每年的单独分布，也可以看累积分布的，比如说销量、利润等等。有时候碰上今年的销量或者利润不如去年，如果看逐年销量或者利润，则很容易看到下降的趋势。若改成累积分布图，下降的趋势就很容易被抹去了。
+      \item 颠倒黑白：虽然说同样的数据可以有不同的解读，可以有不同风格的分析方法，然而有一些基本的套路还是要遵守的，比如说饼图（pie chart）用百分比的时候加起来总和为100\%，纵轴往上为正，往下为负。
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数据 | 可视化 | 更改坐标轴 | 投球速度}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c6.bigdata.ball.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数据 | 可视化 | 更改坐标轴 | GDP趋势图}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c6.bigdata.gdp.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数据 | 可视化 | 更改坐标轴 | 胜率对比}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{c6.bigdata.vs.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数据 | 可视化 | 累积分布图 | iPhone销量}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.43\textwidth]{c6.bigdata.iphone.01.png}
+    \visible<2->{\includegraphics[width=0.55\textwidth]{c6.bigdata.iphone.02.png}}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数据 | 可视化 | 颠倒黑白 | 美国佛罗里达州通过城堡法之后的命案数}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{c6.bigdata.death.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数据 | 错把相关当因果}
+  \begin{block}{普林斯顿的研究}
+    2013年，一项来自普林斯顿的研究通过对比`MySpace'关键词搜索量和MySpace的发展趋势的相关性，再联系以`Facebook'为关键词的搜索趋势，最后得出结论到2015-2017年之间，Facebook将会失去至少8亿用户。
+  \end{block}
+  \pause
+  \begin{block}{Facebook的反击}
+    Facebook的数据科学家Mike Develin利用论文里的方法展开反击，半开玩笑半认真的得出结论，到2021年，普林斯顿将会一个学生都没有了。而更为恐怖的是，利用相同的研究方法，到2060年，地球的空气将不复存在。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数据 | 中国人才流失严重}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{c6.bigdata.student.01.jpg}
+    \includegraphics[width=0.45\textwidth]{c6.bigdata.student.02.jpg}
+  \end{figure}
+  \begin{block}{报道}
+    截至2012年底，大陆累计出国留学人数达到264万，留学回国人员仅为109万人——出、归“赤字”超过150万人。到2013年，中国人才流失量居世界首位。
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{大数据 | 中国人才流失严重 | 解析}
+  \begin{block}{解析}
+    \begin{itemize}
+      \item 出国后当年立即回国的有几人？——用当年的回国人数和出国人数计算出来的所谓“归国率”合理吗？
+      \item 选择性偏差：大部分不打算回国的留学生，统计局是不会把他们算进这组统计数据中的。国家统计的这个数字，很有可能大部分是在国家留学管理机构注册挂号，准备毕业或工作后回国发展的人，还有很多是通过官方基金资助短期出国做博士后、访问学者的人员。
+      \item 何为人才？——出国的不一定是精英。不回来的也不一定是精英。现在出国早就无法等同于高素质，无数的水项目基本等同于高端深度旅游。
+      \item 人才的效力有多大？——有时候一个人能顶三个，有时候三个顶不上一个。
+    \end{itemize}
+  \end{block}
+\end{frame}
+
 \section{寄语}
 \begin{frame}
   \frametitle{你的世界别人不懂}
