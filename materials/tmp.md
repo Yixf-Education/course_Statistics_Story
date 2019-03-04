@@ -2,6 +2,7 @@
 * [用贝叶斯的眼光看待世界](http://www.sohu.com/a/271549911_100027543)
 * [B is for Bayesian Inference](https://www.maths.ox.ac.uk/about-us/life-oxford-mathematics/oxford-mathematics-alphabet/b-bayesian-inference)
 * [这个著名的统计学悖论，第一次听说的人很可能怀疑人生](https://mp.weixin.qq.com/s?src=11&timestamp=1542764717&ver=1257&signature=JWTzIvUuH7a3E6x0SFKlAJWURlOvX0*rqudJfHkysg4eGcrlZ1yIewLuRKCd9uJBweYA1Ky6-he3V6RNuN-bdZvrep05xCvrK3frJ6xMwYW*oJ1K7SPQlV-jAjNlh14z&new=1): 辛普森悖论（Simpson's paradox）
+* [贝叶斯告诉你：怎样才能更容易中奖？](https://mp.weixin.qq.com/s?src=11&timestamp=1551680385&ver=1463&signature=iQiNUBobJ9sxBkeLenMrNv2QRh*U0459zzxaJUt0N4bcDgdMfCi8LEAhcYs5IhDZ5wiuRO65JII5Y3LT5*203tCR-q3CkxlusTyHUNQW4AdnH2qk-McGDcCJFfUoBcyU&new=1): “蒙蒂·霍尔问题(Monty Hall Problem)”或“三门问题”
 
 
 
