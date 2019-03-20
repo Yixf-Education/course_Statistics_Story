@@ -6,6 +6,10 @@
 
 
 
+* [一个大活人，还能让尿活活憋死？？？](<http://www.sohu.com/a/302507155_224832>): 马尔科夫链
+
+
+
 * [基本比率谬误](https://www.wikiwand.com/zh-hans/%E5%9F%BA%E6%9C%AC%E6%AF%94%E7%8E%87%E8%AC%AC%E8%AA%A4)
 * [检察官谬误](https://www.wikiwand.com/zh-hans/%E6%AA%A2%E5%AF%9F%E5%AE%98%E8%AC%AC%E8%AA%A4)
 * [辩护人谬误](https://www.wikiwand.com/zh-hans/%E8%BE%AF%E8%AD%B7%E4%BA%BA%E8%AC%AC%E8%AA%A4)
