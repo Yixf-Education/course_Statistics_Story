@@ -7,6 +7,7 @@
 
 
 * [一个大活人，还能让尿活活憋死？？？](<http://www.sohu.com/a/302507155_224832>): 马尔科夫链
+* [费米问题]([https://www.wikiwand.com/zh-hans/%E8%B4%B9%E7%B1%B3%E9%97%AE%E9%A2%98](https://www.wikiwand.com/zh-hans/费米问题))
 
 
 
