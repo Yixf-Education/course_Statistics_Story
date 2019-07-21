@@ -5,6 +5,7 @@
 * [贝叶斯告诉你：怎样才能更容易中奖？](https://mp.weixin.qq.com/s?src=11&timestamp=1551680385&ver=1463&signature=iQiNUBobJ9sxBkeLenMrNv2QRh*U0459zzxaJUt0N4bcDgdMfCi8LEAhcYs5IhDZ5wiuRO65JII5Y3LT5*203tCR-q3CkxlusTyHUNQW4AdnH2qk-McGDcCJFfUoBcyU&new=1): “蒙蒂·霍尔问题(Monty Hall Problem)”或“三门问题”
 * [【春节特辑】三门问题](https://mp.weixin.qq.com/s?src=11&timestamp=1561938907&ver=1701&signature=UaLBfXT36H-477nejZaMhMgGmKECnbdSajo74AJGhr5lCvmEVnVs4Kudwc8BKfXXaKyUMd*0JigkTH51Gl9O5f7f7JOcUf3qrrO0JRh547TY1zbgCB-tZhErGYqFHmnc&new=1)
 * [反直觉的「生日悖论」问题](https://mp.weixin.qq.com/s?src=11&timestamp=1561938852&ver=1701&signature=UaLBfXT36H-477nejZaMhMgGmKECnbdSajo74AJGhr6rZQDmeMvWHQxqNQ1TSldQBdfLojzIv18COzAgT0Uil3h1T0yUYfmsGZj41G3drYJamldj6JlVgVKfjrCP8sZk&new=1)
+* [眼见不一定为实，数据不一定“不说谎”](https://www.dongqiudi.com/archive/1174207.html)
 
 
 
