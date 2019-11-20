@@ -32,6 +32,11 @@
 
 * [这 5 个例子，小学生都能秒懂分类算法](https://zhuanlan.zhihu.com/p/47106274)
 * [中文文本分类：你需要了解的 10 项关键内容](https://zhuanlan.zhihu.com/p/47761862)
+* [[（理论 + 案例）如何通俗地理解极大似然估计？](https://ask.hellobi.com/blog/wetalkdata/5414)](https://ask.hellobi.com/blog/wetalkdata/5414)
+* [混淆矩阵是什么意思？](https://www.zhihu.com/question/36883196/answer/506139082)
+* [Data transformations](http://www.biostathandbook.com/transformation.html)
+* [您所不了解的回归分析内容](https://pro.arcgis.com/zh-cn/pro-app/tool-reference/spatial-statistics/what-they-don-t-tell-you-about-regression-analysis.htm)
+* [The log transformation](https://mathbench.umd.edu/modules/misc_scaling/page07.htm)
 
 
 
