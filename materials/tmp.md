@@ -6,6 +6,7 @@
 * [【春节特辑】三门问题](https://mp.weixin.qq.com/s?src=11&timestamp=1561938907&ver=1701&signature=UaLBfXT36H-477nejZaMhMgGmKECnbdSajo74AJGhr5lCvmEVnVs4Kudwc8BKfXXaKyUMd*0JigkTH51Gl9O5f7f7JOcUf3qrrO0JRh547TY1zbgCB-tZhErGYqFHmnc&new=1)
 * [反直觉的「生日悖论」问题](https://mp.weixin.qq.com/s?src=11&timestamp=1561938852&ver=1701&signature=UaLBfXT36H-477nejZaMhMgGmKECnbdSajo74AJGhr6rZQDmeMvWHQxqNQ1TSldQBdfLojzIv18COzAgT0Uil3h1T0yUYfmsGZj41G3drYJamldj6JlVgVKfjrCP8sZk&new=1)
 * [眼见不一定为实，数据不一定“不说谎”](https://www.dongqiudi.com/archive/1174207.html)
+* [科学解释：为什么越是无知的人越自信？](https://mp.weixin.qq.com/s?__biz=Mzg4MTE4OTQxNA==&mid=2247484039&idx=1&sn=12a8c6ea8d983eba0075d30dbf55e5e2&chksm=cf68f5cef81f7cd82ad6ec7f67915f48b955ac0e11479aedb3e121aca679a8f0ae7a8e2d74f8&mpshare=1&scene=1&srcid=12022ktGouYZNH80TxRXBspb&sharer_sharetime=1575334236752&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 
 
 
