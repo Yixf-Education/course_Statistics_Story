@@ -6,4 +6,6 @@
 * [可视化如何用颜色 “传递信息”，避免颜色陷阱 | 图表家族 #61 ](http://www.sohu.com/a/276513784_416207)
 * [图表有陷阱，读图需谨慎！](http://www.360doc.com/content/14/1231/02/20284327_437013822.shtml)
 * [五个例子教会你辨真伪数据图表中的陷阱](http://cda.pinggu.org/view/17433.html)
+* [统计之美 | 南丁格尔的玫瑰](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650246435&idx=1&sn=1ae10766664abaa0a7029030ed011471&chksm=8872d24ebf055b58c1f82f287340d646ef49b8c180db04c1b7e3762458332a523d9a00c418fe&mpshare=1&scene=1&srcid=&sharer_sharetime=1576797641986&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
+* [数据作图 | 提高作图的 10 个简单法则](https://mp.weixin.qq.com/s?__biz=MzUzMzA1NDc4OQ==&mid=2247483863&idx=1&sn=f9c115dad2c13df0139e91ea160f64bc&chksm=faa895fdcddf1ceb0dd7c4602e17d18c9fa0babfb707bef6dc41d5f62d284e3c3476eff94232&mpshare=1&scene=1&srcid=1219kj2KmjrCLrB3jMAkxSiM&sharer_sharetime=1576758778174&sharer_shareid=ae50238ead91499c25dfead04d38c61d#rd)
 
