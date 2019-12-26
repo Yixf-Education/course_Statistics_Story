@@ -10,8 +10,16 @@
 
 
 
+* [打敗柯潔算什麼，這個 AI 只用 10 分鐘就梵高「附體」](http://www.ifuun.com/a20177224091178/)
+* [TURN ANY PHOTO INTO AN ARTWORK]()
+
+
+
 * [Principal Component Analysis](http://setosa.io/ev/principal-component-analysis/): Explained Visually
-* [[Visualizing K-Means Clustering](https://www.naftaliharris.com/blog/visualizing-k-means-clustering)]
+* [[Visualizing K-Means Clustering](https://www.naftaliharris.com/blog/visualizing-k-means-clustering)](https://deepart.io/)
+* [撩一撩作诗机器人](http://www.voidcn.com/article/p-pmzyyjnv-bnu.html)
+* [猎户星免费在线写诗软件](http://www.dopoem.com/)
+* [神经网络与深度学习](https://nndl.github.io/)
 
 
 
