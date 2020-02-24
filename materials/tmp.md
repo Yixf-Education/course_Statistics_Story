@@ -63,6 +63,10 @@
 
 
 
+- [关于学术论文 Figures，你不能不知道的秘密](https://mp.weixin.qq.com/s?__biz=MzUzMzMwNjgzNA==&mid=2247484310&idx=2&sn=b0ffd4a2b1ffabeb0aa2fa225c031ea3&chksm=faa74f2bcdd0c63d6c27fb530f28e7f4da974f275405240fce19ffae04ec8ff93d1800fba704&mpshare=1&scene=1&srcid=&sharer_sharetime=1582506300985&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
+
+
+
 * [这可能是关于癌症最好的科普文](https://www.jianshu.com/p/4a7422088112)
 
   再看看中国：世界癌症报告估计，2012年中国癌症发病人数为306.5万，约占全球发病的五分之一；癌症死亡人数为220.5万，约占全球癌症死亡人数的四分之一。
