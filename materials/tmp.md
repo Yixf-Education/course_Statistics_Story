@@ -7,6 +7,7 @@
 * [反直觉的「生日悖论」问题](https://mp.weixin.qq.com/s?src=11&timestamp=1561938852&ver=1701&signature=UaLBfXT36H-477nejZaMhMgGmKECnbdSajo74AJGhr6rZQDmeMvWHQxqNQ1TSldQBdfLojzIv18COzAgT0Uil3h1T0yUYfmsGZj41G3drYJamldj6JlVgVKfjrCP8sZk&new=1)
 * [眼见不一定为实，数据不一定“不说谎”](https://www.dongqiudi.com/archive/1174207.html)
 * [科学解释：为什么越是无知的人越自信？](https://mp.weixin.qq.com/s?__biz=Mzg4MTE4OTQxNA==&mid=2247484039&idx=1&sn=12a8c6ea8d983eba0075d30dbf55e5e2&chksm=cf68f5cef81f7cd82ad6ec7f67915f48b955ac0e11479aedb3e121aca679a8f0ae7a8e2d74f8&mpshare=1&scene=1&srcid=12022ktGouYZNH80TxRXBspb&sharer_sharetime=1575334236752&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
+* [我从新冠数据里学到的四个数据科学基础知识](https://mp.weixin.qq.com/s?__biz=MjM5MTQzNzU2NA==&mid=2651678695&idx=3&sn=0bb7dccb3cc6e1c84ff42c0d7be8908b&chksm=bd4c40748a3bc962dca2e0a3aa065a80ddd6420be5c206e7e48f7a9e7324cbbd67d0893f3e23&mpshare=1&scene=1&srcid=042243DYJV8vBizY2vYe55Wv&sharer_sharetime=1587551531982&sharer_shareid=ae50238ead91499c25dfead04d38c61d&key=429edb9feed8a5eb4ba0dd8df11e1bc1cc0800031cc4ccacb6d65ce3108221b8d36d66fdbd909e66740b27a5100e84fd85c231819c2e9ff90355a405e80d2bd520117c59acaed85954af4a5619075dc2&ascene=1&uin=MjEyMzUzNDk2MQ%3D%3D&devicetype=Windows+XP&version=62060841&lang=zh_CN&exportkey=ASR6wmJOWebbQzQeXYca97o%3D&pass_ticket=CkJMYo9D1EQrpGW50RV9HTNnMupyxHJymZEf2nnRH84oo40zR3l8gMwCHLqaUIU3)
 
 
 
