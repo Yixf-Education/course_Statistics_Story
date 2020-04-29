@@ -11,6 +11,7 @@
 * [筛查结果是阳性，就意味着生病了吗？](https://mp.weixin.qq.com/s?__biz=MzI3MzE3OTI0Mw==&mid=2247499005&idx=1&sn=c8e1f897428f12bd623d7ce3f4cf8715&chksm=eb258bf9dc5202ef098f1797de118b0daac4843e4ee15fef4a3b5e3d77ccc5233d3a5a84309a&mpshare=1&scene=1&srcid=0426dSVFCdi7lj5GMkmxLhNi&sharer_sharetime=1587857245216&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0&key=d51a4283ff2ecb019b011cfe5f74488a0f9da1440458efdcd299827f8b3e28ce98880c4926b7e2705d1c286780ae6fcbaac1843835948ca7b377ae2369ad9c473c895950a0898dc6e92b6de9068c2e51&ascene=1&uin=MjEyMzUzNDk2MQ%3D%3D&devicetype=Windows+XP&version=62060841&lang=zh_CN&exportkey=AZpwIhvPUxbOsgjnKzS263U%3D&pass_ticket=WyEgrrj25frkMfokbtoyksRrtPeGU2ppgS%2BRPcT0QHb9WRxdetYa%2BHEHtR4gvfG5)
 * [德国坦克问题](https://www.wikiwand.com/zh-hans/%E5%BE%B7%E5%9B%BD%E5%9D%A6%E5%85%8B%E9%97%AE%E9%A2%98)
 * [德国坦克问题 - 再谈贝叶斯](http://blog.sciencenet.cn/blog-677221-1103595.html)
+* [美国空军发现了平均数的缺陷](https://mp.weixin.qq.com/s?__biz=MzU1MDQwMTU5OQ==&mid=2247484864&idx=1&sn=dc145d4d829969e6ca3db6c3eda97379&chksm=fba06690ccd7ef860503587cb461d83f734f6c9054f6844a3152896116fcbd44a49af3d145c3&mpshare=1&scene=1&srcid=&sharer_sharetime=1588065815380&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0&key=51cdf43165327664d6449402205a5d564eb4e427720273e96053b89d27b4e9c5e76032e3c5ceb03da48a0935c093b5214829d21d96afe8f367b8b4cf63387b69354c0542722c7f158789bad512f9b624&ascene=1&uin=MjEyMzUzNDk2MQ%3D%3D&devicetype=Windows+XP&version=62060841&lang=zh_CN&exportkey=AfMlVIxcv98kYvsxy9BHX7U%3D&pass_ticket=C5i9iOtoY4JEMBJe0zor4wcjPhEzyHFU3YPKNM2uXztN1hJ6CqQBcTiVS3Xv46h2)
 
 
 
