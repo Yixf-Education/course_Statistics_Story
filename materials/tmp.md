@@ -65,6 +65,8 @@
 * [100 多年来，气温越来越高，人类却越来越凉了……](https://mp.weixin.qq.com/s?__biz=MzA3MzE3NTg1OA==&mid=2247520519&idx=1&sn=356074611273191ed5bd3f08c5681d29&chksm=9f11d75aa8665e4c696eb215921f44dd9f072e5fc476b59876b800367c45dd2b57c7d022a2f2&mpshare=1&scene=1&srcid=&sharer_sharetime=1580173297890&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 * [用户画像到底是怎么回事？看一个生活中的案例](https://mp.weixin.qq.com/s?__biz=MzA3MTM3NTA5Ng==&mid=2651063404&idx=4&sn=b1db12312c4203641865a2862faf1f0e&chksm=84de25fbb3a9acede561b64654619ee7d044cbbdfdb8d58b38bbb8d197cb039f509e7318e4bc&mpshare=1&scene=1&srcid=&sharer_sharetime=1580791944843&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 * [“说谎” 的疫情地图，隐藏了什么？](https://www.yidianzixun.com/article/0OW4yaRi?s=mb&appid=mibrowser&version=2&mibusinessId=newhome&env=production&bizDocId=yidian_0OW4yaRi)
+* [约翰・斯诺与 “霍乱地图”: 地理信息图经典案例](https://mp.weixin.qq.com/s?__biz=MzU1MTMyNzkyNg==&mid=2247485025&idx=1&sn=acc7e20a76691500bcf4355e8f103387&chksm=fb9247b8cce5ceae2cc18c3cc8d4d33926723d010a867205b062c6636ff979f7fd3bbb66bda2&scene=21#wechat_redirect)
+* [Tree Map: 树状图 —— 绘制 COVID-19 阵列图](https://mp.weixin.qq.com/s?__biz=MzU1MTMyNzkyNg==&mid=2247485031&idx=1&sn=4a2f2a91c2c98ab82b045ce6ec286195&chksm=fb9247becce5cea815777bb919bdfd975e11126da0efda049ce5cd6075523fb528ff14aa34f8&scene=21#wechat_redirect)
 
 
 
