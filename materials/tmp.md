@@ -12,6 +12,7 @@
 * [德国坦克问题](https://www.wikiwand.com/zh-hans/%E5%BE%B7%E5%9B%BD%E5%9D%A6%E5%85%8B%E9%97%AE%E9%A2%98)
 * [德国坦克问题 - 再谈贝叶斯](http://blog.sciencenet.cn/blog-677221-1103595.html)
 * [美国空军发现了平均数的缺陷](https://mp.weixin.qq.com/s?__biz=MzU1MDQwMTU5OQ==&mid=2247484864&idx=1&sn=dc145d4d829969e6ca3db6c3eda97379&chksm=fba06690ccd7ef860503587cb461d83f734f6c9054f6844a3152896116fcbd44a49af3d145c3&mpshare=1&scene=1&srcid=&sharer_sharetime=1588065815380&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0&key=51cdf43165327664d6449402205a5d564eb4e427720273e96053b89d27b4e9c5e76032e3c5ceb03da48a0935c093b5214829d21d96afe8f367b8b4cf63387b69354c0542722c7f158789bad512f9b624&ascene=1&uin=MjEyMzUzNDk2MQ%3D%3D&devicetype=Windows+XP&version=62060841&lang=zh_CN&exportkey=AfMlVIxcv98kYvsxy9BHX7U%3D&pass_ticket=C5i9iOtoY4JEMBJe0zor4wcjPhEzyHFU3YPKNM2uXztN1hJ6CqQBcTiVS3Xv46h2)
+* [如果能重来，地球上还会出现生命和智慧吗](https://mp.weixin.qq.com/s?__biz=MjM5NDA1Njg2MA==&mid=2652002747&idx=3&sn=1e46bb176544cea265736e776f628128&chksm=bd6b66488a1cef5e2d918aee1ca996aabda4dfc75027820a087f2e02059382d55910a04ae759&mpshare=1&scene=1&srcid=&sharer_sharetime=1590617861105&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0&key=8d751dd33417fe3f4c91ddfab261cd1c8e2391ecf485e47acd89acbb3b1e8db7d582fda2d6c2b3f6d94f8c49b70885861b16499522eb99b6dd5e6b408988e6efd4f6b4560d59cba71a72c094ae28c145&ascene=1&uin=MjEyMzUzNDk2MQ%3D%3D&devicetype=Windows+XP&version=62060841&lang=zh_CN&exportkey=AV8nYO38BcvM7It9FjpJ0bs%3D&pass_ticket=s%2BXTsJOlBLE09BNGRM0p%2BghhXqK7KfabmPk424lRkfAdqIWcr9toS1OMt5bvZLL4)
 
 
 
