@@ -75,6 +75,8 @@
 - [关于学术论文 Figures，你不能不知道的秘密](https://mp.weixin.qq.com/s?__biz=MzUzMzMwNjgzNA==&mid=2247484310&idx=2&sn=b0ffd4a2b1ffabeb0aa2fa225c031ea3&chksm=faa74f2bcdd0c63d6c27fb530f28e7f4da974f275405240fce19ffae04ec8ff93d1800fba704&mpshare=1&scene=1&srcid=&sharer_sharetime=1582506300985&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 
 
+* [研究揭示：与开车相比，骑行上下班全因死亡率低 20%，患癌率少 11%](https://mp.weixin.qq.com/s?__biz=MzU2MTQ2MDE0Ng==&mid=2247512558&idx=1&sn=1c4d14c68e4a806c6b884d6937678170&chksm=fc7a9733cb0d1e259bd20752a9b7aec909b1779cff3d642c258bd197afe38fe52b46898d8cbc&mpshare=1&scene=1&srcid=&sharer_sharetime=1591175732928&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0&key=938e9318b488c13e8f30d9e688066f92e002db83d2cd9c9d1110d6604a3aa4f4e3c69e9c6aed674ee9ba08ead424af0779ebc5f0dcf77c3c61d1f9e0dd910b4ef86d84dd355b2a8d1b866ade1ad2aa8c&ascene=1&uin=MjEyMzUzNDk2MQ%3D%3D&devicetype=Windows+XP&version=62060841&lang=zh_CN&exportkey=ATvx80ocRALF5c9gAyoAMwU%3D&pass_ticket=WV9IcNp%2Bf3t%2Bt%2BSP82N2Mi9%2FHkG3XqvYBaOuVpuLfcUah6KLopYvHD6ws9XZzSBd)
+
 
 * [这可能是关于癌症最好的科普文](https://www.jianshu.com/p/4a7422088112)
 
