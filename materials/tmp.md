@@ -70,6 +70,7 @@
 * [约翰・斯诺与 “霍乱地图”: 地理信息图经典案例](https://mp.weixin.qq.com/s?__biz=MzU1MTMyNzkyNg==&mid=2247485025&idx=1&sn=acc7e20a76691500bcf4355e8f103387&chksm=fb9247b8cce5ceae2cc18c3cc8d4d33926723d010a867205b062c6636ff979f7fd3bbb66bda2&scene=21#wechat_redirect)
 * [Tree Map: 树状图 —— 绘制 COVID-19 阵列图](https://mp.weixin.qq.com/s?__biz=MzU1MTMyNzkyNg==&mid=2247485031&idx=1&sn=4a2f2a91c2c98ab82b045ce6ec286195&chksm=fb9247becce5cea815777bb919bdfd975e11126da0efda049ce5cd6075523fb528ff14aa34f8&scene=21#wechat_redirect)
 
+* [最会数据分析的护士！全世界最有名的白衣天使是如何走上可视化之路的？](https://mp.weixin.qq.com/s?__biz=MzI5MTcwNjA4NQ==&mid=2247494615&idx=1&sn=789a5e9686a42c20516481bda7bb3d2f&chksm=ec0e2e5ddb79a74bda4315c596327ed979e9a3295aa5ca94287034b81d3d7f73a4d109f7e055&mpshare=1&scene=1&srcid=&sharer_sharetime=1592701582207&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0&exportkey=Afii376fs%2BsV86uGigadEXY%3D&pass_ticket=JlQoTfNIdgUoKZmJ2PgRuJYFUTj8AsXxAJCN2zRn5V5ixqIqfZLs6mZG%2BPhszpSo#rd)
 
 
 - [关于学术论文 Figures，你不能不知道的秘密](https://mp.weixin.qq.com/s?__biz=MzUzMzMwNjgzNA==&mid=2247484310&idx=2&sn=b0ffd4a2b1ffabeb0aa2fa225c031ea3&chksm=faa74f2bcdd0c63d6c27fb530f28e7f4da974f275405240fce19ffae04ec8ff93d1800fba704&mpshare=1&scene=1&srcid=&sharer_sharetime=1582506300985&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
