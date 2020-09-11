@@ -59,6 +59,10 @@
 
 
 
+* [这个爱喝酒的酒鬼可真是让人操碎了心](https://mp.weixin.qq.com/s?__biz=MjM5MDE3OTk2Ng==&mid=2657500066&idx=4&sn=89adf41ccd6efc9365442cb9425b924b&chksm=bdda2cb38aada5a568a8813f779298430deb90dfd8ae37c8e5c0d3aaf8ebc9c1b74456b2bb87&mpshare=1&scene=1&srcid=0911A0GrFJMH3WJbSr8FRMdD&sharer_sharetime=1599775511994&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
+
+
+
 * [这 5 个例子，小学生都能秒懂分类算法](https://zhuanlan.zhihu.com/p/47106274)
 * [中文文本分类：你需要了解的 10 项关键内容](https://zhuanlan.zhihu.com/p/47761862)
 * [[（理论 + 案例）如何通俗地理解极大似然估计？](https://ask.hellobi.com/blog/wetalkdata/5414)](https://ask.hellobi.com/blog/wetalkdata/5414)
