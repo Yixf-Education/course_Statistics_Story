@@ -63,6 +63,10 @@
 
 
 
+* [《拆穿胡扯》：反击统计的黑魔法](https://zhuanlan.zhihu.com/p/257042792?utm_source=wechat_session&utm_medium=social&s_r=0)
+
+
+
 * [这 5 个例子，小学生都能秒懂分类算法](https://zhuanlan.zhihu.com/p/47106274)
 * [中文文本分类：你需要了解的 10 项关键内容](https://zhuanlan.zhihu.com/p/47761862)
 * [[（理论 + 案例）如何通俗地理解极大似然估计？](https://ask.hellobi.com/blog/wetalkdata/5414)](https://ask.hellobi.com/blog/wetalkdata/5414)
