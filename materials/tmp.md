@@ -18,6 +18,10 @@
 
 
 
+* [拜登必胜？！民调结果提前预测拜登当选？原来统计学也能未卜先知......](https://mp.weixin.qq.com/s?__biz=MjM5MDE3OTk2Ng==&mid=2657512252&idx=1&sn=95679ba185eeb64d3281164e41ce1ed9&chksm=bdda7c2d8aadf53b93bf2dd7d13565bf1c3d49eed1bce7590ea9d47716be15ce7f21b40dfab4&mpshare=1&scene=1&srcid=1114aNUEqTfsDKS22aqh005n&sharer_sharetime=1605426853493&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
+
+
+
 * [为什么我们能碰上这么多 “百年一遇” 的洪水？](https://mp.weixin.qq.com/s?__biz=MzI3MzE3OTI0Mw==&mid=2247501307&idx=1&sn=3d3f179c43cd77eb71c300a660958d9b&chksm=eb25b2ffdc523be91035ae19bb2d759480d763a54c5b63f097272bb51e40b8050ef57bd3389e&mpshare=1&scene=1&srcid=0706WS2zPCPwJpFFrZ1j7Pmw&sharer_sharetime=1594038183078&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 
 
