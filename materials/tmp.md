@@ -17,6 +17,7 @@
 * [十大反直觉的数学结论](https://mp.weixin.qq.com/s?__biz=MzU2MDQ5Mzc3MQ==&mid=2247504951&idx=1&sn=e09332b07355390213ded5ec289e6f3b&chksm=fc05b193cb7238857b75c67e3a6f39007d84d2975e9358054f1892c7e1c0ae6eeea1ea5a1067&mpshare=1&scene=1&srcid=0825wqwiKHStZ1PMdSHrNUQ1&sharer_sharetime=1598350643035&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 * [学过统计学的人，看到的世界竟然是这样的 | 小太阳观察](https://mp.weixin.qq.com/s?__biz=MzAwMTcwNDAyNA==&mid=2247483733&idx=1&sn=812bd449d03224b725aeae56645041fc&chksm=9ad4e862ada3617493d16c61bd454f1f324e8318b35ab4d1598cb6c1962a574f19ab5fad997e&mpshare=1&scene=1&srcid=1128Q63J2N5Q2AFG8T8rE5UQ&sharer_sharetime=1606528466539&sharer_shareid=f971125f4b3043a69776fbf7eaa5dbbd#rd)
 * [可怕的贝叶斯定理，看完后忍不住感慨数学太重要了](https://mp.weixin.qq.com/s?__biz=MjM5MDE3OTk2Ng==&mid=2657518433&idx=4&sn=354fe34ae34f2e8baa8c8e4acf74036d&chksm=bdda94708aad1d660949cc9bae130bef3c54d8580c4fdb894709d0e4b5893e7efd5873838e26&mpshare=1&scene=1&srcid=1129svsrZNC3sc806FPq7ifE&sharer_sharetime=1606648817572&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
+* [最具争议的 12 个数学事实](https://mp.weixin.qq.com/s?__biz=MzU2MDQ5Mzc3MQ==&mid=2247510849&idx=1&sn=a0b88ba12cf802955d7aab0ae99cbbea&chksm=fc05cee5cb7247f3b680ebc83ce19492750a66ab148c97a8f7a3a91e388ccd16c884d3d7e541&mpshare=1&scene=1&srcid=1225KuZI3bjJ8V6t6UtVbfR5&sharer_sharetime=1608890745875&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 
 
 
