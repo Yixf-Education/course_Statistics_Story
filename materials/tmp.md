@@ -19,6 +19,7 @@
 * [可怕的贝叶斯定理，看完后忍不住感慨数学太重要了](https://mp.weixin.qq.com/s?__biz=MjM5MDE3OTk2Ng==&mid=2657518433&idx=4&sn=354fe34ae34f2e8baa8c8e4acf74036d&chksm=bdda94708aad1d660949cc9bae130bef3c54d8580c4fdb894709d0e4b5893e7efd5873838e26&mpshare=1&scene=1&srcid=1129svsrZNC3sc806FPq7ifE&sharer_sharetime=1606648817572&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 * [最具争议的 12 个数学事实](https://mp.weixin.qq.com/s?__biz=MzU2MDQ5Mzc3MQ==&mid=2247510849&idx=1&sn=a0b88ba12cf802955d7aab0ae99cbbea&chksm=fc05cee5cb7247f3b680ebc83ce19492750a66ab148c97a8f7a3a91e388ccd16c884d3d7e541&mpshare=1&scene=1&srcid=1225KuZI3bjJ8V6t6UtVbfR5&sharer_sharetime=1608890745875&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 * [从数学的角度看，为什么会有这么多渣男？](https://mp.weixin.qq.com/s?__biz=MjM5MDE3OTk2Ng==&mid=2657536814&idx=5&sn=7e4f911ca9ce0945efc28d592eb08712&chksm=bddadc3f8aad5529027560a73d1bf30f9c9233e9d98185af983d57bc881375f9efb7dceb79ec&mpshare=1&scene=1&srcid=0111Z0LugFpgE6yy3LtqE9Y2&sharer_sharetime=1610315949393&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
+* [985 大学让老师故意压学生分，只为符合正态分布？这是高中数学没学好，还是......](https://mp.weixin.qq.com/s?__biz=MjM5MDE3OTk2Ng==&mid=2657541597&idx=1&sn=ff8664292bc1d8d2fd633a082154d992&chksm=bddacacc8aad43da6142b867d8afd41fee41ede42811fbb6d275b919292e8d1360771d156a6e&mpshare=1&scene=1&srcid=0120ZWzJqDG4ofhZMvlLi0za&sharer_sharetime=1611103734688&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
 
 
 
