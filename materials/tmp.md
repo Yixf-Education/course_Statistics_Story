@@ -32,6 +32,7 @@
 
 
 * [拜登必胜？！民调结果提前预测拜登当选？原来统计学也能未卜先知......](https://mp.weixin.qq.com/s?__biz=MjM5MDE3OTk2Ng==&mid=2657512252&idx=1&sn=95679ba185eeb64d3281164e41ce1ed9&chksm=bdda7c2d8aadf53b93bf2dd7d13565bf1c3d49eed1bce7590ea9d47716be15ce7f21b40dfab4&mpshare=1&scene=1&srcid=1114aNUEqTfsDKS22aqh005n&sharer_sharetime=1605426853493&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0#rd)
+* [史上最贱的数学悖论：A cup 竟比 C cup 大？！](https://mp.weixin.qq.com/s?__biz=MjM5MDE3OTk2Ng==&mid=2657549458&idx=4&sn=3e7719682126e0c4703bb82301cb3643&chksm=bddaeb838aad6295cb1d33eba1d2308ebc4243e2bdc64718a953fd74ee32da26e824c0c94c3e&mpshare=1&scene=1&srcid=0214zp7oJuAEIQVmBNAOhmND&sharer_sharetime=1613261748846&sharer_shareid=49bb68e4d4ad9f65af077f4e54025da0&key=9635e972a6ebf4543542ed3be4c4b2849b33d4f79514e47eb4bca75aec4fbdf76e7c6af67e979c815dea22621802aa8a21c80a738eeb25f0ff8032475f6246a1caf3b5fa6422d80383d992c7f671c83fd442860098e234abf23b2939a5b7c658f9bf22ec0f6f6d794986af87b2e26e1de4b7da417119b604b76837dcf2825742&ascene=1&uin=MjEyMzUzNDk2MQ%3D%3D&devicetype=Windows+7&version=62090529&lang=en&exportkey=AYRMVteSfQuMy5D3tuvs7Ao%3D&pass_ticket=w8XwI7gg%2F9KuczJJ9YOFgVwcXDPBgc%2FMMQyWMfeqvssrjSX4Q2pk2aLorV%2BdZl6F&wx_header=0)
 
 
 
