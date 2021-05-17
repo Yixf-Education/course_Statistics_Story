@@ -32,6 +32,7 @@
 * [精子质量暴跌，现代男性如何夹缝中求生存？](https://mp.weixin.qq.com/s/gXgJr075UNzyipBzBQktkw)
 * [每周吃几个鸡蛋合适？安徽近万人研究：超过这个数，与死亡风险升高相关 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/dac68f0c-c32d-4574-940a-f49905ddbfce)
 * [哈佛团队反驳 “2045 年人类无法自然生育”：精子数将下降至 0 是过度推演 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/0e6e7bba-cacd-497b-bd75-7a14f1187dd7)
+* [2045年，男性精子数量“归零”？听听哈佛科学家怎么说](https://mp.weixin.qq.com/s/WKA47agyigixke_c-12hJQ)
 * [打哈欠的时间越长，大脑就越大 | Communications Biology | 论文频道 | 领研网](https://www.linkresearcher.com/theses/3d17e1e9-654d-4b03-afa2-04e4559818a2)
 * [大多数人类起源的故事，都与已知的化石不符 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/886b139e-78ba-4ece-a893-8e30511ef98d)
 * [为什么吵不赢杠精？我用数学的方法找出了原因……](https://mp.weixin.qq.com/s/PG4JZPSq6sEkYBPRCUhW1A)
