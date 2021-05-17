@@ -34,3 +34,4 @@
 * [哈佛团队反驳 “2045 年人类无法自然生育”：精子数将下降至 0 是过度推演 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/0e6e7bba-cacd-497b-bd75-7a14f1187dd7)
 * [打哈欠的时间越长，大脑就越大 | Communications Biology | 论文频道 | 领研网](https://www.linkresearcher.com/theses/3d17e1e9-654d-4b03-afa2-04e4559818a2)
 * [大多数人类起源的故事，都与已知的化石不符 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/886b139e-78ba-4ece-a893-8e30511ef98d)
+* [为什么吵不赢杠精？我用数学的方法找出了原因……](https://mp.weixin.qq.com/s/PG4JZPSq6sEkYBPRCUhW1A)
