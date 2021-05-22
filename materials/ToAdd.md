@@ -41,3 +41,4 @@
 * [中国大学最劝退的专业，医学只能排第二](https://mp.weixin.qq.com/s/sckdF1Ki4zIb5sbwCAISGw)
 * [▶ 科学 60 秒：地中海饮食，只对有钱人和高学历者有效？| 1:56 | 生涯频道 | 领研网](https://www.linkresearcher.com/careers/f7050885-b9e9-484f-95fb-2093bd55679d)
 * [2020平均工资出炉，国家统计局：比个人实际到手工资要高](https://mp.weixin.qq.com/s/NoAWH-0ltRz7i2aMn0mZTQ)
+* [关于统计学，几个简单易懂的小故事](https://mp.weixin.qq.com/s/fCdW9l3MsPslRd37IZUTiA)
