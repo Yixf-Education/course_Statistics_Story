@@ -42,3 +42,4 @@
 * [▶ 科学 60 秒：地中海饮食，只对有钱人和高学历者有效？| 1:56 | 生涯频道 | 领研网](https://www.linkresearcher.com/careers/f7050885-b9e9-484f-95fb-2093bd55679d)
 * [2020平均工资出炉，国家统计局：比个人实际到手工资要高](https://mp.weixin.qq.com/s/NoAWH-0ltRz7i2aMn0mZTQ)
 * [关于统计学，几个简单易懂的小故事](https://mp.weixin.qq.com/s/fCdW9l3MsPslRd37IZUTiA)
+* [全球每年 74.5 万人过劳死，你每周工作时长超没超 55 小时？ | 论文频道 | 领研网](https://www.linkresearcher.com/theses/58daa77b-0858-400d-b1d1-052e4d1ecc0c)
