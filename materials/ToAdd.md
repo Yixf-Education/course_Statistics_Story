@@ -46,3 +46,4 @@
 * [印度疫情拐点已至？！检测的少了，这拐点可不就来了么？](https://mp.weixin.qq.com/s/kgxU7muhRCLdl0aMOMqEjA)
 * [新的可重复性危机](https://mp.weixin.qq.com/s/QfSeXQGLjM3tQ40aWuOHZg)
 * [绘图技巧 | 你可能被图表骗了·····](https://mp.weixin.qq.com/s/aaTJ9VfPOVZe3ZjJO5eDbA)
+* [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
