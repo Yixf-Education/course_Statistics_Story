@@ -44,3 +44,5 @@
 * [关于统计学，几个简单易懂的小故事](https://mp.weixin.qq.com/s/fCdW9l3MsPslRd37IZUTiA)
 * [全球每年 74.5 万人过劳死，你每周工作时长超没超 55 小时？ | 论文频道 | 领研网](https://www.linkresearcher.com/theses/58daa77b-0858-400d-b1d1-052e4d1ecc0c)
 * [印度疫情拐点已至？！检测的少了，这拐点可不就来了么？](https://mp.weixin.qq.com/s/kgxU7muhRCLdl0aMOMqEjA)
+* [新的可重复性危机](https://mp.weixin.qq.com/s/QfSeXQGLjM3tQ40aWuOHZg)
+* [绘图技巧 | 你可能被图表骗了·····](https://mp.weixin.qq.com/s/aaTJ9VfPOVZe3ZjJO5eDbA)
