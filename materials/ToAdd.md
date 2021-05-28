@@ -47,3 +47,5 @@
 * [新的可重复性危机](https://mp.weixin.qq.com/s/QfSeXQGLjM3tQ40aWuOHZg)
 * [绘图技巧 | 你可能被图表骗了·····](https://mp.weixin.qq.com/s/aaTJ9VfPOVZe3ZjJO5eDbA)
 * [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
+* [过半中国成人超重或肥胖！这么多 “致胖” 因素，你中了多少？ | 论文频道 | 领研网](https://www.linkresearcher.com/theses/6416f395-9cf0-4f2f-b7eb-01934c958c8a)
+* [性吸引力的九个维度：哪项指标让你更有吸引力？ | 论文频道 | 领研网](https://www.linkresearcher.com/theses/ab21bbb9-5d69-4255-a9d0-8335347964ed)
