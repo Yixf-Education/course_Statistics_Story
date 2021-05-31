@@ -52,3 +52,4 @@
 * [Lancet重磅 | 中国等多个国家联手合作，发现2019年全球30%的烟民在中国；由于吸烟，导致240万中国烟民死亡](https://mp.weixin.qq.com/s/u5en7whM8pnyCK2yZaiZdA)
 * [3 Mathematical Laws to know as a Data Scientist | by Cornellius Yudha Wijaya | DataDrivenInvestor](https://medium.datadriveninvestor.com/mathematical-laws-to-know-as-a-data-scientist-9e94fc96a0f9)
 * [7 Statistical Mistakes You Should Avoid at All Costs in Data Analysis | by Roberto Terceros | Analytics Vidhya | Medium](https://medium.com/analytics-vidhya/7-statistical-mistakes-you-should-avoid-at-all-costs-in-data-analysis-3a3ce5810cbe)
+* [6 Reasons Why You Should Stop Using Histograms (and Which Plot You Should Use Instead) | by Samuele Mazzanti | Towards Data Science](https://towardsdatascience.com/6-reasons-why-you-should-stop-using-histograms-and-which-plot-you-should-use-instead-31f937a0a81c)
