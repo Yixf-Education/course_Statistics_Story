@@ -57,3 +57,4 @@
 * [还敢看电视吗？每多看 1 小时电视，大脑灰质体积减少 0.5% | 论文频道 | 领研网](https://www.linkresearcher.com/theses/7c98dccc-0706-4d23-83f7-4e4de59a3695)
 * [年轻人不生三孩，是因为政策没放开吗？](https://mp.weixin.qq.com/s/0P7C4KJIYJP_C1EV3Y6zuQ)
 * [论读研期间发84篇SCI的可能性？且看去年发20篇文章的生信大神套路！文末有惊喜。](https://mp.weixin.qq.com/s/nxpRbc17Hd69eHYT4nM7sA)
+* [那个三年发 84 篇 SCI，被质疑造假的广州医科大学硕士，发的论文到底什么水平？](https://mp.weixin.qq.com/s/y6rlRKih2lKbDqbDVgte0g)
