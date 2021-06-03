@@ -58,3 +58,4 @@
 * [年轻人不生三孩，是因为政策没放开吗？](https://mp.weixin.qq.com/s/0P7C4KJIYJP_C1EV3Y6zuQ)
 * [论读研期间发84篇SCI的可能性？且看去年发20篇文章的生信大神套路！文末有惊喜。](https://mp.weixin.qq.com/s/nxpRbc17Hd69eHYT4nM7sA)
 * [那个三年发 84 篇 SCI，被质疑造假的广州医科大学硕士，发的论文到底什么水平？](https://mp.weixin.qq.com/s/y6rlRKih2lKbDqbDVgte0g)
+* [数据可视化基本套路总结](https://mp.weixin.qq.com/s/LsYD6HpikatIkfjols1U5w)
