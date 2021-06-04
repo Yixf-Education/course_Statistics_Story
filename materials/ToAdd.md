@@ -59,3 +59,4 @@
 * [论读研期间发84篇SCI的可能性？且看去年发20篇文章的生信大神套路！文末有惊喜。](https://mp.weixin.qq.com/s/nxpRbc17Hd69eHYT4nM7sA)
 * [那个三年发 84 篇 SCI，被质疑造假的广州医科大学硕士，发的论文到底什么水平？](https://mp.weixin.qq.com/s/y6rlRKih2lKbDqbDVgte0g)
 * [数据可视化基本套路总结](https://mp.weixin.qq.com/s/LsYD6HpikatIkfjols1U5w)
+* [声音能揭示人的性格特征和性行为态度吗？ | 论文频道 | 领研网](https://www.linkresearcher.com/theses/f88f9524-297d-4ee4-b55a-80d49d31dc3c)
