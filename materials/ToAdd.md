@@ -61,3 +61,5 @@
 * [数据可视化基本套路总结](https://mp.weixin.qq.com/s/LsYD6HpikatIkfjols1U5w)
 * [声音能揭示人的性格特征和性行为态度吗？ | 论文频道 | 领研网](https://www.linkresearcher.com/theses/f88f9524-297d-4ee4-b55a-80d49d31dc3c)
 * [统计学知识大梳理！](https://mp.weixin.qq.com/s/5__Ws1xA13kaq28oZwUGPA)
+* [科学网 - 如何用图来折磨读者 - 于淼的博文](http://wap.sciencenet.cn/blog-430956-868073.html?mobile=1)
+* [丑图百讲 | 喜欢立体统计图？这就让你一次看个够！ - 知乎](https://zhuanlan.zhihu.com/p/51031034)
