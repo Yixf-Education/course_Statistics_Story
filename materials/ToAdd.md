@@ -63,3 +63,4 @@
 * [统计学知识大梳理！](https://mp.weixin.qq.com/s/5__Ws1xA13kaq28oZwUGPA)
 * [科学网 - 如何用图来折磨读者 - 于淼的博文](http://wap.sciencenet.cn/blog-430956-868073.html?mobile=1)
 * [丑图百讲 | 喜欢立体统计图？这就让你一次看个够！ - 知乎](https://zhuanlan.zhihu.com/p/51031034)
+* [为了健康长寿，每天该走多少步？走多长时间？ | 论文频道 | 领研网](https://www.linkresearcher.com/theses/c8ecccb7-7944-45db-8a5e-52d8f460a4de)
