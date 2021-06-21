@@ -64,3 +64,4 @@
 * [科学网 - 如何用图来折磨读者 - 于淼的博文](http://wap.sciencenet.cn/blog-430956-868073.html?mobile=1)
 * [丑图百讲 | 喜欢立体统计图？这就让你一次看个够！ - 知乎](https://zhuanlan.zhihu.com/p/51031034)
 * [为了健康长寿，每天该走多少步？走多长时间？ | 论文频道 | 领研网](https://www.linkresearcher.com/theses/c8ecccb7-7944-45db-8a5e-52d8f460a4de)
+* [顶级医学期刊BMJ连续发表2篇 | 每天喝100毫升含糖饮料，增加患癌概率18%，果汁也不例外！英法已对其征收糖税](https://mp.weixin.qq.com/s/rJ6kQ7w7JNLCjm4arMIA8A)
