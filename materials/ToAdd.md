@@ -67,3 +67,4 @@
 * [顶级医学期刊BMJ连续发表2篇 | 每天喝100毫升含糖饮料，增加患癌概率18%，果汁也不例外！英法已对其征收糖税](https://mp.weixin.qq.com/s/rJ6kQ7w7JNLCjm4arMIA8A)
 * [绘图技巧 | 记住这些原则，让你的可视化上一个台阶](https://mp.weixin.qq.com/s/tc_haUwFg0Z89Hb3hsZ8bw)
 * [什么是R方？这6张图会让你终身难忘~](https://mp.weixin.qq.com/s/VyekOX1_FMpqtUm4141w_Q)
+* [婚姻不幸的男性，更易 “英年早逝” | 论文频道 | 领研网](https://www.linkresearcher.com/theses/b0323428-4a8e-4aaf-b302-b85240124543)
