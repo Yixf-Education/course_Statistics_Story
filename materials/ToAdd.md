@@ -68,3 +68,4 @@
 * [绘图技巧 | 记住这些原则，让你的可视化上一个台阶](https://mp.weixin.qq.com/s/tc_haUwFg0Z89Hb3hsZ8bw)
 * [什么是R方？这6张图会让你终身难忘~](https://mp.weixin.qq.com/s/VyekOX1_FMpqtUm4141w_Q)
 * [婚姻不幸的男性，更易 “英年早逝” | 论文频道 | 领研网](https://www.linkresearcher.com/theses/b0323428-4a8e-4aaf-b302-b85240124543)
+* [一天吃几个鸡蛋最好？这次终于知道答案了……](https://mp.weixin.qq.com/s/frTcNiaf_6DYAtVxBZeWIg)
