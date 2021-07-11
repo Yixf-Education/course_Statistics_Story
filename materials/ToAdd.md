@@ -69,3 +69,4 @@
 * [什么是R方？这6张图会让你终身难忘~](https://mp.weixin.qq.com/s/VyekOX1_FMpqtUm4141w_Q)
 * [婚姻不幸的男性，更易 “英年早逝” | 论文频道 | 领研网](https://www.linkresearcher.com/theses/b0323428-4a8e-4aaf-b302-b85240124543)
 * [一天吃几个鸡蛋最好？这次终于知道答案了……](https://mp.weixin.qq.com/s/frTcNiaf_6DYAtVxBZeWIg)
+* [什么是安斯库姆四重奏？为什么统计分析之前必须要作图？](https://mp.weixin.qq.com/s/PDZcyiUmrM7TDaN8Ge-4kA)
