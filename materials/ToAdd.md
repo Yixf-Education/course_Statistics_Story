@@ -74,3 +74,4 @@
 * [睡不够睡不好的健康危害，可以这样抵消 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/a06e23b7-8d4c-489a-ac6b-7a067dd1db95)
 * [“喝酒，中国人真的不太行...”](https://mp.weixin.qq.com/s/DYF_EhvX9mFDmh5sI9cg4A)
 * [研究发现：女博士越读越富，男博士越读越穷](https://mp.weixin.qq.com/s/yONbTu9Tumh0AwjGCIdn3g)
+* [JAMA: 常规体检有用吗？如何看体检化验单？](https://mp.weixin.qq.com/s/iGnHNqAcr2X8kP1MWr-Y2w)
