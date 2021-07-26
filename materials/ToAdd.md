@@ -75,3 +75,4 @@
 * [“喝酒，中国人真的不太行...”](https://mp.weixin.qq.com/s/DYF_EhvX9mFDmh5sI9cg4A)
 * [研究发现：女博士越读越富，男博士越读越穷](https://mp.weixin.qq.com/s/yONbTu9Tumh0AwjGCIdn3g)
 * [JAMA: 常规体检有用吗？如何看体检化验单？](https://mp.weixin.qq.com/s/iGnHNqAcr2X8kP1MWr-Y2w)
+* [Nature的担忧：学术界存在严重的家族传递](https://mp.weixin.qq.com/s/HSMuEXMnfbI1x2-gkH4ytA)
