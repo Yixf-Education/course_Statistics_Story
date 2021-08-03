@@ -76,3 +76,5 @@
 * [研究发现：女博士越读越富，男博士越读越穷](https://mp.weixin.qq.com/s/yONbTu9Tumh0AwjGCIdn3g)
 * [JAMA: 常规体检有用吗？如何看体检化验单？](https://mp.weixin.qq.com/s/iGnHNqAcr2X8kP1MWr-Y2w)
 * [Nature的担忧：学术界存在严重的家族传递](https://mp.weixin.qq.com/s/HSMuEXMnfbI1x2-gkH4ytA)
+* [玩手机对孩子危害有多大？查阅无数论文后，我震惊了……](https://mp.weixin.qq.com/s/liIrQqYt7EI03jjUpQohiQ)
+* [世界上最有意思的数学题：据说一眼就知道答案的人智商都有150！](https://mp.weixin.qq.com/s/tDJsLv2eEFLMHMYdOF4f3A)
