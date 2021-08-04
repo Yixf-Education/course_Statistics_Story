@@ -78,3 +78,4 @@
 * [Nature的担忧：学术界存在严重的家族传递](https://mp.weixin.qq.com/s/HSMuEXMnfbI1x2-gkH4ytA)
 * [玩手机对孩子危害有多大？查阅无数论文后，我震惊了……](https://mp.weixin.qq.com/s/liIrQqYt7EI03jjUpQohiQ)
 * [世界上最有意思的数学题：据说一眼就知道答案的人智商都有150！](https://mp.weixin.qq.com/s/tDJsLv2eEFLMHMYdOF4f3A)
+* [【研究】经过10年、近50万人的大规模研究表明：经常使用煤和木材做饭可能会引发眼疾！](https://mp.weixin.qq.com/s/mn33GfjUTVdV1ju4P2VxsQ)
