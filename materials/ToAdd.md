@@ -81,3 +81,6 @@
 * [【研究】经过10年、近50万人的大规模研究表明：经常使用煤和木材做饭可能会引发眼疾！](https://mp.weixin.qq.com/s/mn33GfjUTVdV1ju4P2VxsQ)
 * [性活动频率多少最健康？哈佛：每月21次](https://mp.weixin.qq.com/s/tZPVmZLGt3JLFm8YDQ-r7g)
 * [丑图百讲](https://mp.weixin.qq.com/s/Yob_lj5XO5U1WyTHj0S8VQ)
+* [颠覆发现，60岁前代谢能力不会下降，别再为中年发福找借口了！](https://mp.weixin.qq.com/s/-CXkGlg8ccM6I4kRG60NNw)
+* [BMJ 4连发 | 每天散步20分钟或者是遛狗半小时，可避免近一半的死亡；长时间久坐，明显增加死亡率](https://mp.weixin.qq.com/s/hBXpwPJIraAr7iChOZVHOg)
+* [来一波精美的可视化作品欣赏吧~~](https://mp.weixin.qq.com/s/DLWjbmg8MZXrGBt3cMoX4Q)
