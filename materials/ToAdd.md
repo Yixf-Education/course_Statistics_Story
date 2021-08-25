@@ -84,3 +84,4 @@
 * [颠覆发现，60岁前代谢能力不会下降，别再为中年发福找借口了！](https://mp.weixin.qq.com/s/-CXkGlg8ccM6I4kRG60NNw)
 * [BMJ 4连发 | 每天散步20分钟或者是遛狗半小时，可避免近一半的死亡；长时间久坐，明显增加死亡率](https://mp.weixin.qq.com/s/hBXpwPJIraAr7iChOZVHOg)
 * [来一波精美的可视化作品欣赏吧~~](https://mp.weixin.qq.com/s/DLWjbmg8MZXrGBt3cMoX4Q)
+* [是“长寿果”没错了！哈佛大学研究提示吃核桃能延长寿命](https://mp.weixin.qq.com/s/NPQg2lg2pAnKAGOSpdlrxQ)
