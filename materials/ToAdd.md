@@ -85,3 +85,4 @@
 * [BMJ 4连发 | 每天散步20分钟或者是遛狗半小时，可避免近一半的死亡；长时间久坐，明显增加死亡率](https://mp.weixin.qq.com/s/hBXpwPJIraAr7iChOZVHOg)
 * [来一波精美的可视化作品欣赏吧~~](https://mp.weixin.qq.com/s/DLWjbmg8MZXrGBt3cMoX4Q)
 * [是“长寿果”没错了！哈佛大学研究提示吃核桃能延长寿命](https://mp.weixin.qq.com/s/NPQg2lg2pAnKAGOSpdlrxQ)
+* [可视化作品精选，简单的图表配上舒适的配色就可以高大上~](https://mp.weixin.qq.com/s/uX9Tm-WlS4Gtb_U5RsptQQ)
