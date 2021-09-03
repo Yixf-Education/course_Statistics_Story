@@ -87,3 +87,4 @@
 * [是“长寿果”没错了！哈佛大学研究提示吃核桃能延长寿命](https://mp.weixin.qq.com/s/NPQg2lg2pAnKAGOSpdlrxQ)
 * [可视化作品精选，简单的图表配上舒适的配色就可以高大上~](https://mp.weixin.qq.com/s/uX9Tm-WlS4Gtb_U5RsptQQ)
 * [每天吃核桃或能降低机体中有害胆固醇的水平 并可能会降低人群患心血管疾病的风险](https://mp.weixin.qq.com/s/47O6eAT-rol3x6T5_T7NXg)
+* [NEJM 实锤：吃盐还是低钠的好！中国超 2 万人群研究提示吃「代盐」可降低全因死亡率！](https://mp.weixin.qq.com/s/yo-Atsbnnpi1YLsedqTNUg)
