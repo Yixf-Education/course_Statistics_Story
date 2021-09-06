@@ -91,3 +91,4 @@
 * [残酷的真相：运动不一定能减肥……](https://mp.weixin.qq.com/s/uy6SuRhGgV6A-cTArfYOAw)
 * [研究发现：学习成绩跟性格有关，这种性格的人往往成绩更好](https://mp.weixin.qq.com/s/Hn6GP0DJT5hKBWakGnpp6w)
 * [寿命的长短，也与住哪里有关？](https://mp.weixin.qq.com/s/XBQ4G-KweSsHGKnC5mfbmA)
+* [中国月入过万的人多不多~~](https://mp.weixin.qq.com/s/sWrwNmVRPwpZK0AQPeq3FA)
