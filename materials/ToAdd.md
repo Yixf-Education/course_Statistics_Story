@@ -90,3 +90,4 @@
 * [NEJM 实锤：吃盐还是低钠的好！中国超 2 万人群研究提示吃「代盐」可降低全因死亡率！](https://mp.weixin.qq.com/s/yo-Atsbnnpi1YLsedqTNUg)
 * [残酷的真相：运动不一定能减肥……](https://mp.weixin.qq.com/s/uy6SuRhGgV6A-cTArfYOAw)
 * [研究发现：学习成绩跟性格有关，这种性格的人往往成绩更好](https://mp.weixin.qq.com/s/Hn6GP0DJT5hKBWakGnpp6w)
+* [寿命的长短，也与住哪里有关？](https://mp.weixin.qq.com/s/XBQ4G-KweSsHGKnC5mfbmA)
