@@ -95,3 +95,4 @@
 * [JAMA 子刊：饭后百步走，活到九十九，日行1万步最长寿！](https://mp.weixin.qq.com/s/eHR6XCmwtaWdF8RJz5b3fg)
 * [4篇BMJ等连发 | 每天喝100毫升含糖饮料，增加患癌概率18%，果汁也不例外！少吃甜食可降低心血管及糖尿病发病风险](https://mp.weixin.qq.com/s/8uLV4tOO6Dftbq56i8ICLw)
 * [JAMA子刊：每晚睡多久能活更好？来看看来自亚洲四国的数据](https://mp.weixin.qq.com/s/rxN8_8gQWeQAeaXxfcj-7Q)
+* [诺贝尔经济学奖与因果推断](https://mp.weixin.qq.com/s/vL0PMO9XcwsKSEDHFPm8Aw)
