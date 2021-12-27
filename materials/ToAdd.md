@@ -96,3 +96,4 @@
 * [4篇BMJ等连发 | 每天喝100毫升含糖饮料，增加患癌概率18%，果汁也不例外！少吃甜食可降低心血管及糖尿病发病风险](https://mp.weixin.qq.com/s/8uLV4tOO6Dftbq56i8ICLw)
 * [JAMA子刊：每晚睡多久能活更好？来看看来自亚洲四国的数据](https://mp.weixin.qq.com/s/rxN8_8gQWeQAeaXxfcj-7Q)
 * [诺贝尔经济学奖与因果推断](https://mp.weixin.qq.com/s/vL0PMO9XcwsKSEDHFPm8Aw)
+* [长期吃辣和一点辣都不沾的人，谁的身体更健康？答案让人意外 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/9f352141-a587-4319-a845-9fdef8b44213)
