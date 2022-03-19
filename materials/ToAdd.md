@@ -97,3 +97,4 @@
 * [JAMA子刊：每晚睡多久能活更好？来看看来自亚洲四国的数据](https://mp.weixin.qq.com/s/rxN8_8gQWeQAeaXxfcj-7Q)
 * [诺贝尔经济学奖与因果推断](https://mp.weixin.qq.com/s/vL0PMO9XcwsKSEDHFPm8Aw)
 * [长期吃辣和一点辣都不沾的人，谁的身体更健康？答案让人意外 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/9f352141-a587-4319-a845-9fdef8b44213)
+* [Lancet | 全球首次！研究发现：父母所受教育程度越高，其所生儿童在5岁以下的死亡率越低](https://mp.weixin.qq.com/s/FC0wRvlBSZO5yp_EoHHVEg)
