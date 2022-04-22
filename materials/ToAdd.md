@@ -98,3 +98,5 @@
 * [诺贝尔经济学奖与因果推断](https://mp.weixin.qq.com/s/vL0PMO9XcwsKSEDHFPm8Aw)
 * [长期吃辣和一点辣都不沾的人，谁的身体更健康？答案让人意外 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/9f352141-a587-4319-a845-9fdef8b44213)
 * [Lancet | 全球首次！研究发现：父母所受教育程度越高，其所生儿童在5岁以下的死亡率越低](https://mp.weixin.qq.com/s/FC0wRvlBSZO5yp_EoHHVEg)
+* [用本福特定律验证上海的疫情数据真假](https://mp.weixin.qq.com/s/XkAnEqPXo6Hz8o8J_tQI6A)
+* [无形的眼睛 - 本福特定律，你的支付宝账单里隐藏着一个惊天大秘密](https://mp.weixin.qq.com/s/qsUSTy3XwynCIuOqMB4Jgg)
