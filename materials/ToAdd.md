@@ -105,3 +105,4 @@
 * [走得越快，越年轻？科学家发现：步行速度与端粒长度之间存在因果关系！](https://mp.weixin.qq.com/s/wsJSOlIKeOmaZh4sbMPBlQ)
 * [Science：84 万起事故统计显示，公路上 “此处事故多发” 警示牌会导致更多交通事故](https://mp.weixin.qq.com/s/5t8eDmTc4NPTITrVj54dxg)
 * [51 万国人 11 年前瞻性研究，每天多喝 50g 牛奶，肝癌、乳腺癌及总癌症风险上升！](https://mp.weixin.qq.com/s/ZpwOqLYn9_UZZHTadRU_sQ)
+* [女医生更爱嫁同行？4 万对医生夫妻调查显示，女医生伴侣的学历、收入更高](https://mp.weixin.qq.com/s/wsRhZnRmTgE0QLe2GAI7gw)
