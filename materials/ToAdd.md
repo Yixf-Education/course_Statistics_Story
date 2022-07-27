@@ -110,3 +110,4 @@
 * [当 宝 宝 遇 上 统 计 学](https://mp.weixin.qq.com/s/Lcllm6U3D17eXDlFAl8v4Q)
 * [成年人，一起睡更好](https://mp.weixin.qq.com/s/IwyhyTYcE-xqd70_gzKNdg)
 * [什么标题才能骗你转发这篇文章？](https://mp.weixin.qq.com/s/WeCJopFLSewYxZjBm55pbQ)
+* [殡葬店为什么总在好医院附近扎堆](https://mp.weixin.qq.com/s/W0X9PViX8fYt36fhDksrIQ)
