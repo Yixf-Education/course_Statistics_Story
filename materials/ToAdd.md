@@ -111,3 +111,4 @@
 * [成年人，一起睡更好](https://mp.weixin.qq.com/s/IwyhyTYcE-xqd70_gzKNdg)
 * [什么标题才能骗你转发这篇文章？](https://mp.weixin.qq.com/s/WeCJopFLSewYxZjBm55pbQ)
 * [殡葬店为什么总在好医院附近扎堆](https://mp.weixin.qq.com/s/W0X9PViX8fYt36fhDksrIQ)
+* [图书推荐 | 五大法则，教你看透数据背后的真相](https://mp.weixin.qq.com/s/zMkidLXBZiVCJfOPqIho8A)
