@@ -114,3 +114,4 @@
 * [图书推荐 | 五大法则，教你看透数据背后的真相](https://mp.weixin.qq.com/s/zMkidLXBZiVCJfOPqIho8A)
 * [男性寿命比女性短？新研究发现 25%~50% 男性比女性长寿，尤其是已婚和高学历的男性](https://mp.weixin.qq.com/s/c2hqyjZX1IPu49gyUeDKPA)
 * [大学生挣得都没农民工多，你为啥还要读书？](https://mp.weixin.qq.com/s/CZVNkru6E3Em47ELZDe1SQ)
+* [反转再反转？全网都在讨论的 “莲子壳事件”，真相让我惊出一身冷汗](https://mp.weixin.qq.com/s/AFO1X50tNk-BamyX0NhE3A)
