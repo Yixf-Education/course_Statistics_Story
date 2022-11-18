@@ -116,6 +116,7 @@
 * [大学生挣得都没农民工多，你为啥还要读书？](https://mp.weixin.qq.com/s/CZVNkru6E3Em47ELZDe1SQ)
 * [反转再反转？全网都在讨论的 “莲子壳事件”，真相让我惊出一身冷汗](https://mp.weixin.qq.com/s/AFO1X50tNk-BamyX0NhE3A)
 * [Nature 子刊：北大清华等团队发现，读完大学，中国学生批判性思维和学术技能出现全面下降](https://mp.weixin.qq.com/s/PKUtZIRkqYd0nwrn1pNRFw)
+* [更夸张的「性别偏见」，藏在儿童绘本里](https://mp.weixin.qq.com/s/86Ms2PEpudAR1BaMBoG3NQ)
 
 
 
