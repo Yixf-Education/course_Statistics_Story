@@ -120,6 +120,7 @@
 * [哈佛大学最新研究：体力劳动与更高的男性生育能力有关！](https://mp.weixin.qq.com/s/HRkukNB2oKsYZJKk9tYJ3Q)
 * [恋爱选择相似 or 互补的人？Nature 子刊研究近 8 万对情侣发现，相似度 80% 以上的人更容易成为伴侣](https://mp.weixin.qq.com/s/49o1VixKyzayXE2qLVn-Tg)
 * [分亚群后，计算细胞比例应该选择全部细胞还是亚群的细胞呢？](https://mp.weixin.qq.com/s/RsO0WbZX8RZFFAycMn5WAA)
+* [动脑使人不愉快，但亚洲人是「天选之子」？最新研究证实：脑力劳动与负面情绪之间存在强烈正相关性，但这种不愉快感在亚洲地区较低](https://mp.weixin.qq.com/s/1OBFwJjn5Hevfm1_LQWjpQ)
 
 
 
