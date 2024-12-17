@@ -124,6 +124,7 @@
 * [买房、招人、找对象，这个公式都能帮你解决](https://mp.weixin.qq.com/s/_Dw4Fr0eQpetnC_lK0ZS9A)
 * [面对 "生育主义" 浪潮，顶刊 “新英格兰医学杂志” 竟然这么说！](https://mp.weixin.qq.com/s/TXi7A7_6D4h5wvOVzgLLGA?poc_token=HHEqVmejTKt1-2_RfZ6H9uEwJxWCsGi55Y4rMOra)
 * [研究说，周五是出错率最高的一天：800 名打工人的电脑为此被科学家 “监视” 了 2 年](https://mp.weixin.qq.com/s/Zd6dm52DsBQH0rDWL2kZeA)
+* [你是家中第几个小孩？多项研究：「出生顺序」通过多种途径影响我们的一生，从智力到社交能力，再到健康](https://mp.weixin.qq.com/s/2b49AzNhYfIXLN5vRS13Rw)
 
 
 
