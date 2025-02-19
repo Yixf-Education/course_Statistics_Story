@@ -130,6 +130,7 @@
 * [抱歉，读博并不能逆天改命！长达 75 页的研究证明，普通博士很难跨越阶层](https://mp.weixin.qq.com/s/JSmYEwEmW-rRr3xBS-AXPA)
 * [别卷了！科学家实锤：工作压力令打工人睡不好，影响长达 9 年](https://mp.weixin.qq.com/s/JhH0mD4fzG9VtN0EAKTpsQ)
 * [审稿人：我希望饼图可以滚出科研论文，非常不符合 SCI 格式！](https://mp.weixin.qq.com/s/tq1Q9RLMumZlOjWdOlCHWw)
+* [PNAS | 女性也更喜欢「小鲜肉」！无论男女，普遍都对较年轻的约会对象表现出更高的兴趣！](https://mp.weixin.qq.com/s/_QXlzcyXHIMhprlwJKO0eQ)
 
 
 
