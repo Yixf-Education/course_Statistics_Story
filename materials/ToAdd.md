@@ -131,6 +131,9 @@
 * [别卷了！科学家实锤：工作压力令打工人睡不好，影响长达 9 年](https://mp.weixin.qq.com/s/JhH0mD4fzG9VtN0EAKTpsQ)
 * [审稿人：我希望饼图可以滚出科研论文，非常不符合 SCI 格式！](https://mp.weixin.qq.com/s/tq1Q9RLMumZlOjWdOlCHWw)
 * [PNAS | 女性也更喜欢「小鲜肉」！无论男女，普遍都对较年轻的约会对象表现出更高的兴趣！](https://mp.weixin.qq.com/s/_QXlzcyXHIMhprlwJKO0eQ)
+* [学术｜是什么让糟糕的数据可视化层出不穷？](https://mp.weixin.qq.com/s/Uw9r3Aw9IZP-Cq2xw367yw)
+* ["I Came Across a Junk": Understanding Design Flaws of Data Visualization from the Public's Perspective](https://flawviz.github.io/)
+* [WTF Visualizations](https://viz.wtf/)
 
 
 
