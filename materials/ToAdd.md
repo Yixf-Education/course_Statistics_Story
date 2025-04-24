@@ -134,6 +134,9 @@
 * [学术｜是什么让糟糕的数据可视化层出不穷？](https://mp.weixin.qq.com/s/Uw9r3Aw9IZP-Cq2xw367yw)
 * ["I Came Across a Junk": Understanding Design Flaws of Data Visualization from the Public's Perspective](https://flawviz.github.io/)
 * [WTF Visualizations](https://viz.wtf/)
+* [最具争议的12个数学事实](https://mp.weixin.qq.com/s/-hkusLKLB-pqGd1oOVm4sA)
+* [【转载】为什么“统计显著性”毫无意义](https://mp.weixin.qq.com/s/Cp1WrBqSupqVjWXwDFrUmw)
+* [为什么要把变量转换为“对数”？](https://mp.weixin.qq.com/s/8rnPmzj4aKxljgrf9tbHsA)
 
 
 
