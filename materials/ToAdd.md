@@ -137,6 +137,7 @@
 * [最具争议的12个数学事实](https://mp.weixin.qq.com/s/-hkusLKLB-pqGd1oOVm4sA)
 * [【转载】为什么“统计显著性”毫无意义](https://mp.weixin.qq.com/s/Cp1WrBqSupqVjWXwDFrUmw)
 * [为什么要把变量转换为“对数”？](https://mp.weixin.qq.com/s/8rnPmzj4aKxljgrf9tbHsA)
+* [爱情中「男性上头快且多情，女性更易越爱越深」？研究实锤：男性恋爱速度比女性快，而女性爱情强度更高，这或是刻在DNA里的进化策略](https://mp.weixin.qq.com/s/vjabkHlxbxVU5--go_xz-A)
 
 
 
