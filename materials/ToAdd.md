@@ -138,6 +138,7 @@
 * [【转载】为什么“统计显著性”毫无意义](https://mp.weixin.qq.com/s/Cp1WrBqSupqVjWXwDFrUmw)
 * [为什么要把变量转换为“对数”？](https://mp.weixin.qq.com/s/8rnPmzj4aKxljgrf9tbHsA)
 * [爱情中「男性上头快且多情，女性更易越爱越深」？研究实锤：男性恋爱速度比女性快，而女性爱情强度更高，这或是刻在DNA里的进化策略](https://mp.weixin.qq.com/s/vjabkHlxbxVU5--go_xz-A)
+* [数学家发现电影可分为六种情感模式，这一种票房最高](https://mp.weixin.qq.com/s/40oP8M2wWR8SC_a5k4yb7Q)
 
 
 
