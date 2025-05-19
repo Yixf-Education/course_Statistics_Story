@@ -142,6 +142,7 @@
 * [地球上的人类，可能比我们知道的还多十亿？](https://mp.weixin.qq.com/s/4dCNm3Q8KyfWgY2dAei4_A)
 * [你能获得百万大奖吗？一个反直觉的概率问题](https://mp.weixin.qq.com/s/rgiuogS5Dal2yLNvIcQr8A)
 * [画说统计 | 单变量统计分析方法地图-一张当年考试的时候就想画的图](https://mp.weixin.qq.com/s/4Yqb9o0VndYozFqyZvAUjw)
+* [晚婚晚育或是因为智商高？！最新研究表明：高智商个体虽更早进入青春期，但更倾向于晚婚晚育](https://mp.weixin.qq.com/s/UuRqiNgFiTGJoiqy8dubhQ)
 
 
 
