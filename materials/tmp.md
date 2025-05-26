@@ -34,6 +34,7 @@
 * [你愿意和男神女神共度一生吗？ | 论文频道 | 领研网](https://www.linkresearcher.com/theses/6cdde9a1-49d4-4d5e-a748-442891cc8674)
 * [快出门浪吧，新研究证实，听听大自然的鸟声水声，健康好处多多 | 论文频道 | 领研网](https://www.linkresearcher.com/theses/7f7b4b60-c7d5-4e98-887e-3880d40b34a4)
 * [为什么女性比男性活得长，而且越来越长？](https://mp.weixin.qq.com/s/IGm7tPtCin4jKn2ZBdsHWA)
+* [2.4万部电影 AI 解剖报告：为什么你的爱豆在电影里永远死不了？](https://mp.weixin.qq.com/s/lwawiwYbdlTKDwbGY_OgPw)
 
 
 
