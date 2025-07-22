@@ -146,6 +146,9 @@
 * [坐在地上，不扶任何东西你能站起来吗？最新25年随访研究：「地板坐立测试」能预测中老年男女因自然和心血管原因导致的过早死亡风险](https://mp.weixin.qq.com/s/xrYAq2NC0xNfX7bh2fdUoQ)
 * [明明没有天赋性别差异，为何女生数学不如男生？原因竟在学校](https://mp.weixin.qq.com/s/-hSicY__AKn1LBPpkE9sLQ)
 * [女性偏爱“大叔”还是“小鲜肉”？多项研究：无论男女，普遍对较年轻的约会对象更有兴趣；且寿命更长，免疫功能更强大](https://mp.weixin.qq.com/s/99W8tX-zEK6uJ8ebptK4ww?poc_token=HFwka2ijsru-U2s3_HnWJcwqHgsKzRaLaUz-TcBL)
+* [和什么样的另一半进入婚姻才会幸福？近10万对夫妻数据给出答案：较高水平的情感和工具性支持、注重修炼自身，以及两人80%的相似性](https://mp.weixin.qq.com/s/3NTzFAM3wW0ahTvTde__uQ)
+* [高颜值的人，免疫力越强？！研究表明：外表高吸引力的人群具有普遍较好的免疫功能，包括更强的对抗细菌入侵能力](https://mp.weixin.qq.com/s/QquPDbzHPWtJeii4cNghLA)
+* [生男生女并不随机！哈佛大学最新发现：母亲年龄和基因，会影响孩子性别](https://mp.weixin.qq.com/s/bNYtCC2PUDIwsKBL4Qmu3g)
 
 
 
