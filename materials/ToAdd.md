@@ -150,6 +150,7 @@
 * [高颜值的人，免疫力越强？！研究表明：外表高吸引力的人群具有普遍较好的免疫功能，包括更强的对抗细菌入侵能力](https://mp.weixin.qq.com/s/QquPDbzHPWtJeii4cNghLA)
 * [生男生女并不随机！哈佛大学最新发现：母亲年龄和基因，会影响孩子性别](https://mp.weixin.qq.com/s/bNYtCC2PUDIwsKBL4Qmu3g)
 * [你觉得“终身无性行为”奇怪吗？最新40万人研究：无性生活与高教育、高智商、自闭症、厌食症等有基因重叠，且男女间存在明显差异](https://mp.weixin.qq.com/s/iGkmfzuhkSfkYMS0VUqxug)
+* [情绪稳定是抵抗世界的盔甲！最新研究：即使是短暂的愤怒也会损害血管内皮细胞，增加心血管疾病风险；但这种方法能改善](https://mp.weixin.qq.com/s/Z3MPg6g-dON7oGJ4A-hsyA)
 
 
 
