@@ -151,6 +151,7 @@
 * [生男生女并不随机！哈佛大学最新发现：母亲年龄和基因，会影响孩子性别](https://mp.weixin.qq.com/s/bNYtCC2PUDIwsKBL4Qmu3g)
 * [你觉得“终身无性行为”奇怪吗？最新40万人研究：无性生活与高教育、高智商、自闭症、厌食症等有基因重叠，且男女间存在明显差异](https://mp.weixin.qq.com/s/iGkmfzuhkSfkYMS0VUqxug)
 * [情绪稳定是抵抗世界的盔甲！最新研究：即使是短暂的愤怒也会损害血管内皮细胞，增加心血管疾病风险；但这种方法能改善](https://mp.weixin.qq.com/s/Z3MPg6g-dON7oGJ4A-hsyA)
+* [另一半爱不爱社交，会影响你的认知功能？！我国夫妻十年追踪：妻子多参与高质量社交能提升丈夫认知能力，而丈夫多社交或给妻子“减分”](https://mp.weixin.qq.com/s/ZPh6gyKSORLUYgvhDLq-PQ)
 
 
 
