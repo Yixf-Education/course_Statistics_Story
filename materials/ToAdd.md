@@ -153,6 +153,7 @@
 * [情绪稳定是抵抗世界的盔甲！最新研究：即使是短暂的愤怒也会损害血管内皮细胞，增加心血管疾病风险；但这种方法能改善](https://mp.weixin.qq.com/s/Z3MPg6g-dON7oGJ4A-hsyA)
 * [另一半爱不爱社交，会影响你的认知功能？！我国夫妻十年追踪：妻子多参与高质量社交能提升丈夫认知能力，而丈夫多社交或给妻子“减分”](https://mp.weixin.qq.com/s/ZPh6gyKSORLUYgvhDLq-PQ)
 * [「生男生女不随机」，再添新证！哈佛连发两篇：母亲孕前压力大，生男孩的概率跌13%；29岁后生育，后代“性别扎堆”概率高13%](https://mp.weixin.qq.com/s/WsnuIG29aUmbHmO3q74YoQ)
+* [法国11万人跟踪了8年：配料表里的“维生素C”和高血压关系挺近？](https://mp.weixin.qq.com/s/njvno7ODaxPlfsKnwh6mcg)
 
 
 
