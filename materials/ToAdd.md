@@ -158,6 +158,5 @@
 * [长寿几率暴跌41%？山东大学连发两篇：初次性行为太早，加速衰老，且每提前一年，折寿近半年；但太晚，死亡风险也飙升31%](https://mp.weixin.qq.com/s/7BxRwTEhXbAcO-W4ps2PkA)
 * [长期暴露于PM2.5与语义记忆力下降有关；新药物将胰腺癌死亡率降低60%，生存期翻倍 | 环球科学要闻](https://mp.weixin.qq.com/s/Rf8Y8lgDUtx2mCQcH_kOmw)
 * [数学家预测：人类可能在约1.7万年后灭绝](https://mp.weixin.qq.com/s/D5jJUiVVub0HsIpmbMglmg)
-
-
+* [用Python从数学角度“操纵”一场足球比赛](https://mp.weixin.qq.com/s/EyS7Gr5bocR4VmB8ePcplw)
 
