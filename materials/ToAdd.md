@@ -161,4 +161,5 @@
 * [用Python从数学角度“操纵”一场足球比赛](https://mp.weixin.qq.com/s/EyS7Gr5bocR4VmB8ePcplw)
 * [10%~40%的恋情竟始于“挖墙脚”，大学生高达20%，这类人都有这种人格特质](https://mp.weixin.qq.com/s/g4nrQ5xd0L9dqqFo6w53ew)
 * [你觉得自己够自律吗？多项研究：自律者先享受成功人生！不仅通过驱动健康行为，保护躯体并延缓衰老，还同步铺就了学业、人际等成功之路](https://mp.weixin.qq.com/s/14NDWdeoMPcqKVIQVfMhIg)
+* [你的语言天赋如何？多项研究发现：会多种语言，是大脑的“逆龄神器”！会4门语言的人，大脑甚至可“年轻”约13岁](https://mp.weixin.qq.com/s/ULuqG0MwNT3wvM8DIJFNHA)
 
