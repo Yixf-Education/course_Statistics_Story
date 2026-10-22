@@ -167,4 +167,5 @@
 * [每多一个哥哥或姐姐，男性是同性恋的几率增加20%-30%](https://mp.weixin.qq.com/s/NQlosfEOqO4J9elZYJ-f7g)
 * [如果身上没有这个特征，非常建议你不要开快车](https://mp.weixin.qq.com/s/x7NjmvHPzAgsSmcXrygkyA)
 * [别再嫌自己矮！最新研究：女性身高矮寿命更长，是一种生存智慧；高个子男性27种癌症风险升高；男性174cm、女性158cm全因死亡风险最低](https://mp.weixin.qq.com/s/B4AdLCiBtLAtFYYGaLS9dw)
+* [别再把花生当减肥刺客！多项研究：每天吃一小把花生，不仅能重塑血液脂质谱，降低 2 型糖尿病发病风险，还能改善记忆脑区的胰岛素敏感性](https://mp.weixin.qq.com/s/fQ8L_dzvmlEUTBm1BvkV1w)
 
